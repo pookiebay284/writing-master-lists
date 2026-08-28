@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Writing Master Lists</title>
+  <style>
+    :root {
+      --bg: #f4f0e6;
+      --ink: #1a1814;
+      --muted: #5a5348;
+      --accent: #3d2c5a;
+      --card: #fffdf8;
+      --line: #d4cbb8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 100% 0%, #e8e0f0 0%, transparent 42%),
+        radial-gradient(ellipse at 0% 30%, #f0e6d8 0%, transparent 40%),
+        var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    main {
+      max-width: 28rem;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1.6rem 1.4rem;
+    }
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.65rem;
+      color: var(--accent);
+    }
+    p { margin: 0.4rem 0 1rem; color: var(--muted); line-height: 1.5; }
+    a.card {
+      display: block;
+      margin: 0.65rem 0;
+      padding: 0.9rem 1rem;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    a.card strong { display: block; margin-bottom: 0.2rem; color: var(--accent); }
+    a.card span { font-size: 0.9rem; color: var(--muted); }
+    a.card:hover { border-color: var(--accent); }
+    .tip { font-size: 0.82rem; margin-top: 1rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Writing Master Lists</h1>
+    <p>Desk references for fiction writing — open on phone or desktop, search in-page, or print to PDF.</p>
+    <a class="card" href="word-banks.html">
+      <strong>Word Banks (Volume 2)</strong>
+      <span>Said synonyms, emotions, reactions, colors, textures, metaphors, and more — 35 sections.</span>
+    </a>
+    <a class="card" href="master-lists.html">
+      <strong>Master Lists (Volume 1)</strong>
+      <span>Emotions, gestures, combat, dialogue, animalistic voice, and the original huge reference.</span>
+    </a>
+    <p class="tip">Tip: bookmark this page or add it to your home screen for quick access.</p>
+  </main>
+</body>
+</html>

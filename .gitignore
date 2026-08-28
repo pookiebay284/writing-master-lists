@@ -1,0 +1,17 @@
+node_modules/
+ocr_raw/
+_batch*.html
+_new_sections.html
+_metaphors_section.html
+_extract_*.txt
+_t*.txt
+ocr_*.txt
+ocr_*.js
+tmp_scaled.png
+eng.traineddata
+build_wordbank.js
+package.json
+package-lock.json
+*.pyc
+__pycache__/
+.DS_Store
