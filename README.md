@@ -19,3 +19,40 @@ Free desk reference for fiction writing — facial expressions, body language, e
 ## Location
 
 `C:\Users\liamd\Documents\writing-master-lists\`
+
+## GitHub Pages (mobile link)
+
+The site lives in the **`docs/`** folder:
+
+| URL path | File |
+|----------|------|
+| `/` | Landing page — links to both volumes + Palette Studio |
+| `/word-banks.html` | Volume 2 (`Writing-Word-Banks.html`) |
+| `/master-lists.html` | Volume 1 (`Writing-Master-Lists.html`) |
+| `/palette.html` | Palette Studio — image extract, harmony, color wheel |
+
+After publishing, your link will look like:
+
+**`https://YOUR-GITHUB-USERNAME.github.io/writing-master-lists/`**
+
+### Publish / update
+
+1. One-time: sign in with GitHub CLI — run `gh auth login` and follow the browser prompt.
+2. From this folder, run:
+
+```powershell
+.\deploy-github-pages.ps1
+```
+
+That creates the repo (if needed), pushes `main`, and turns on GitHub Pages from `/docs`.
+
+## Audiobook Studio (personal, local)
+
+A private Kokoro reader lives in `audiobook-studio/`. It is **not** part of the public GitHub Pages site. Run it on this PC, then copy chapter MP3s to your phone.
+
+```powershell
+cd audiobook-studio
+.\start.ps1
+```
+
+See `audiobook-studio/README.md` for voices, chapter files, and GPU notes.
