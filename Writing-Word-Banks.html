@@ -14,16 +14,52 @@
       --card: #fffdf8;
       --line: #d4cbb8;
       --chip: #ebe4f2;
+      --input-bg: #fff;
+      --nav-bg: rgba(255, 253, 248, 0.96);
+      --grad-a: #e8e0f0;
+      --grad-b: #f0e6d8;
+      color-scheme: light;
     }
     * { box-sizing: border-box; }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #141210;
+      --ink: #ebe6dc;
+      --muted: #a59d90;
+      --accent: #b8a8d8;
+      --accent2: #d4957a;
+      --card: #1f1c18;
+      --line: #3a3530;
+      --chip: #2a2438;
+      --input-bg: #1a1814;
+      --nav-bg: rgba(26, 24, 20, 0.97);
+      --grad-a: #2a2438;
+      --grad-b: #2e2418;
+    }
+    .theme-toggle {
+      display: block;
+      width: 100%;
+      margin: 0 0 0.6rem;
+      padding: 0.35rem 0.5rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--chip);
+      color: var(--muted);
+      font: inherit;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 0.72rem;
+      cursor: pointer;
+    }
+    .theme-toggle:hover { color: var(--ink); }
+
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
       color: var(--ink);
       background:
-        radial-gradient(ellipse at 100% 0%, #e8e0f0 0%, transparent 42%),
-        radial-gradient(ellipse at 0% 30%, #f0e6d8 0%, transparent 40%),
+        radial-gradient(ellipse at 100% 0%, var(--grad-a) 0%, transparent 42%),
+        radial-gradient(ellipse at 0% 30%, var(--grad-b) 0%, transparent 40%),
         var(--bg);
       line-height: 1.5;
     }
@@ -39,7 +75,7 @@
       overflow: auto;
       padding: 1rem 0.85rem 2rem;
       border-right: 1px solid var(--line);
-      background: rgba(255, 253, 248, 0.96);
+      background: var(--nav-bg);
     }
     nav h1 {
       font-size: 0.88rem;
@@ -92,7 +128,7 @@
       border: 1px solid var(--line);
       border-radius: 8px;
       font: inherit;
-      background: #fff;
+      background: var(--input-bg);
     }
     .print-btn {
       display: inline-block;
@@ -228,13 +264,14 @@
       nav, .print-btn, .search-box, .alpha-jump { display: none !important; }
       .layout { display: block; }
       section { break-inside: avoid; border: 0; padding: 0; }
-      body { background: #fff; }
+      body { background: var(--input-bg); }
     }
   </style>
 </head>
 <body>
   <div class="layout">
     <nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark mode</button>
       <h1>Word Banks</h1>
       <a href="#use">How to use</a>
       <div class="group">Volume 2 (building)</div>
@@ -272,6 +309,20 @@
       <a href="#dark">Dark (100)</a>
       <a href="#chaos">Chaos (100)</a>
       <a href="#explore">Explore (100)</a>
+      <a href="#cool">Cool (100)</a>
+      <a href="#refuse">Refuse (100)</a>
+      <a href="#empathetically">Empathetically (100)</a>
+      <a href="#whereas">Whereas (100)</a>
+      <a href="#fly">Fly (100)</a>
+      <a href="#furious">Furious (100)</a>
+      <a href="#eliminate">Eliminate (100)</a>
+      <a href="#excitement">Excitement (100)</a>
+      <a href="#highly">Highly (100)</a>
+      <a href="#hopeless">Hopeless (100)</a>
+      <a href="#burden">Burden (100)</a>
+      <a href="#massive">Massive (100)</a>
+      <a href="#useless">Useless (100)</a>
+      <a href="#or">Or (100)</a>
       <div class="group">Character &amp; craft</div>
       <a href="#impactverbs">High-impact verbs (100)</a>
       <a href="#person">Describe a person (100)</a>
@@ -285,6 +336,7 @@
       <a href="#textures">Textures</a>
       <a href="#colors">Colors (100)</a>
       <a href="#sounds">Sounds (100)</a>
+      <a href="#smells">Smells (100)</a>
       <a href="#sunrise">Sunrise / sunset</a>
       <div class="group">Body &amp; action</div>
       <a href="#appearance">Appearance</a>
@@ -296,6 +348,7 @@
       <a href="#wordbanks">Intense · Liquid · Lithe · Moan</a>
       <div class="group">Craft &amp; figurative</div>
       <a href="#metaphors">Metaphor sentences</a>
+      <a href="#drama">Drama (100)</a>
     </nav>
 
     <main>
@@ -3775,8 +3828,1756 @@
         </div>
       </section>
 
+      <section id="cool">
+        <h2>36. 100 Best Synonyms for &ldquo;Cool&rdquo;</h2>
+        <p class="note">Alternatives for cool or stylish/calm, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. acceptable</strong> – satisfactory or allowed</li>
+            <li><strong>2. ace</strong> – excellent or skilled</li>
+            <li><strong>3. all right</strong> – acceptable or satisfactory</li>
+            <li><strong>4. amazing</strong> – surprisingly good or impressive</li>
+            <li><strong>5. awesome</strong> – extremely good or impressive</li>
+            <li><strong>6. badass</strong> – impressively tough or excellent</li>
+            <li><strong>7. bang-up</strong> – excellent or first-rate</li>
+            <li><strong>8. boss</strong> – excellent or impressive</li>
+            <li><strong>9. brill</strong> – excellent or brilliant</li>
+            <li><strong>10. brilliant</strong> – excellent or clever</li>
+            <li><strong>11. calm</strong> – not upset or excited</li>
+            <li><strong>12. chic</strong> – elegantly stylish</li>
+            <li><strong>13. choice</strong> – of superior quality</li>
+            <li><strong>14. classy</strong> – stylish and sophisticated</li>
+            <li><strong>15. collected</strong> – calm and in control</li>
+            <li><strong>16. composed</strong> – calm and self-controlled</li>
+            <li><strong>17. copacetic</strong> – fine, acceptable, or satisfactory</li>
+            <li><strong>18. cracking</strong> – excellent or impressive</li>
+            <li><strong>19. dandy</strong> – very good or fine</li>
+            <li><strong>20. decent</strong> – acceptable or fairly good</li>
+            <li><strong>21. delightful</strong> – highly pleasing</li>
+            <li><strong>22. divine</strong> – extremely wonderful</li>
+            <li><strong>23. dope</strong> – excellent or stylish</li>
+            <li><strong>24. edgy</strong> – boldly modern or unconventional</li>
+            <li><strong>25. elegant</strong> – gracefully stylish</li>
+            <li><strong>26. epic</strong> – impressively great</li>
+            <li><strong>27. excellent</strong> – exceptionally good</li>
+            <li><strong>28. exceptional</strong> – unusually good</li>
+            <li><strong>29. extraordinary</strong> – very unusual and impressive</li>
+            <li><strong>30. fabulous</strong> – extremely pleasing or impressive</li>
+            <li><strong>31. fantastic</strong> – wonderfully good</li>
+            <li><strong>32. fashionable</strong> – currently stylish</li>
+            <li><strong>33. fine</strong> – good or satisfactory</li>
+            <li><strong>34. first-class</strong> – excellent or superior</li>
+            <li><strong>35. first-rate</strong> – of the highest quality</li>
+            <li><strong>36. five-star</strong> – of top quality</li>
+            <li><strong>37. fresh</strong> – new, stylish, and appealing</li>
+            <li><strong>38. glorious</strong> – splendid or wonderful</li>
+            <li><strong>39. great</strong> – very good</li>
+            <li><strong>40. groovy</strong> – stylish, enjoyable, or excellent</li>
+            <li><strong>41. happening</strong> – fashionable and exciting</li>
+            <li><strong>42. high-quality</strong> – well made or excellent</li>
+            <li><strong>43. hip</strong> – fashionably aware or stylish</li>
+            <li><strong>44. impressive</strong> – deserving admiration</li>
+            <li><strong>45. in</strong> – fashionable at present</li>
+            <li><strong>46. incredible</strong> – hard to believe; amazing</li>
+            <li><strong>47. keen</strong> – excellent or attractive</li>
+            <li><strong>48. killer</strong> – extremely impressive or effective</li>
+            <li><strong>49. laid-back</strong> – relaxed and easygoing</li>
+            <li><strong>50. legit</strong> – genuinely good or valid</li>
+            <li><strong>51. levelheaded</strong> – calm and sensible</li>
+            <li><strong>52. lit</strong> – exciting or excellent</li>
+            <li><strong>53. lovely</strong> – very pleasant or attractive</li>
+            <li><strong>54. lush</strong> – very pleasing or excellent</li>
+            <li><strong>55. magnificent</strong> – grandly impressive or excellent</li>
+            <li><strong>56. marvelous</strong> – wonderfully impressive</li>
+            <li><strong>57. mint</strong> – excellent or perfect</li>
+            <li><strong>58. modern</strong> – current in style</li>
+            <li><strong>59. modish</strong> – fashionable or stylish</li>
+            <li><strong>60. neat</strong> – pleasantly good or clever</li>
+            <li><strong>61. nice</strong> – pleasant or good</li>
+            <li><strong>62. nifty</strong> – clever, stylish, or good</li>
+            <li><strong>63. okay</strong> – satisfactory or acceptable</li>
+            <li><strong>64. on trend</strong> – currently fashionable</li>
+            <li><strong>65. outstanding</strong> – exceptionally good</li>
+            <li><strong>66. peachy</strong> – fine or excellent</li>
+            <li><strong>67. phenomenal</strong> – extraordinarily good</li>
+            <li><strong>68. placid</strong> – calm and undisturbed</li>
+            <li><strong>69. pleasing</strong> – giving satisfaction or enjoyment</li>
+            <li><strong>70. polished</strong> – refined and well presented</li>
+            <li><strong>71. posh</strong> – elegant and expensive-looking</li>
+            <li><strong>72. rad</strong> – excellent or exciting</li>
+            <li><strong>73. refined</strong> – elegant and polished</li>
+            <li><strong>74. relaxed</strong> – calm and free from tension</li>
+            <li><strong>75. remarkable</strong> – notably impressive</li>
+            <li><strong>76. restrained</strong> – held back or controlled</li>
+            <li><strong>77. sensational</strong> – excitingly excellent</li>
+            <li><strong>78. solid</strong> – reliable and good</li>
+            <li><strong>79. spectacular</strong> – dramatically impressive</li>
+            <li><strong>80. splendid</strong> – impressive and very good</li>
+            <li><strong>81. stellar</strong> – exceptionally good</li>
+            <li><strong>82. super</strong> – very good</li>
+            <li><strong>83. superb</strong> – of excellent quality</li>
+            <li><strong>84. sweet</strong> – pleasing or excellent</li>
+            <li><strong>85. swell</strong> – very good or pleasing</li>
+            <li><strong>86. terrific</strong> – very good or impressive</li>
+            <li><strong>87. tight</strong> – excellent or impressive</li>
+            <li><strong>88. top-notch</strong> – excellent in quality</li>
+            <li><strong>89. top-tier</strong> – among the best</li>
+            <li><strong>90. tranquil</strong> – peaceful and calm</li>
+            <li><strong>91. trendy</strong> – currently fashionable</li>
+            <li><strong>92. unfazed</strong> – not affected or upset</li>
+            <li><strong>93. unflustered</strong> – calm despite pressure</li>
+            <li><strong>94. unperturbed</strong> – not worried or disturbed</li>
+            <li><strong>95. unruffled</strong> – not disturbed or upset</li>
+            <li><strong>96. voguish</strong> – fashionable or trendy</li>
+            <li><strong>97. wicked</strong> – excellent or impressive</li>
+            <li><strong>98. with-it</strong> – aware of current trends</li>
+            <li><strong>99. wonderful</strong> – very pleasing or good</li>
+            <li><strong>100. world-class</strong> – among the best globally</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="refuse">
+        <h2>37. 100 Words to Use Instead of &ldquo;Refuse&rdquo;</h2>
+        <p class="note">Decline, reject, and avoid verbs, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. Abandon</strong> – Leave behind; give up.</li>
+            <li><strong>2. Abjure</strong> – Formally renounce or reject.</li>
+            <li><strong>3. Abnegate</strong> – Deny oneself; reject a claim.</li>
+            <li><strong>4. Abstain</strong> – Choose not to take part.</li>
+            <li><strong>5. Avoid</strong> – Keep away from; not engage.</li>
+            <li><strong>6. Back out</strong> – Withdraw from an agreement.</li>
+            <li><strong>7. Balk</strong> – Hesitate and stop; resist.</li>
+            <li><strong>8. Bar</strong> – Prevent entry or participation.</li>
+            <li><strong>9. Block</strong> – Stop progress; obstruct.</li>
+            <li><strong>10. Boycott</strong> – Withdraw support as protest.</li>
+            <li><strong>11. Brush off</strong> – Dismiss casually; ignore.</li>
+            <li><strong>12. Call off</strong> – Cancel; stop planned event.</li>
+            <li><strong>13. Cancel</strong> – Call off; revoke.</li>
+            <li><strong>14. Cease</strong> – Stop doing something.</li>
+            <li><strong>15. Challenge</strong> – Question and oppose.</li>
+            <li><strong>16. Cold-shoulder</strong> – Deliberately ignore someone.</li>
+            <li><strong>17. Countermand</strong> – Revoke an order.</li>
+            <li><strong>18. Cut out</strong> – Stop; discontinue involvement.</li>
+            <li><strong>19. Decline</strong> – Politely say no.</li>
+            <li><strong>20. Defer</strong> – Postpone; delay action.</li>
+            <li><strong>21. Deny</strong> – State something is not true.</li>
+            <li><strong>22. Disallow</strong> – Not permit.</li>
+            <li><strong>23. Disavow</strong> – Deny responsibility or support.</li>
+            <li><strong>24. Dismiss</strong> – Send away; reject as unworthy.</li>
+            <li><strong>25. Disown</strong> – Refuse to acknowledge as one's.</li>
+            <li><strong>26. Dispute</strong> – Argue against; contest.</li>
+            <li><strong>27. Ditch</strong> – Abandon; drop.</li>
+            <li><strong>28. Dodge</strong> – Avoid by quick movement or tactics.</li>
+            <li><strong>29. Drop</strong> – Stop pursuing; abandon.</li>
+            <li><strong>30. Elude</strong> – Avoid capture or notice.</li>
+            <li><strong>31. Evade</strong> – Avoid dealing with directly.</li>
+            <li><strong>32. Exclude</strong> – Keep out; not include.</li>
+            <li><strong>33. Exit</strong> – Leave; withdraw from.</li>
+            <li><strong>34. Fend off</strong> – Repel; keep at bay.</li>
+            <li><strong>35. Forbear</strong> – Restrain oneself; refrain.</li>
+            <li><strong>36. Forbid</strong> – Order not to do.</li>
+            <li><strong>37. Forego</strong> – Go without; give up.</li>
+            <li><strong>38. Frown on</strong> – Disapprove of.</li>
+            <li><strong>39. Gainsay</strong> – Deny or contradict.</li>
+            <li><strong>40. Give a miss</strong> – Skip; not attend.</li>
+            <li><strong>41. Give up</strong> – Stop trying; relinquish.</li>
+            <li><strong>42. Hold back</strong> – Restrain; not proceed.</li>
+            <li><strong>43. Hold off</strong> – Delay; wait.</li>
+            <li><strong>44. Hold out</strong> – Resist; not yield.</li>
+            <li><strong>45. Ignore</strong> – Pay no attention to.</li>
+            <li><strong>46. Impede</strong> – Hinder; slow down.</li>
+            <li><strong>47. Invalidate</strong> – Make legally void.</li>
+            <li><strong>48. Jettison</strong> – Discard; abandon.</li>
+            <li><strong>49. Knock back</strong> – Reject an offer or request.</li>
+            <li><strong>50. Knock down</strong> – Defeat; overrule.</li>
+            <li><strong>51. Lay aside</strong> – Put away; set aside.</li>
+            <li><strong>52. Leave off</strong> – Stop; discontinue.</li>
+            <li><strong>53. Let pass</strong> – Allow to go by; skip.</li>
+            <li><strong>54. Naysay</strong> – Say no; oppose.</li>
+            <li><strong>55. Negate</strong> – Nullify; make ineffective.</li>
+            <li><strong>56. Object</strong> – Express opposition.</li>
+            <li><strong>57. Obstruct</strong> – Block; hinder.</li>
+            <li><strong>58. Omit</strong> – Leave out.</li>
+            <li><strong>59. Oppose</strong> – Act against; resist.</li>
+            <li><strong>60. Opt out</strong> – Choose not to participate.</li>
+            <li><strong>61. Overrule</strong> – Reject by higher authority.</li>
+            <li><strong>62. Pass on</strong> – Decline; not accept.</li>
+            <li><strong>63. Pass up</strong> – Decline to accept.</li>
+            <li><strong>64. Plead off</strong> – Avoid by giving an excuse.</li>
+            <li><strong>65. Preclude</strong> – Prevent from happening.</li>
+            <li><strong>66. Prohibit</strong> – Formally ban.</li>
+            <li><strong>67. Protest</strong> – Express strong objection.</li>
+            <li><strong>68. Put down</strong> – Reject harshly; dismiss.</li>
+            <li><strong>69. Put off</strong> – Postpone; defer.</li>
+            <li><strong>70. Rebuff</strong> – Reject bluntly.</li>
+            <li><strong>71. Recant</strong> – Take back a statement.</li>
+            <li><strong>72. Reject</strong> – Not accept; dismiss.</li>
+            <li><strong>73. Renounce</strong> – Give up a right or claim.</li>
+            <li><strong>74. Repel</strong> – Drive back; resist.</li>
+            <li><strong>75. Repudiate</strong> – Reject as invalid or untrue.</li>
+            <li><strong>76. Rescind</strong> – Cancel officially.</li>
+            <li><strong>77. Resist</strong> – Oppose force; withstand.</li>
+            <li><strong>78. Restrict</strong> – Limit; hold back.</li>
+            <li><strong>79. Rule out</strong> – Decide is impossible or excluded.</li>
+            <li><strong>80. Say no</strong> – Decline; not agree.</li>
+            <li><strong>81. Scorn</strong> – Reject with contempt.</li>
+            <li><strong>82. Scrap</strong> – Discard; abandon.</li>
+            <li><strong>83. Shun</strong> – Avoid deliberately.</li>
+            <li><strong>84. Side-step</strong> – Avoid an issue.</li>
+            <li><strong>85. Sit out</strong> – Not take part.</li>
+            <li><strong>86. Skip</strong> – Omit; not do.</li>
+            <li><strong>87. Snub</strong> – Reject by ignoring.</li>
+            <li><strong>88. Spurn</strong> – Reject with disdain.</li>
+            <li><strong>89. Stand firm</strong> – Not yield under pressure.</li>
+            <li><strong>90. Stonewall</strong> – Delay by refusing cooperation.</li>
+            <li><strong>91. Suspend</strong> – Temporarily stop.</li>
+            <li><strong>92. Turn away</strong> – Send away; reject entry.</li>
+            <li><strong>93. Turn down</strong> – Decline; reject.</li>
+            <li><strong>94. Turn off</strong> – Disincline; repel interest.</li>
+            <li><strong>95. Turn one's back</strong> – Reject; abandon support.</li>
+            <li><strong>96. Unsubscribe</strong> – Stop receiving a service.</li>
+            <li><strong>97. Veto</strong> – Officially prohibit.</li>
+            <li><strong>98. Void</strong> – Invalidate; cancel.</li>
+            <li><strong>99. Waive</strong> – Give up a right voluntarily.</li>
+            <li><strong>100. Ward off</strong> – Prevent; keep away.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="empathetically">
+        <h2>38. 100 Best Synonyms for &ldquo;Empathetically&rdquo;</h2>
+        <p class="note">Adverbs for sympathetic speech or action, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. acceptingly</strong> – with openness rather than judgment</li>
+            <li><strong>2. anxiously</strong> – with worried concern</li>
+            <li><strong>3. apologetically</strong> – with regretful sensitivity</li>
+            <li><strong>4. appreciatively</strong> – with understanding and valuing</li>
+            <li><strong>5. attentively</strong> – with careful, caring attention</li>
+            <li><strong>6. attunedly</strong> – with sensitive emotional awareness</li>
+            <li><strong>7. benevolently</strong> – with goodwill and kindness</li>
+            <li><strong>8. benignly</strong> – with gentle kindness</li>
+            <li><strong>9. bigheartedly</strong> – with generous kindness</li>
+            <li><strong>10. carefully</strong> – with attentive consideration</li>
+            <li><strong>11. caringly</strong> – in a caring manner</li>
+            <li><strong>12. cautiously</strong> – with careful sensitivity</li>
+            <li><strong>13. charitably</strong> – with generous understanding</li>
+            <li><strong>14. civilly</strong> – with respectful politeness</li>
+            <li><strong>15. comfortingly</strong> – in a reassuring, soothing way</li>
+            <li><strong>16. commiseratively</strong> – with shared sorrow or sympathy</li>
+            <li><strong>17. compassionately</strong> – with sympathetic concern and kindness</li>
+            <li><strong>18. considerately</strong> – with thought for others’ feelings</li>
+            <li><strong>19. consolingly</strong> – in a comforting way</li>
+            <li><strong>20. courteously</strong> – with polite consideration</li>
+            <li><strong>21. decently</strong> – with basic kindness and respect</li>
+            <li><strong>22. delicately</strong> – with tact and sensitivity</li>
+            <li><strong>23. diplomatically</strong> – with tactful consideration</li>
+            <li><strong>24. discreetly</strong> – with tactful carefulness</li>
+            <li><strong>25. earnestly</strong> – with sincere seriousness</li>
+            <li><strong>26. encouragingly</strong> – with supportive hope or confidence</li>
+            <li><strong>27. feelingly</strong> – with emotional sincerity</li>
+            <li><strong>28. forbearingly</strong> – with patient restraint and tolerance</li>
+            <li><strong>29. forgivingly</strong> – with readiness to forgive</li>
+            <li><strong>30. from the heart</strong> – with sincere feeling</li>
+            <li><strong>31. generously</strong> – with kind, open-hearted understanding</li>
+            <li><strong>32. gently</strong> – with softness and care</li>
+            <li><strong>33. genuinely</strong> – with real care or feeling</li>
+            <li><strong>34. goodheartedly</strong> – with honest kindness</li>
+            <li><strong>35. graciously</strong> – with kindness and courteous warmth</li>
+            <li><strong>36. heartfully</strong> – with deep sincere feeling</li>
+            <li><strong>37. helpfully</strong> – in a useful, supportive way</li>
+            <li><strong>38. humanely</strong> – with compassion and decency</li>
+            <li><strong>39. humbly</strong> – with modest, respectful feeling</li>
+            <li><strong>40. insightfully</strong> – with deep understanding</li>
+            <li><strong>41. intuitively</strong> – with instinctive understanding</li>
+            <li><strong>42. judiciously</strong> – with wise, careful understanding</li>
+            <li><strong>43. kindheartedly</strong> – with a kind heart</li>
+            <li><strong>44. kindly</strong> – in a kind and caring way</li>
+            <li><strong>45. knowingly</strong> – with aware understanding</li>
+            <li><strong>46. largeheartedly</strong> – with generous compassion</li>
+            <li><strong>47. leniently</strong> – with merciful tolerance</li>
+            <li><strong>48. magnanimously</strong> – with generous forgiveness and nobility</li>
+            <li><strong>49. meekly</strong> – with humble gentleness</li>
+            <li><strong>50. mercifully</strong> – with compassion and forgiveness</li>
+            <li><strong>51. mindfully</strong> – with thoughtful awareness</li>
+            <li><strong>52. movingly</strong> – in an emotionally touching way</li>
+            <li><strong>53. neighborly</strong> – with friendly helpfulness</li>
+            <li><strong>54. nonjudgmentally</strong> – without criticizing or condemning</li>
+            <li><strong>55. nurturingly</strong> – in a caring, supportive way</li>
+            <li><strong>56. observantly</strong> – with attentive awareness</li>
+            <li><strong>57. open-mindedly</strong> – with willingness to understand</li>
+            <li><strong>58. openheartedly</strong> – with sincere kindness and warmth</li>
+            <li><strong>59. patiently</strong> – with calm tolerance and understanding</li>
+            <li><strong>60. penitently</strong> – with sincere regret</li>
+            <li><strong>61. perceptively</strong> – with quick, sensitive understanding</li>
+            <li><strong>62. pityingly</strong> – with sorrow for another’s suffering</li>
+            <li><strong>63. poignantly</strong> – with touching emotional force</li>
+            <li><strong>64. politely</strong> – with courteous respect</li>
+            <li><strong>65. protectively</strong> – with caring protection</li>
+            <li><strong>66. reasonably</strong> – with fair understanding</li>
+            <li><strong>67. reassuringly</strong> – in a way that eases worry</li>
+            <li><strong>68. receptively</strong> – with openness to feelings</li>
+            <li><strong>69. remorsefully</strong> – with deep regret</li>
+            <li><strong>70. respectfully</strong> – with regard for dignity</li>
+            <li><strong>71. responsively</strong> – with attentive reaction to needs</li>
+            <li><strong>72. sensitively</strong> – with awareness of feelings</li>
+            <li><strong>73. sincerely</strong> – with genuine feeling</li>
+            <li><strong>74. softheartedly</strong> – with tender sympathy</li>
+            <li><strong>75. softly</strong> – in a gentle manner</li>
+            <li><strong>76. solicitously</strong> – with attentive concern</li>
+            <li><strong>77. soothingly</strong> – in a calming, comforting way</li>
+            <li><strong>78. soulfully</strong> – with deep emotional feeling</li>
+            <li><strong>79. supportively</strong> – in an encouraging, helpful way</li>
+            <li><strong>80. sweetly</strong> – with gentle kindness</li>
+            <li><strong>81. sympathetically</strong> – with understanding and shared concern</li>
+            <li><strong>82. tactfully</strong> – with sensitive social skill</li>
+            <li><strong>83. tenderheartedly</strong> – with gentle compassion</li>
+            <li><strong>84. tenderly</strong> – with gentleness and warmth</li>
+            <li><strong>85. thoughtfully</strong> – with careful, considerate attention</li>
+            <li><strong>86. tolerantly</strong> – with acceptance of differences</li>
+            <li><strong>87. touchingly</strong> – in a moving, tender way</li>
+            <li><strong>88. uncritically</strong> – without harsh judgment</li>
+            <li><strong>89. understandingly</strong> – with patient understanding</li>
+            <li><strong>90. uneasily</strong> – with troubled concern</li>
+            <li><strong>91. warmheartedly</strong> – with affectionate kindness</li>
+            <li><strong>92. warmly</strong> – with friendly sympathy</li>
+            <li><strong>93. wholeheartedly</strong> – with sincere, full concern</li>
+            <li><strong>94. wisely</strong> – with sound, considerate judgment</li>
+            <li><strong>95. with care</strong> – in a caring manner</li>
+            <li><strong>96. with compassion</strong> – in a compassionate manner</li>
+            <li><strong>97. with kindness</strong> – in a kind manner</li>
+            <li><strong>98. with sensitivity</strong> – in a sensitive manner</li>
+            <li><strong>99. with sympathy</strong> – in a sympathetic manner</li>
+            <li><strong>100. with understanding</strong> – in an understanding manner</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="whereas">
+        <h2>39. 100 Best Synonyms for &ldquo;Whereas&rdquo;</h2>
+        <p class="note">Contrast and transition words, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. actually</strong> – in fact; really</li>
+            <li><strong>2. admittedly</strong> – it is accepted that</li>
+            <li><strong>3. against</strong> – compared with; versus</li>
+            <li><strong>4. all the same</strong> – nevertheless; despite that</li>
+            <li><strong>5. although</strong> – despite the fact that</li>
+            <li><strong>6. anyhow</strong> – nevertheless; regardless</li>
+            <li><strong>7. anyway</strong> – nevertheless; regardless</li>
+            <li><strong>8. as</strong> – while; because</li>
+            <li><strong>9. assuming that</strong> – if it is true that</li>
+            <li><strong>10. at any rate</strong> – regardless; nevertheless</li>
+            <li><strong>11. because</strong> – for the reason that</li>
+            <li><strong>12. but</strong> – introduces a contrast</li>
+            <li><strong>13. by contrast</strong> – introduces a difference</li>
+            <li><strong>14. come what may</strong> – whatever happens</li>
+            <li><strong>15. compared to</strong> – in contrast with</li>
+            <li><strong>16. compared with</strong> – in contrast with</li>
+            <li><strong>17. concurrently</strong> – at the same time</li>
+            <li><strong>18. considering</strong> – taking into account that</li>
+            <li><strong>19. contrarily</strong> – in an opposite manner</li>
+            <li><strong>20. contrasted with</strong> – compared against</li>
+            <li><strong>21. conversely</strong> – from the opposite viewpoint</li>
+            <li><strong>22. despite that</strong> – although that is true</li>
+            <li><strong>23. despite the fact that</strong> – although that is true</li>
+            <li><strong>24. different from</strong> – unlike; not the same as</li>
+            <li><strong>25. differing from</strong> – being different from</li>
+            <li><strong>26. distinguished from</strong> – set apart from</li>
+            <li><strong>27. during the time that</strong> – while that happens</li>
+            <li><strong>28. during which time</strong> – while that happens</li>
+            <li><strong>29. even as</strong> – just when; while</li>
+            <li><strong>30. even so</strong> – nevertheless; despite that</li>
+            <li><strong>31. even though</strong> – despite the fact that</li>
+            <li><strong>32. for all that</strong> – despite that</li>
+            <li><strong>33. forasmuch as</strong> – considering that</li>
+            <li><strong>34. given</strong> – considering that</li>
+            <li><strong>35. granted</strong> – admittedly; even so</li>
+            <li><strong>36. granting that</strong> – assuming or admitting that</li>
+            <li><strong>37. having said that</strong> – however; despite that</li>
+            <li><strong>38. however</strong> – nevertheless; on the other hand</li>
+            <li><strong>39. if</strong> – on the condition that</li>
+            <li><strong>40. in any case</strong> – regardless; nevertheless</li>
+            <li><strong>41. in cases where</strong> – where; when</li>
+            <li><strong>42. in circumstances where</strong> – where; when</li>
+            <li><strong>43. in contexts where</strong> – where; in situations where</li>
+            <li><strong>44. in contrast</strong> – introduces an opposing comparison</li>
+            <li><strong>45. in fact</strong> – actually; in reality</li>
+            <li><strong>46. in instances where</strong> – where; when</li>
+            <li><strong>47. in reality</strong> – actually; in fact</li>
+            <li><strong>48. in situations where</strong> – where; when</li>
+            <li><strong>49. in spite of that</strong> – despite that</li>
+            <li><strong>50. in that case</strong> – if that is so</li>
+            <li><strong>51. in which case</strong> – if that happens</li>
+            <li><strong>52. inasmuch as</strong> – to the extent that</li>
+            <li><strong>53. irrespective</strong> – regardless of that</li>
+            <li><strong>54. meanwhile</strong> – at the same time</li>
+            <li><strong>55. much as</strong> – although; despite how much</li>
+            <li><strong>56. nevertheless</strong> – despite that; however</li>
+            <li><strong>57. no matter that</strong> – despite the fact that</li>
+            <li><strong>58. nonetheless</strong> – nevertheless; despite that</li>
+            <li><strong>59. notwithstanding</strong> – despite; nevertheless</li>
+            <li><strong>60. on another point</strong> – introducing a different contrast</li>
+            <li><strong>61. on the contrary</strong> – introduces the opposite point</li>
+            <li><strong>62. on the other hand</strong> – introduces an opposing point</li>
+            <li><strong>63. opposed to</strong> – in contrast with</li>
+            <li><strong>64. over against</strong> – as contrasted with</li>
+            <li><strong>65. presuming that</strong> – assuming that</li>
+            <li><strong>66. provided that</strong> – on condition that</li>
+            <li><strong>67. providing that</strong> – on condition that</li>
+            <li><strong>68. rather</strong> – instead; more accurately</li>
+            <li><strong>69. regardless</strong> – despite everything</li>
+            <li><strong>70. relative to</strong> – compared with</li>
+            <li><strong>71. seeing</strong> – considering that</li>
+            <li><strong>72. separate from</strong> – distinct from</li>
+            <li><strong>73. simultaneously</strong> – at the same time</li>
+            <li><strong>74. since</strong> – given that; because</li>
+            <li><strong>75. so far as</strong> – to the extent that</li>
+            <li><strong>76. so long as</strong> – during the time that</li>
+            <li><strong>77. still</strong> – nevertheless; even so</li>
+            <li><strong>78. supposing that</strong> – if it is true that</li>
+            <li><strong>79. that being said</strong> – even so; however</li>
+            <li><strong>80. that said</strong> – even so; however</li>
+            <li><strong>81. though</strong> – although; however</li>
+            <li><strong>82. to such extent as</strong> – to the degree that</li>
+            <li><strong>83. to the contrary</strong> – in the opposite direction</li>
+            <li><strong>84. to the extent that</strong> – as far as</li>
+            <li><strong>85. to the opposite effect</strong> – with an opposite meaning</li>
+            <li><strong>86. under conditions where</strong> – in conditions in which</li>
+            <li><strong>87. under which</strong> – in circumstances in which</li>
+            <li><strong>88. unlike</strong> – in contrast to</li>
+            <li><strong>89. versus</strong> – as contrasted with</li>
+            <li><strong>90. vis-à-vis</strong> – in relation to; compared with</li>
+            <li><strong>91. vs.</strong> – versus; compared with</li>
+            <li><strong>92. whatever the case</strong> – regardless of circumstances</li>
+            <li><strong>93. when</strong> – in the case that</li>
+            <li><strong>94. whenever</strong> – every time that</li>
+            <li><strong>95. where</strong> – in a case in which</li>
+            <li><strong>96. wherever</strong> – in any situation where</li>
+            <li><strong>97. while</strong> – at the same time; although</li>
+            <li><strong>98. whilst</strong> – while; although</li>
+            <li><strong>99. with that said</strong> – however; nevertheless</li>
+            <li><strong>100. yet</strong> – but; nevertheless</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="fly">
+        <h2>40. 100 Best Synonyms for &ldquo;Fly&rdquo;</h2>
+        <p class="note">Move through air or leave quickly, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. abscond</strong> – leave secretly to avoid capture</li>
+            <li><strong>2. airlift</strong> – transport by aircraft</li>
+            <li><strong>3. ascend</strong> – move upward</li>
+            <li><strong>4. aviate</strong> – operate or travel by aircraft</li>
+            <li><strong>5. avoid</strong> – keep away from</li>
+            <li><strong>6. beat</strong> – move wings rhythmically</li>
+            <li><strong>7. blast</strong> – move very fast</li>
+            <li><strong>8. bolt</strong> – run away suddenly</li>
+            <li><strong>9. bounce</strong> – spring back or up</li>
+            <li><strong>10. bound</strong> – move by leaping</li>
+            <li><strong>11. break away</strong> – escape from control</li>
+            <li><strong>12. break loose</strong> – escape restraint</li>
+            <li><strong>13. buzz</strong> – move with a humming sound</li>
+            <li><strong>14. circle</strong> – move around in a circle</li>
+            <li><strong>15. circumvent</strong> – avoid by clever means</li>
+            <li><strong>16. clear out</strong> – leave a place quickly</li>
+            <li><strong>17. climb</strong> – move upward steadily</li>
+            <li><strong>18. course</strong> – move along a path</li>
+            <li><strong>19. cross</strong> – go across</li>
+            <li><strong>20. dart</strong> – move suddenly and quickly</li>
+            <li><strong>21. dash</strong> – move quickly and suddenly</li>
+            <li><strong>22. decamp</strong> – leave suddenly or secretly</li>
+            <li><strong>23. depart</strong> – leave a place</li>
+            <li><strong>24. descend</strong> – move downward</li>
+            <li><strong>25. dive</strong> – plunge downward through air</li>
+            <li><strong>26. drift</strong> – move slowly with currents</li>
+            <li><strong>27. drop</strong> – fall downward</li>
+            <li><strong>28. elapse</strong> – pass, as time</li>
+            <li><strong>29. elude</strong> – escape from someone</li>
+            <li><strong>30. escape</strong> – get away from danger</li>
+            <li><strong>31. evacuate</strong> – leave a dangerous place</li>
+            <li><strong>32. evade</strong> – avoid or escape</li>
+            <li><strong>33. fall</strong> – move downward through air</li>
+            <li><strong>34. flap</strong> – move wings up and down</li>
+            <li><strong>35. flash by</strong> – pass in an instant</li>
+            <li><strong>36. flee</strong> – run away from danger</li>
+            <li><strong>37. flit</strong> – move lightly and quickly</li>
+            <li><strong>38. float</strong> – move gently in air</li>
+            <li><strong>39. flow</strong> – move smoothly and continuously</li>
+            <li><strong>40. flutter</strong> – move with quick wingbeats</li>
+            <li><strong>41. get away</strong> – escape or leave quickly</li>
+            <li><strong>42. glide</strong> – move smoothly through air</li>
+            <li><strong>43. go</strong> – move or travel</li>
+            <li><strong>44. hasten</strong> – move or act quickly</li>
+            <li><strong>45. hop</strong> – make a short jump</li>
+            <li><strong>46. hover</strong> – remain suspended in air</li>
+            <li><strong>47. hum</strong> – move with a humming sound</li>
+            <li><strong>48. hurry</strong> – move with urgency</li>
+            <li><strong>49. jet</strong> – travel by jet aircraft</li>
+            <li><strong>50. journey</strong> – travel from one place to another</li>
+            <li><strong>51. jump</strong> – spring off the ground</li>
+            <li><strong>52. lapse</strong> – pass gradually, as time</li>
+            <li><strong>53. leap</strong> – rise or move suddenly</li>
+            <li><strong>54. leave</strong> – go away from a place</li>
+            <li><strong>55. lift off</strong> – rise from the ground</li>
+            <li><strong>56. loop</strong> – move in a loop</li>
+            <li><strong>57. make off</strong> – leave hurriedly, often secretly</li>
+            <li><strong>58. mount</strong> – rise upward</li>
+            <li><strong>59. navigate</strong> – steer a course through air</li>
+            <li><strong>60. orbit</strong> – move around a body</li>
+            <li><strong>61. pass</strong> – move or go by</li>
+            <li><strong>62. pilot</strong> – control an aircraft</li>
+            <li><strong>63. plunge</strong> – move suddenly downward</li>
+            <li><strong>64. propel</strong> – drive forward</li>
+            <li><strong>65. race</strong> – move at high speed</li>
+            <li><strong>66. retreat</strong> – move back or withdraw</li>
+            <li><strong>67. ride the air</strong> – move supported by air</li>
+            <li><strong>68. rise</strong> – move upward</li>
+            <li><strong>69. rocket</strong> – move upward or fast</li>
+            <li><strong>70. run away</strong> – flee from a place</li>
+            <li><strong>71. run off</strong> – leave or flee</li>
+            <li><strong>72. rush</strong> – move or go quickly</li>
+            <li><strong>73. sail</strong> – move smoothly through air</li>
+            <li><strong>74. scarper</strong> – run away quickly</li>
+            <li><strong>75. scram</strong> – leave quickly</li>
+            <li><strong>76. skedaddle</strong> – run away hurriedly</li>
+            <li><strong>77. skim</strong> – move lightly over a surface</li>
+            <li><strong>78. soar</strong> – rise or glide high in air</li>
+            <li><strong>79. speed</strong> – move rapidly</li>
+            <li><strong>80. swoop</strong> – descend suddenly through air</li>
+            <li><strong>81. take flight</strong> – start flying or fleeing</li>
+            <li><strong>82. take off</strong> – leave the ground</li>
+            <li><strong>83. take wing</strong> – begin flying away</li>
+            <li><strong>84. tear</strong> – move very quickly</li>
+            <li><strong>85. transfer</strong> – move from one place to another</li>
+            <li><strong>86. travel</strong> – go from place to place</li>
+            <li><strong>87. traverse</strong> – travel across</li>
+            <li><strong>88. vamoose</strong> – leave quickly</li>
+            <li><strong>89. vanish</strong> – disappear suddenly</li>
+            <li><strong>90. vault</strong> – leap over something</li>
+            <li><strong>91. waft</strong> – move gently through air</li>
+            <li><strong>92. whirl by</strong> – pass quickly in a blur</li>
+            <li><strong>93. whirr</strong> – move with a rapid buzzing sound</li>
+            <li><strong>94. whiz</strong> – move quickly with a sound</li>
+            <li><strong>95. whizz</strong> – move quickly with a whirring sound</li>
+            <li><strong>96. whoosh</strong> – move swiftly with a rushing sound</li>
+            <li><strong>97. wing</strong> – travel through the air</li>
+            <li><strong>98. withdraw</strong> – move away or back</li>
+            <li><strong>99. zip</strong> – move very quickly</li>
+            <li><strong>100. zoom</strong> – move or travel very fast</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="furious">
+        <h2>41. 100 Words to Use Instead of &ldquo;Furious&rdquo;</h2>
+        <p class="note">Anger and rage descriptors, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. Abrasive</strong> – Harshly angry; rough in manner.</li>
+            <li><strong>2. Aggravated</strong> – Annoyed and increasingly angry.</li>
+            <li><strong>3. Agitated</strong> – Upset; unable to stay calm.</li>
+            <li><strong>4. Angered</strong> – Made angry; provoked.</li>
+            <li><strong>5. Antagonistic</strong> – Hostile and combative.</li>
+            <li><strong>6. Apoplectic</strong> – Overcome with rage.</li>
+            <li><strong>7. Ashen with anger</strong> – Pale from intense anger.</li>
+            <li><strong>8. Ballistic</strong> – Suddenly extremely angry.</li>
+            <li><strong>9. Berserk</strong> – Wildly violent with rage.</li>
+            <li><strong>10. Biting</strong> – Sharp, angry, and cutting.</li>
+            <li><strong>11. Blazing</strong> – Burning with anger.</li>
+            <li><strong>12. Boiling</strong> – Seething with rage.</li>
+            <li><strong>13. Brimful of rage</strong> – Filled to the top with anger.</li>
+            <li><strong>14. Burning up</strong> – Getting very angry.</li>
+            <li><strong>15. Choleric</strong> – Bad-tempered; easily angered.</li>
+            <li><strong>16. Combative</strong> – Ready to fight or argue.</li>
+            <li><strong>17. Cranky</strong> – Bad-tempered; easily annoyed.</li>
+            <li><strong>18. Crazed with anger</strong> – Acting wildly from rage.</li>
+            <li><strong>19. Cross</strong> – Irritable and angry.</li>
+            <li><strong>20. Demented</strong> – Wildly irrational with anger.</li>
+            <li><strong>21. Displeased</strong> – Annoyed; not satisfied.</li>
+            <li><strong>22. Distempered</strong> – Out of temper; irritable.</li>
+            <li><strong>23. Distraught</strong> – Deeply upset and angry.</li>
+            <li><strong>24. Dog-mad</strong> – Extremely angry; enraged.</li>
+            <li><strong>25. Drawn tight</strong> – Tense with held-in anger.</li>
+            <li><strong>26. Dyspeptic</strong> – Irritably discontented; peevish.</li>
+            <li><strong>27. Edgy</strong> – Tense and easily angered.</li>
+            <li><strong>28. Enflamed</strong> – Inflamed with anger.</li>
+            <li><strong>29. Enraged</strong> – Filled with intense anger.</li>
+            <li><strong>30. Exasperated</strong> – Irritated beyond patience.</li>
+            <li><strong>31. Explosive</strong> – Likely to erupt in anger.</li>
+            <li><strong>32. Fiery</strong> – Passionately angry; hot-tempered.</li>
+            <li><strong>33. Fighting mad</strong> – Angry enough to fight.</li>
+            <li><strong>34. Fuming</strong> – Showing anger and annoyance.</li>
+            <li><strong>35. Furious at heart</strong> – Angry deep down.</li>
+            <li><strong>36. Galled</strong> – Bitterly annoyed; resentful.</li>
+            <li><strong>37. Glowering</strong> – Staring angrily; scowling.</li>
+            <li><strong>38. Gravely offended</strong> – Deeply insulted and angry.</li>
+            <li><strong>39. Grim with anger</strong> – Stern and angry.</li>
+            <li><strong>40. Grinding rage</strong> – Slow, relentless anger.</li>
+            <li><strong>41. Hacked off</strong> – Very annoyed; angry.</li>
+            <li><strong>42. Hard-bitten</strong> – Tough, resentful, and angry.</li>
+            <li><strong>43. Hateful</strong> – Full of hostility.</li>
+            <li><strong>44. Heated</strong> – Angry and intense.</li>
+            <li><strong>45. Hot under the collar</strong> – Noticeably angry or upset.</li>
+            <li><strong>46. Hotheaded</strong> – Quick to anger.</li>
+            <li><strong>47. Incandescent</strong> – Glowing with intense anger.</li>
+            <li><strong>48. Incensed</strong> – Made very angry.</li>
+            <li><strong>49. Indignant</strong> – Angry at unfairness or insult.</li>
+            <li><strong>50. Inflamed</strong> – Aroused to anger or passion.</li>
+            <li><strong>51. Irate</strong> – Very angry.</li>
+            <li><strong>52. Irked</strong> – Annoyed; mildly angry.</li>
+            <li><strong>53. Irritable</strong> – Easily angered.</li>
+            <li><strong>54. Jealous-angry</strong> – Angry from jealousy.</li>
+            <li><strong>55. Jolted</strong> – Suddenly angered or upset.</li>
+            <li><strong>56. Jumped-up</strong> – Angry and confrontational.</li>
+            <li><strong>57. Justifiably angry</strong> – Angry for a good reason.</li>
+            <li><strong>58. Keenly offended</strong> – Sharply insulted; angry.</li>
+            <li><strong>59. Livid</strong> – Furiously angry.</li>
+            <li><strong>60. Livid with rage</strong> – Extremely angry.</li>
+            <li><strong>61. Loaded for bear</strong> – Ready for an angry confrontation.</li>
+            <li><strong>62. Losing it</strong> – Becoming uncontrollably angry.</li>
+            <li><strong>63. Mad</strong> – Angry; upset.</li>
+            <li><strong>64. Maddened</strong> – Driven into anger.</li>
+            <li><strong>65. Malignant</strong> – Spitefully hostile.</li>
+            <li><strong>66. Miffed</strong> – Slightly offended; annoyed.</li>
+            <li><strong>67. Molten</strong> – Intensely angry beneath the surface.</li>
+            <li><strong>68. Mouthy</strong> – Rudely argumentative; angry.</li>
+            <li><strong>69. Nasty</strong> – Mean-spirited and angry.</li>
+            <li><strong>70. Nettled</strong> – Irritated; provoked to anger.</li>
+            <li><strong>71. Offended</strong> – Hurt and angry.</li>
+            <li><strong>72. Outraged</strong> – Angry and shocked.</li>
+            <li><strong>73. Overwrought</strong> – Overly upset; prone to anger.</li>
+            <li><strong>74. Peeved</strong> – Annoyed; irritated.</li>
+            <li><strong>75. Pissed</strong> – Angry; irritated.</li>
+            <li><strong>76. Pissed off</strong> – Very angry; fed up.</li>
+            <li><strong>77. Provoked</strong> – Stirred to anger.</li>
+            <li><strong>78. Quarrelsome</strong> – Prone to arguing angrily.</li>
+            <li><strong>79. Raging</strong> – Violently angry.</li>
+            <li><strong>80. Rankled</strong> – Persistently annoyed; resentful.</li>
+            <li><strong>81. Riled</strong> – Annoyed and angered.</li>
+            <li><strong>82. Riled up</strong> – Stirred into anger.</li>
+            <li><strong>83. Ropeable</strong> – Extremely angry.</li>
+            <li><strong>84. Searing</strong> – Intensely angry; scorching.</li>
+            <li><strong>85. Seething</strong> – Angry but restrained.</li>
+            <li><strong>86. Shirty</strong> – Bad-tempered; irritable.</li>
+            <li><strong>87. Sore</strong> – Upset and resentful.</li>
+            <li><strong>88. Spitting mad</strong> – Furiously angry.</li>
+            <li><strong>89. Steamed</strong> – Angry; worked up.</li>
+            <li><strong>90. Steaming</strong> – Very angry.</li>
+            <li><strong>91. Stormy</strong> – Angry and turbulent.</li>
+            <li><strong>92. Strained</strong> – Tense from anger.</li>
+            <li><strong>93. Sulky</strong> – Silent and resentful.</li>
+            <li><strong>94. Sullen</strong> – Gloomy and resentful.</li>
+            <li><strong>95. Testy</strong> – Easily irritated; touchy.</li>
+            <li><strong>96. Tetchy</strong> – Bad-tempered; easily annoyed.</li>
+            <li><strong>97. Thin-skinned</strong> – Easily offended and angered.</li>
+            <li><strong>98. Touchy</strong> – Easily upset or angered.</li>
+            <li><strong>99. Turbulent</strong> – Unstable; full of anger.</li>
+            <li><strong>100. Ulcerated</strong> – Bitterly resentful; angry.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="eliminate">
+        <h2>42. 100 Words to Use Instead of &ldquo;Eliminate&rdquo;</h2>
+        <p class="note">Remove, destroy, or end verbs, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. Abolish</strong> – Officially end or cancel.</li>
+            <li><strong>2. Abrogate</strong> – Formally repeal or end.</li>
+            <li><strong>3. Absorb</strong> – Take in; remove by uptake.</li>
+            <li><strong>4. Abstain from</strong> – Choose not to do or use.</li>
+            <li><strong>5. Acquit</strong> – Clear from blame or charge.</li>
+            <li><strong>6. Amputate</strong> – Surgically remove a limb.</li>
+            <li><strong>7. Annihilate</strong> – Destroy completely.</li>
+            <li><strong>8. Annul</strong> – Declare invalid or void.</li>
+            <li><strong>9. Avert</strong> – Prevent from happening.</li>
+            <li><strong>10. Axe</strong> – Cut or cancel abruptly.</li>
+            <li><strong>11. Banish</strong> – Send away; expel.</li>
+            <li><strong>12. Bar</strong> – Prevent entry or access.</li>
+            <li><strong>13. Blacklist</strong> – Exclude from approval or access.</li>
+            <li><strong>14. Block</strong> – Stop movement or progress.</li>
+            <li><strong>15. Blot out</strong> – Obscure or erase completely.</li>
+            <li><strong>16. Break up</strong> – Separate into pieces or parts.</li>
+            <li><strong>17. Cancel</strong> – Call off; invalidate.</li>
+            <li><strong>18. Cauterize</strong> – Burn to seal or remove tissue.</li>
+            <li><strong>19. Censor</strong> – Suppress unacceptable content.</li>
+            <li><strong>20. Chop</strong> – Cut into pieces.</li>
+            <li><strong>21. Clear</strong> – Remove obstacles or unwanted items.</li>
+            <li><strong>22. Cull</strong> – Selectively remove.</li>
+            <li><strong>23. Curtail</strong> – Reduce or cut short.</li>
+            <li><strong>24. Deactivate</strong> – Turn off; make inactive.</li>
+            <li><strong>25. Debar</strong> – Exclude from participation.</li>
+            <li><strong>26. Debug</strong> – Remove errors from software.</li>
+            <li><strong>27. Debulk</strong> – Reduce mass or volume.</li>
+            <li><strong>28. Defang</strong> – Remove harmful power.</li>
+            <li><strong>29. Defeat</strong> – Overcome; put an end to.</li>
+            <li><strong>30. Defuse</strong> – Remove danger or tension.</li>
+            <li><strong>31. Deinstall</strong> – Remove installed software.</li>
+            <li><strong>32. Delete</strong> – Remove from a record or text.</li>
+            <li><strong>33. Demolish</strong> – Tear down completely.</li>
+            <li><strong>34. Deny</strong> – Refuse to grant or allow.</li>
+            <li><strong>35. Depose</strong> – Remove from office or power.</li>
+            <li><strong>36. Deprive</strong> – Take away something needed.</li>
+            <li><strong>37. Deracinate</strong> – Uproot; remove completely.</li>
+            <li><strong>38. Destroy</strong> – Ruin beyond repair.</li>
+            <li><strong>39. Deter</strong> – Discourage; prevent action.</li>
+            <li><strong>40. Disband</strong> – Break up an organization.</li>
+            <li><strong>41. Discard</strong> – Throw away; reject.</li>
+            <li><strong>42. Discharge</strong> – Release; dismiss from duty.</li>
+            <li><strong>43. Discontinue</strong> – Stop providing or producing.</li>
+            <li><strong>44. Discredit</strong> – Undermine trust or belief.</li>
+            <li><strong>45. Disempower</strong> – Remove authority or influence.</li>
+            <li><strong>46. Disengage</strong> – Separate; detach from involvement.</li>
+            <li><strong>47. Disinfect</strong> – Remove germs from surfaces.</li>
+            <li><strong>48. Dislodge</strong> – Force out of position.</li>
+            <li><strong>49. Dismantle</strong> – Take apart piece by piece.</li>
+            <li><strong>50. Dismiss</strong> – Send away; reject.</li>
+            <li><strong>51. Dissipate</strong> – Cause to disperse or fade.</li>
+            <li><strong>52. Dissolve</strong> – End; break up; liquefy.</li>
+            <li><strong>53. Eject</strong> – Force out; expel.</li>
+            <li><strong>54. End</strong> – Bring to a close.</li>
+            <li><strong>55. Endorse not</strong> – Withhold approval or support.</li>
+            <li><strong>56. Eradicate</strong> – Wipe out completely.</li>
+            <li><strong>57. Erase</strong> – Remove all traces.</li>
+            <li><strong>58. Exclude</strong> – Keep out; omit.</li>
+            <li><strong>59. Exempt</strong> – Free from requirement.</li>
+            <li><strong>60. Expel</strong> – Drive out; eject.</li>
+            <li><strong>61. Exterminate</strong> – Destroy entirely, especially pests.</li>
+            <li><strong>62. Extinguish</strong> – Put out a fire or light.</li>
+            <li><strong>63. Extirpate</strong> – Root out completely.</li>
+            <li><strong>64. Extract</strong> – Remove by pulling out.</li>
+            <li><strong>65. Fade out</strong> – Gradually disappear or end.</li>
+            <li><strong>66. Filter out</strong> – Remove unwanted parts.</li>
+            <li><strong>67. Finish</strong> – Complete; bring to an end.</li>
+            <li><strong>68. Flush</strong> – Wash out with water.</li>
+            <li><strong>69. Forbid</strong> – Prohibit; bar.</li>
+            <li><strong>70. Forestall</strong> – Prevent by acting first.</li>
+            <li><strong>71. Get rid of</strong> – Dispose of; remove.</li>
+            <li><strong>72. Grind down</strong> – Wear away by abrasion.</li>
+            <li><strong>73. Gut</strong> – Remove essential contents.</li>
+            <li><strong>74. Halt</strong> – Stop completely.</li>
+            <li><strong>75. Hide</strong> – Conceal from view.</li>
+            <li><strong>76. Hollow out</strong> – Remove interior material.</li>
+            <li><strong>77. Immobilize</strong> – Prevent movement.</li>
+            <li><strong>78. Invalidate</strong> – Make legally or logically void.</li>
+            <li><strong>79. Isolate</strong> – Separate from others.</li>
+            <li><strong>80. Jettison</strong> – Throw overboard; discard.</li>
+            <li><strong>81. Knock out</strong> – Disable; remove from action.</li>
+            <li><strong>82. Lapse</strong> – End through inaction.</li>
+            <li><strong>83. Liquidate</strong> – Close and dispose of assets.</li>
+            <li><strong>84. Lock out</strong> – Prevent access by locking.</li>
+            <li><strong>85. Lop off</strong> – Cut off a protruding part.</li>
+            <li><strong>86. Muffle</strong> – Reduce sound; stifle.</li>
+            <li><strong>87. Neutralize</strong> – Render ineffective or harmless.</li>
+            <li><strong>88. Nullify</strong> – Make void; cancel.</li>
+            <li><strong>89. Obliterate</strong> – Erase or destroy utterly.</li>
+            <li><strong>90. Omit</strong> – Leave out intentionally.</li>
+            <li><strong>91. Outlaw</strong> – Make illegal.</li>
+            <li><strong>92. Overcome</strong> – Successfully defeat or surmount.</li>
+            <li><strong>93. Pardon</strong> – Forgive; release from penalty.</li>
+            <li><strong>94. Phase out</strong> – Gradually stop using or producing.</li>
+            <li><strong>95. Pluck out</strong> – Remove by pulling.</li>
+            <li><strong>96. Pound out</strong> – Hammer until removed or flattened.</li>
+            <li><strong>97. Purge</strong> – Remove unwanted elements.</li>
+            <li><strong>98. Quash</strong> – Suppress; put an end to.</li>
+            <li><strong>99. Quell</strong> – Calm or stop forcefully.</li>
+            <li><strong>100. Raze</strong> – Level to the ground.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="excitement">
+        <h2>43. 100 Best Synonyms for &ldquo;Excitement&rdquo;</h2>
+        <p class="note">Thrills, energy, and eager feeling, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. agitation</strong> – nervous or emotional excitement</li>
+            <li><strong>2. alarm</strong> – sudden fear or excitement</li>
+            <li><strong>3. animation</strong> – lively energy and spirit</li>
+            <li><strong>4. anticipation</strong> – excited expectation of something</li>
+            <li><strong>5. ardor</strong> – strong enthusiasm or passion</li>
+            <li><strong>6. arousal</strong> – a stirred or excited state</li>
+            <li><strong>7. avidity</strong> – eager desire or enthusiasm</li>
+            <li><strong>8. bliss</strong> – perfect happiness or joy</li>
+            <li><strong>9. bounce</strong> – lively energy and cheer</li>
+            <li><strong>10. brio</strong> – spirited energy and liveliness</li>
+            <li><strong>11. bustle</strong> – energetic activity and movement</li>
+            <li><strong>12. butterflies</strong> – nervous excitement in the stomach</li>
+            <li><strong>13. buzz</strong> – lively excitement or energy</li>
+            <li><strong>14. captivation</strong> – strongly held interest or charm</li>
+            <li><strong>15. charge</strong> – a feeling of energized excitement</li>
+            <li><strong>16. cheer</strong> – happy and lively mood</li>
+            <li><strong>17. cheerfulness</strong> – bright happy spirit</li>
+            <li><strong>18. commotion</strong> – noisy excitement or disturbance</li>
+            <li><strong>19. delight</strong> – great pleasure and happiness</li>
+            <li><strong>20. delirium</strong> – wild excitement or confusion</li>
+            <li><strong>21. disquiet</strong> – uneasy excitement or worry</li>
+            <li><strong>22. drive</strong> – strong motivation or energy</li>
+            <li><strong>23. dynamism</strong> – active energy and force</li>
+            <li><strong>24. eagerness</strong> – keen desire or readiness</li>
+            <li><strong>25. ecstasy</strong> – overwhelming joy or pleasure</li>
+            <li><strong>26. elation</strong> – great happiness and uplift</li>
+            <li><strong>27. energy</strong> – lively force or vigor</li>
+            <li><strong>28. enjoyment</strong> – pleasure in an experience</li>
+            <li><strong>29. enthusiasm</strong> – eager and lively interest</li>
+            <li><strong>30. euphoria</strong> – intense happiness and well-being</li>
+            <li><strong>31. exhilaration</strong> – intense happiness and excitement</li>
+            <li><strong>32. fascination</strong> – intense interest and attraction</li>
+            <li><strong>33. fervor</strong> – intense and passionate enthusiasm</li>
+            <li><strong>34. fever</strong> – intense excitement or agitation</li>
+            <li><strong>35. feverishness</strong> – restless excitement or intensity</li>
+            <li><strong>36. fire</strong> – intense spirit or enthusiasm</li>
+            <li><strong>37. fizz</strong> – bubbling liveliness or excitement</li>
+            <li><strong>38. frenzy</strong> – wild excitement or activity</li>
+            <li><strong>39. furor</strong> – public excitement or uproar</li>
+            <li><strong>40. gaiety</strong> – cheerful liveliness or merriment</li>
+            <li><strong>41. glee</strong> – lively delight or happiness</li>
+            <li><strong>42. glow</strong> – warm pleasure or excitement</li>
+            <li><strong>43. good cheer</strong> – happy, optimistic spirit</li>
+            <li><strong>44. gusto</strong> – hearty enthusiasm and enjoyment</li>
+            <li><strong>45. heat</strong> – emotional intensity or passion</li>
+            <li><strong>46. high</strong> – a euphoric excited feeling</li>
+            <li><strong>47. hubbub</strong> – busy noise and excitement</li>
+            <li><strong>48. hurly-burly</strong> – busy noisy commotion</li>
+            <li><strong>49. hysteria</strong> – uncontrolled emotional excitement</li>
+            <li><strong>50. inspiration</strong> – a motivating excited feeling</li>
+            <li><strong>51. intensity</strong> – strength of feeling or action</li>
+            <li><strong>52. intrigue</strong> – curious fascination or interest</li>
+            <li><strong>53. jitteriness</strong> – nervous, shaky excitement</li>
+            <li><strong>54. jitters</strong> – nervous excitement or anxiety</li>
+            <li><strong>55. joie de vivre</strong> – joyful enthusiasm for life</li>
+            <li><strong>56. jollity</strong> – cheerful sociability and fun</li>
+            <li><strong>57. joy</strong> – strong happiness or pleasure</li>
+            <li><strong>58. jubilation</strong> – joyful celebration or triumph</li>
+            <li><strong>59. keenness</strong> – eager interest or enthusiasm</li>
+            <li><strong>60. kick</strong> – a brief exciting thrill</li>
+            <li><strong>61. liveliness</strong> – energetic and animated quality</li>
+            <li><strong>62. madness</strong> – wild excitement or foolishness</li>
+            <li><strong>63. mania</strong> – extreme enthusiasm or obsession</li>
+            <li><strong>64. merriment</strong> – cheerful fun and laughter</li>
+            <li><strong>65. merriness</strong> – cheerful happiness and fun</li>
+            <li><strong>66. mirth</strong> – joyful amusement or laughter</li>
+            <li><strong>67. nervousness</strong> – anxious or tense feeling</li>
+            <li><strong>68. passion</strong> – intense feeling or enthusiasm</li>
+            <li><strong>69. pep</strong> – lively energy and enthusiasm</li>
+            <li><strong>70. perkiness</strong> – cheerful lively energy</li>
+            <li><strong>71. pleasure</strong> – enjoyment or happy satisfaction</li>
+            <li><strong>72. rapture</strong> – intense joy or delight</li>
+            <li><strong>73. relish</strong> – keen enjoyment or appreciation</li>
+            <li><strong>74. restlessness</strong> – uneasy inability to stay calm</li>
+            <li><strong>75. rush</strong> – a sudden thrill or surge</li>
+            <li><strong>76. spark</strong> – a small burst of excitement</li>
+            <li><strong>77. sparkle</strong> – lively charm or excitement</li>
+            <li><strong>78. spirit</strong> – lively courage or enthusiasm</li>
+            <li><strong>79. stimulation</strong> – mental or physical arousal</li>
+            <li><strong>80. stir</strong> – a small excitement or commotion</li>
+            <li><strong>81. suspense</strong> – excited uncertainty about outcomes</li>
+            <li><strong>82. tension</strong> – nervous excitement or strain</li>
+            <li><strong>83. thrill</strong> – a strong feeling of excitement</li>
+            <li><strong>84. trepidation</strong> – fearful nervous anticipation</li>
+            <li><strong>85. tumult</strong> – confused noise and excitement</li>
+            <li><strong>86. turmoil</strong> – confusion and emotional agitation</li>
+            <li><strong>87. twitchiness</strong> – jumpy nervous excitement</li>
+            <li><strong>88. uproar</strong> – noisy excitement or protest</li>
+            <li><strong>89. urge</strong> – strong desire to act</li>
+            <li><strong>90. verve</strong> – lively enthusiasm and style</li>
+            <li><strong>91. vibrancy</strong> – bright, lively energy</li>
+            <li><strong>92. vigor</strong> – active strength and energy</li>
+            <li><strong>93. vitality</strong> – lively strength and energy</li>
+            <li><strong>94. vivacity</strong> – lively attractiveness or energy</li>
+            <li><strong>95. warmth</strong> – friendly enthusiasm or feeling</li>
+            <li><strong>96. zeal</strong> – eager enthusiasm for something</li>
+            <li><strong>97. zest</strong> – lively enjoyment and enthusiasm</li>
+            <li><strong>98. zestfulness</strong> – lively enthusiasm and enjoyment</li>
+            <li><strong>99. zing</strong> – lively excitement or appeal</li>
+            <li><strong>100. zip</strong> – energy, speed, and liveliness</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="highly">
+        <h2>44. 100 Best Synonyms for &ldquo;Highly&rdquo;</h2>
+        <p class="note">Intensifying adverbs, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. absolutely</strong> – completely or very much</li>
+            <li><strong>2. acutely</strong> – intensely or sharply</li>
+            <li><strong>3. admirably</strong> – in an excellent way</li>
+            <li><strong>4. amazingly</strong> – to a surprising degree</li>
+            <li><strong>5. astonishingly</strong> – in a surprising degree</li>
+            <li><strong>6. astoundingly</strong> – to an astonishing degree</li>
+            <li><strong>7. astronomically</strong> – to an extremely high degree</li>
+            <li><strong>8. awfully</strong> – very; extremely</li>
+            <li><strong>9. brilliantly</strong> – extremely well</li>
+            <li><strong>10. colossally</strong> – to an enormous degree</li>
+            <li><strong>11. completely</strong> – to the fullest extent</li>
+            <li><strong>12. considerably</strong> – to a large degree</li>
+            <li><strong>13. decidedly</strong> – clearly and strongly</li>
+            <li><strong>14. deeply</strong> – to a profound degree</li>
+            <li><strong>15. distinctly</strong> – clearly and noticeably</li>
+            <li><strong>16. dramatically</strong> – to a striking degree</li>
+            <li><strong>17. drastically</strong> – to an extreme degree</li>
+            <li><strong>18. eminently</strong> – to a notable degree</li>
+            <li><strong>19. enormously</strong> – to a very large degree</li>
+            <li><strong>20. entirely</strong> – completely; wholly</li>
+            <li><strong>21. especially</strong> – more than usually</li>
+            <li><strong>22. exceedingly</strong> – to an extreme degree</li>
+            <li><strong>23. exceptionally</strong> – more than usual</li>
+            <li><strong>24. extraordinarily</strong> – to an unusual degree</li>
+            <li><strong>25. extremely</strong> – to a very great degree</li>
+            <li><strong>26. fairly</strong> – to a moderate degree</li>
+            <li><strong>27. fantastically</strong> – extremely well or greatly</li>
+            <li><strong>28. fiercely</strong> – with strong intensity</li>
+            <li><strong>29. firmly</strong> – strongly or securely</li>
+            <li><strong>30. forcefully</strong> – strongly and powerfully</li>
+            <li><strong>31. fully</strong> – to the complete extent</li>
+            <li><strong>32. gigantically</strong> – to an enormous degree</li>
+            <li><strong>33. gravely</strong> – seriously or severely</li>
+            <li><strong>34. greatly</strong> – to a large degree</li>
+            <li><strong>35. heartily</strong> – strongly and sincerely</li>
+            <li><strong>36. hugely</strong> – to a very large degree</li>
+            <li><strong>37. ideally</strong> – in the best possible way</li>
+            <li><strong>38. immensely</strong> – to a very great extent</li>
+            <li><strong>39. impressively</strong> – in an admirable degree</li>
+            <li><strong>40. incredibly</strong> – to an unbelievable degree</li>
+            <li><strong>41. insanely</strong> – extremely; very</li>
+            <li><strong>42. intensely</strong> – with great intensity</li>
+            <li><strong>43. jaw-droppingly</strong> – to an astonishing degree</li>
+            <li><strong>44. jolly</strong> – very; quite</li>
+            <li><strong>45. keenly</strong> – intensely or sharply</li>
+            <li><strong>46. ludicrously</strong> – absurdly or extremely</li>
+            <li><strong>47. madly</strong> – extremely or intensely</li>
+            <li><strong>48. magnificently</strong> – in an excellent way</li>
+            <li><strong>49. majorly</strong> – to a great extent</li>
+            <li><strong>50. markedly</strong> – in a clearly noticeable way</li>
+            <li><strong>51. marvelously</strong> – extremely well or pleasantly</li>
+            <li><strong>52. massively</strong> – to a very large degree</li>
+            <li><strong>53. mind-bogglingly</strong> – to an astonishing degree</li>
+            <li><strong>54. monumentally</strong> – to a huge degree</li>
+            <li><strong>55. notably</strong> – in a noticeable way</li>
+            <li><strong>56. optimally</strong> – in the best degree</li>
+            <li><strong>57. outrageously</strong> – extremely or shockingly</li>
+            <li><strong>58. outstandingly</strong> – exceptionally well or greatly</li>
+            <li><strong>59. overly</strong> – too much</li>
+            <li><strong>60. particularly</strong> – especially or notably</li>
+            <li><strong>61. perfectly</strong> – completely or ideally</li>
+            <li><strong>62. phenomenally</strong> – exceptionally or remarkably</li>
+            <li><strong>63. powerfully</strong> – with strong effect</li>
+            <li><strong>64. preposterously</strong> – absurdly or extremely</li>
+            <li><strong>65. pretty</strong> – fairly; quite</li>
+            <li><strong>66. primely</strong> – in a first-rate way</li>
+            <li><strong>67. profoundly</strong> – deeply or intensely</li>
+            <li><strong>68. quite</strong> – fairly or completely</li>
+            <li><strong>69. radically</strong> – to an extreme degree</li>
+            <li><strong>70. rarely</strong> – unusually or exceptionally</li>
+            <li><strong>71. rather</strong> – to a fairly great degree</li>
+            <li><strong>72. remarkably</strong> – in a notably high degree</li>
+            <li><strong>73. ridiculously</strong> – absurdly or extremely</li>
+            <li><strong>74. robustly</strong> – strongly and effectively</li>
+            <li><strong>75. significantly</strong> – to an important degree</li>
+            <li><strong>76. strikingly</strong> – in a noticeable degree</li>
+            <li><strong>77. strongly</strong> – with great force or intensity</li>
+            <li><strong>78. stunningly</strong> – in an impressive degree</li>
+            <li><strong>79. substantially</strong> – to a considerable degree</li>
+            <li><strong>80. superbly</strong> – in an excellent way</li>
+            <li><strong>81. supremely</strong> – to the highest degree</li>
+            <li><strong>82. surprisingly</strong> – more than expected</li>
+            <li><strong>83. terribly</strong> – very; extremely</li>
+            <li><strong>84. terrifically</strong> – extremely well or greatly</li>
+            <li><strong>85. thoroughly</strong> – completely and fully</li>
+            <li><strong>86. titanically</strong> – to a huge degree</li>
+            <li><strong>87. totally</strong> – completely or very much</li>
+            <li><strong>88. tremendously</strong> – to a huge degree</li>
+            <li><strong>89. ultimately</strong> – at the highest level</li>
+            <li><strong>90. unbelievably</strong> – to an astonishing degree</li>
+            <li><strong>91. uncommonly</strong> – unusually or exceptionally</li>
+            <li><strong>92. unduly</strong> – more than is proper</li>
+            <li><strong>93. unusually</strong> – more than is usual</li>
+            <li><strong>94. utterly</strong> – completely or extremely</li>
+            <li><strong>95. vastly</strong> – to a great extent</li>
+            <li><strong>96. vehemently</strong> – strongly and forcefully</li>
+            <li><strong>97. very</strong> – to a high degree</li>
+            <li><strong>98. vigorously</strong> – with great energy</li>
+            <li><strong>99. wildly</strong> – extremely or excessively</li>
+            <li><strong>100. wonderfully</strong> – extremely well or pleasantly</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="hopeless">
+        <h2>45. 100 Words to Use Instead of &ldquo;Hopeless&rdquo;</h2>
+        <p class="note">No hope / impossible descriptors, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. a dead loss</strong> – a complete failure</li>
+            <li><strong>2. a goner</strong> – certain to be lost</li>
+            <li><strong>3. a lost cause</strong> – something that cannot succeed</li>
+            <li><strong>4. a nonstarter</strong> – something that cannot begin</li>
+            <li><strong>5. adrift</strong> – without direction or hope</li>
+            <li><strong>6. aimless</strong> – without purpose or direction</li>
+            <li><strong>7. at a low ebb</strong> – at a very low point</li>
+            <li><strong>8. at rock bottom</strong> – at the lowest point</li>
+            <li><strong>9. beaten</strong> – overcome with no fight left</li>
+            <li><strong>10. beyond help</strong> – unable to be helped</li>
+            <li><strong>11. beyond hope</strong> – impossible to save or fix</li>
+            <li><strong>12. beyond recovery</strong> – unable to recover</li>
+            <li><strong>13. beyond repair</strong> – unable to be fixed</li>
+            <li><strong>14. beyond saving</strong> – too damaged to rescue</li>
+            <li><strong>15. black</strong> – very bleak and depressing</li>
+            <li><strong>16. bleak</strong> – offering little or no hope</li>
+            <li><strong>17. blocked</strong> – prevented from moving forward</li>
+            <li><strong>18. broken</strong> – spiritually or emotionally defeated</li>
+            <li><strong>19. can't be done</strong> – impossible to accomplish</li>
+            <li><strong>20. cheerless</strong> – lacking cheer or hope</li>
+            <li><strong>21. cornered</strong> – left with no good options</li>
+            <li><strong>22. crestfallen</strong> – sad and disappointed</li>
+            <li><strong>23. crushed</strong> – overwhelmed and defeated</li>
+            <li><strong>24. cynical</strong> – doubting good outcomes</li>
+            <li><strong>25. dead-end</strong> – leading nowhere</li>
+            <li><strong>26. defeated</strong> – beaten and demoralized</li>
+            <li><strong>27. demoralized</strong> – having lost confidence and hope</li>
+            <li><strong>28. despairing</strong> – feeling no hope</li>
+            <li><strong>29. desperate</strong> – having lost hope</li>
+            <li><strong>30. disheartened</strong> – having lost courage or hope</li>
+            <li><strong>31. done for</strong> – ruined beyond saving</li>
+            <li><strong>32. doomed</strong> – certain to fail</li>
+            <li><strong>33. downcast</strong> – sad and discouraged</li>
+            <li><strong>34. downhearted</strong> – feeling low and discouraged</li>
+            <li><strong>35. fatalistic</strong> – expecting failure as inevitable</li>
+            <li><strong>36. finished</strong> – ended with no chance</li>
+            <li><strong>37. foiled</strong> – stopped from succeeding</li>
+            <li><strong>38. forlorn</strong> – sad and without hope</li>
+            <li><strong>39. fruitless</strong> – producing no results</li>
+            <li><strong>40. futile</strong> – incapable of producing results</li>
+            <li><strong>41. gloomy</strong> – dark and without hope</li>
+            <li><strong>42. good-for-nothing</strong> – useless or ineffective</li>
+            <li><strong>43. grim</strong> – harsh and without hope</li>
+            <li><strong>44. hamstrung</strong> – severely limited in action</li>
+            <li><strong>45. hemmed in</strong> – restricted with no way out</li>
+            <li><strong>46. hobbled</strong> – made unable to progress</li>
+            <li><strong>47. immobilized</strong> – unable to move or act</li>
+            <li><strong>48. impossible</strong> – not able to be done</li>
+            <li><strong>49. impracticable</strong> – not practical to do</li>
+            <li><strong>50. in despair</strong> – without hope</li>
+            <li><strong>51. incurable</strong> – unable to be cured</li>
+            <li><strong>52. ineffectual</strong> – not producing the desired effect</li>
+            <li><strong>53. infeasible</strong> – not possible to do</li>
+            <li><strong>54. irredeemable</strong> – impossible to improve or save</li>
+            <li><strong>55. long-shot</strong> – very unlikely to succeed</li>
+            <li><strong>56. lost</strong> – unable to find a way forward</li>
+            <li><strong>57. never going to work</strong> – certain not to succeed</li>
+            <li><strong>58. no chance</strong> – no possibility of success</li>
+            <li><strong>59. no way</strong> – not possible at all</li>
+            <li><strong>60. nonviable</strong> – not able to succeed</li>
+            <li><strong>61. not a chance</strong> – no possibility of success</li>
+            <li><strong>62. not happening</strong> – not going to occur</li>
+            <li><strong>63. out of hope</strong> – having no hope left</li>
+            <li><strong>64. out of moves</strong> – having no actions left</li>
+            <li><strong>65. out of options</strong> – having no choices left</li>
+            <li><strong>66. out of reach</strong> – impossible to obtain</li>
+            <li><strong>67. out of the question</strong> – not possible or acceptable</li>
+            <li><strong>68. paralyzed</strong> – unable to act or decide</li>
+            <li><strong>69. pessimistic</strong> – expecting the worst</li>
+            <li><strong>70. pinned down</strong> – unable to move or act</li>
+            <li><strong>71. pointless</strong> – having no purpose or value</li>
+            <li><strong>72. powerless</strong> – unable to influence events</li>
+            <li><strong>73. remote</strong> – very unlikely to happen</li>
+            <li><strong>74. resigned</strong> – accepting defeat without hope</li>
+            <li><strong>75. rudderless</strong> – without guidance or direction</li>
+            <li><strong>76. ruined</strong> – damaged beyond repair</li>
+            <li><strong>77. shot</strong> – worn out beyond use</li>
+            <li><strong>78. slim</strong> – having little chance</li>
+            <li><strong>79. spiritless</strong> – lacking spirit or hope</li>
+            <li><strong>80. stuck</strong> – unable to make progress</li>
+            <li><strong>81. stymied</strong> – blocked and unable to proceed</li>
+            <li><strong>82. through</strong> – finished and unable to continue</li>
+            <li><strong>83. thwarted</strong> – prevented from succeeding</li>
+            <li><strong>84. trapped</strong> – unable to escape or change</li>
+            <li><strong>85. unachievable</strong> – not possible to accomplish</li>
+            <li><strong>86. unattainable</strong> – not possible to achieve</li>
+            <li><strong>87. unfeasible</strong> – not practical or possible</li>
+            <li><strong>88. unfixable</strong> – cannot be fixed</li>
+            <li><strong>89. unrealizable</strong> – not possible to make real</li>
+            <li><strong>90. unrecoverable</strong> – cannot be recovered</li>
+            <li><strong>91. unsalvageable</strong> – cannot be saved</li>
+            <li><strong>92. untenable</strong> – unable to be maintained</li>
+            <li><strong>93. unviable</strong> – not capable of working</li>
+            <li><strong>94. unworkable</strong> – not able to function</li>
+            <li><strong>95. valueless</strong> – having no value</li>
+            <li><strong>96. woeful</strong> – deeply sad and hopeless</li>
+            <li><strong>97. world-weary</strong> – tired and disillusioned</li>
+            <li><strong>98. worthless</strong> – having no value or use</li>
+            <li><strong>99. wrecked</strong> – badly damaged and useless</li>
+            <li><strong>100. wretched</strong> – very unhappy and hopeless</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="burden">
+        <h2>46. 100 Best Synonyms for &ldquo;Burden&rdquo;</h2>
+        <p class="note">Weight, duty, and hardship nouns, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. accountability</strong> – Responsibility for actions or results.</li>
+            <li><strong>2. affliction</strong> – Something causing pain or hardship.</li>
+            <li><strong>3. albatross</strong> – A persistent, troublesome burden.</li>
+            <li><strong>4. answerability</strong> – Obligation to explain or justify.</li>
+            <li><strong>5. assignment</strong> – A task or duty given.</li>
+            <li><strong>6. baggage</strong> – Emotional or practical load carried.</li>
+            <li><strong>7. ball and chain</strong> – A heavy restraint or obligation.</li>
+            <li><strong>8. bane</strong> – A cause of distress or ruin.</li>
+            <li><strong>9. bar</strong> – Something that prevents or hinders.</li>
+            <li><strong>10. barrier</strong> – Something preventing movement or progress.</li>
+            <li><strong>11. bind</strong> – A restrictive obligation or tie.</li>
+            <li><strong>12. brake</strong> – Something that slows progress.</li>
+            <li><strong>13. burthen</strong> – An archaic form meaning burden.</li>
+            <li><strong>14. care</strong> – A worry or responsibility.</li>
+            <li><strong>15. challenge</strong> – A demanding task or situation.</li>
+            <li><strong>16. charge</strong> – A duty or responsibility entrusted.</li>
+            <li><strong>17. claim</strong> – A demand on attention or resources.</li>
+            <li><strong>18. commitment</strong> – A serious obligation or promise.</li>
+            <li><strong>19. concern</strong> – A matter causing worry.</li>
+            <li><strong>20. cost</strong> – A loss or sacrifice required.</li>
+            <li><strong>21. cross</strong> – A personal trial or suffering.</li>
+            <li><strong>22. curse</strong> – Something causing great trouble.</li>
+            <li><strong>23. deadweight</strong> – Something useless that weighs down.</li>
+            <li><strong>24. demand</strong> – A pressing requirement or claim.</li>
+            <li><strong>25. difficulty</strong> – Something hard to deal with.</li>
+            <li><strong>26. disadvantage</strong> – An unfavorable condition or obstacle.</li>
+            <li><strong>27. downside</strong> – A negative aspect or drawback.</li>
+            <li><strong>28. drag</strong> – Something that slows or weighs down.</li>
+            <li><strong>29. drawback</strong> – A disadvantage or unwanted difficulty.</li>
+            <li><strong>30. duty</strong> – A moral or legal responsibility.</li>
+            <li><strong>31. emotional baggage</strong> – Past issues carried emotionally.</li>
+            <li><strong>32. emotional load</strong> – Emotional weight or responsibility.</li>
+            <li><strong>33. encumbrance</strong> – Something that hinders or weighs down.</li>
+            <li><strong>34. exaction</strong> – An excessive demand or charge.</li>
+            <li><strong>35. exertion</strong> – Physical or mental effort.</li>
+            <li><strong>36. expense</strong> – A cost or charge.</li>
+            <li><strong>37. fallout</strong> – Unpleasant consequences.</li>
+            <li><strong>38. fetters</strong> – Restraints limiting freedom or progress.</li>
+            <li><strong>39. financial load</strong> – Money-related burden or pressure.</li>
+            <li><strong>40. freight</strong> – A heavy load or cargo.</li>
+            <li><strong>41. grind</strong> – Long, tedious hard work.</li>
+            <li><strong>42. handicap</strong> – A disadvantage that limits progress.</li>
+            <li><strong>43. hangover</strong> – Lingering effect causing difficulty.</li>
+            <li><strong>44. hardship</strong> – Severe difficulty or suffering.</li>
+            <li><strong>45. heaviness</strong> – A feeling of weight or seriousness.</li>
+            <li><strong>46. hindrance</strong> – Something that makes progress difficult.</li>
+            <li><strong>47. hitch</strong> – A temporary difficulty or delay.</li>
+            <li><strong>48. hurdle</strong> – An obstacle to overcome.</li>
+            <li><strong>49. impediment</strong> – Something that blocks or delays progress.</li>
+            <li><strong>50. imposition</strong> – An unfair or unwanted demand.</li>
+            <li><strong>51. indebtedness</strong> – State of owing money or duty.</li>
+            <li><strong>52. labor</strong> – Hard work or effort.</li>
+            <li><strong>53. legacy</strong> – Something troublesome inherited from the past.</li>
+            <li><strong>54. liability</strong> – A disadvantage or responsibility causing trouble.</li>
+            <li><strong>55. limitation</strong> – A restricting condition or weakness.</li>
+            <li><strong>56. load</strong> – Something heavy to carry or bear.</li>
+            <li><strong>57. loss</strong> – Something given up or suffered.</li>
+            <li><strong>58. mental load</strong> – Invisible planning and worry work.</li>
+            <li><strong>59. millstone</strong> – A heavy, oppressive responsibility.</li>
+            <li><strong>60. mission</strong> – An assigned task or duty.</li>
+            <li><strong>61. money pit</strong> – Something requiring endless spending.</li>
+            <li><strong>62. necessity</strong> – Something unavoidable or required.</li>
+            <li><strong>63. obligation</strong> – Something one is required to do.</li>
+            <li><strong>64. obstacle</strong> – Something blocking progress or success.</li>
+            <li><strong>65. onus</strong> – A duty or responsibility to bear.</li>
+            <li><strong>66. oppression</strong> – A heavy, crushing pressure.</li>
+            <li><strong>67. ordeal</strong> – A very difficult experience.</li>
+            <li><strong>68. overhead</strong> – Ongoing cost or administrative load.</li>
+            <li><strong>69. penalty</strong> – A disadvantage suffered as consequence.</li>
+            <li><strong>70. plague</strong> – A persistent source of trouble.</li>
+            <li><strong>71. pressure</strong> – Demand or stress placed on someone.</li>
+            <li><strong>72. price</strong> – A cost paid for something.</li>
+            <li><strong>73. problem</strong> – A matter causing difficulty.</li>
+            <li><strong>74. psychic weight</strong> – Heavy mental or emotional pressure.</li>
+            <li><strong>75. repercussion</strong> – An indirect, troublesome consequence.</li>
+            <li><strong>76. requirement</strong> – Something that must be done.</li>
+            <li><strong>77. resource drain</strong> – Something consuming valuable resources.</li>
+            <li><strong>78. responsibility</strong> – A duty one must handle.</li>
+            <li><strong>79. restraint</strong> – Something limiting freedom or action.</li>
+            <li><strong>80. restriction</strong> – A limiting rule or condition.</li>
+            <li><strong>81. shackle</strong> – A restraint or limiting burden.</li>
+            <li><strong>82. slog</strong> – A long, difficult effort.</li>
+            <li><strong>83. snag</strong> – A small problem or obstacle.</li>
+            <li><strong>84. stewardship</strong> – Responsible care or management.</li>
+            <li><strong>85. strain</strong> – Pressure that is hard to bear.</li>
+            <li><strong>86. stress</strong> – Mental or emotional pressure.</li>
+            <li><strong>87. stumbling block</strong> – A difficulty that prevents progress.</li>
+            <li><strong>88. task</strong> – A piece of work required.</li>
+            <li><strong>89. tax</strong> – A heavy demand or strain.</li>
+            <li><strong>90. tether</strong> – A restraint limiting freedom.</li>
+            <li><strong>91. tie</strong> – A binding duty or connection.</li>
+            <li><strong>92. toll</strong> – A damaging cost or strain.</li>
+            <li><strong>93. trammel</strong> – A restriction or hindrance.</li>
+            <li><strong>94. trial</strong> – A difficult test or experience.</li>
+            <li><strong>95. trouble</strong> – Difficulty, worry, or inconvenience.</li>
+            <li><strong>96. undertaking</strong> – A task or project taken on.</li>
+            <li><strong>97. weight</strong> – A heavy pressure or responsibility.</li>
+            <li><strong>98. workload</strong> – Amount of work to handle.</li>
+            <li><strong>99. worry</strong> – A source of anxiety or concern.</li>
+            <li><strong>100. yoke</strong> – An oppressive duty or restraint.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="massive">
+        <h2>47. 100 Words to Use Instead of &ldquo;Massive&rdquo;</h2>
+        <p class="note">Size and scale words, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. abundant</strong> – more than enough; plentiful</li>
+            <li><strong>2. ample</strong> – more than enough; plentiful</li>
+            <li><strong>3. amplified</strong> – made greater in size or effect</li>
+            <li><strong>4. astonishing</strong> – very surprising in size or degree</li>
+            <li><strong>5. astounding</strong> – very surprising; extremely great</li>
+            <li><strong>6. astronomical</strong> – extremely large, especially numbers</li>
+            <li><strong>7. behemoth</strong> – something very large and powerful</li>
+            <li><strong>8. big</strong> – large in size or amount</li>
+            <li><strong>9. bountiful</strong> – large in quantity; generous</li>
+            <li><strong>10. brawny</strong> – big and strong-looking</li>
+            <li><strong>11. broad</strong> – wide; large across</li>
+            <li><strong>12. Brobdingnagian</strong> – gigantic; enormous</li>
+            <li><strong>13. bulky</strong> – large and hard to handle</li>
+            <li><strong>14. burly</strong> – large and strong</li>
+            <li><strong>15. chunky</strong> – thick and solidly built</li>
+            <li><strong>16. colossal</strong> – extremely large and impressive</li>
+            <li><strong>17. consequential</strong> – important; having big effects</li>
+            <li><strong>18. considerable</strong> – fairly large in size or amount</li>
+            <li><strong>19. copious</strong> – large in quantity</li>
+            <li><strong>20. countless</strong> – too many to count</li>
+            <li><strong>21. deep</strong> – extending far downward or inward</li>
+            <li><strong>22. drawn-out</strong> – lasting longer than expected</li>
+            <li><strong>23. earthshaking</strong> – very great and important</li>
+            <li><strong>24. elephantine</strong> – very large and heavy</li>
+            <li><strong>25. enormity</strong> – great size or extent</li>
+            <li><strong>26. enormous</strong> – extremely large</li>
+            <li><strong>27. epic</strong> – very large and impressive</li>
+            <li><strong>28. expansive</strong> – covering a wide area</li>
+            <li><strong>29. extensive</strong> – covering a large area or amount</li>
+            <li><strong>30. extraordinary</strong> – very unusual and great</li>
+            <li><strong>31. gargantuan</strong> – enormously large</li>
+            <li><strong>32. generous</strong> – more than usual in amount</li>
+            <li><strong>33. giant</strong> – very large; enormous</li>
+            <li><strong>34. gigantic</strong> – very large; giant-sized</li>
+            <li><strong>35. ginormous</strong> – very large; enormous</li>
+            <li><strong>36. good-sized</strong> – quite large</li>
+            <li><strong>37. grand</strong> – large and impressive</li>
+            <li><strong>38. great</strong> – large in amount or degree</li>
+            <li><strong>39. hefty</strong> – large, heavy, or substantial</li>
+            <li><strong>40. heightened</strong> – increased in degree</li>
+            <li><strong>41. Herculean</strong> – requiring great strength; huge</li>
+            <li><strong>42. huge</strong> – very large in size or amount</li>
+            <li><strong>43. hulking</strong> – large, heavy, and awkward</li>
+            <li><strong>44. humongous</strong> – very large; huge</li>
+            <li><strong>45. immeasurable</strong> – too large to measure</li>
+            <li><strong>46. immense</strong> – extremely large or great</li>
+            <li><strong>47. immensity</strong> – great size; vastness</li>
+            <li><strong>48. incalculable</strong> – too great to calculate</li>
+            <li><strong>49. inflated</strong> – made larger than normal</li>
+            <li><strong>50. innumerable</strong> – too many to be counted</li>
+            <li><strong>51. jam-packed</strong> – completely full</li>
+            <li><strong>52. jaw-dropping</strong> – astonishingly large or impressive</li>
+            <li><strong>53. jumbo</strong> – very large</li>
+            <li><strong>54. king-size</strong> – very large; extra large</li>
+            <li><strong>55. large</strong> – of great size</li>
+            <li><strong>56. lavish</strong> – very large or generous</li>
+            <li><strong>57. legendary</strong> – remarkably great in scale</li>
+            <li><strong>58. lengthy</strong> – long in time or length</li>
+            <li><strong>59. Leviathan</strong> – very large and powerful</li>
+            <li><strong>60. limitless</strong> – without limit; extremely great</li>
+            <li><strong>61. long</strong> – measuring a great distance</li>
+            <li><strong>62. magnitude</strong> – great size or importance</li>
+            <li><strong>63. major</strong> – very important or large-scale</li>
+            <li><strong>64. mammoth</strong> – very large; huge</li>
+            <li><strong>65. meaningful</strong> – important; substantial</li>
+            <li><strong>66. mega</strong> – very large; extremely big</li>
+            <li><strong>67. mind-blowing</strong> – extremely impressive or large</li>
+            <li><strong>68. monstrous</strong> – very large and frightening</li>
+            <li><strong>69. monumental</strong> – very large and important</li>
+            <li><strong>70. notable</strong> – worth noticing; significant</li>
+            <li><strong>71. outsize</strong> – unusually large</li>
+            <li><strong>72. overflowing</strong> – so full it spills over</li>
+            <li><strong>73. oversized</strong> – larger than the usual size</li>
+            <li><strong>74. packed</strong> – filled tightly; very full</li>
+            <li><strong>75. phenomenal</strong> – very great; remarkable</li>
+            <li><strong>76. plentiful</strong> – existing in large amounts</li>
+            <li><strong>77. prodigious</strong> – remarkably large in size or degree</li>
+            <li><strong>78. profuse</strong> – very great in amount</li>
+            <li><strong>79. protracted</strong> – lasting a long time</li>
+            <li><strong>80. ramped-up</strong> – increased quickly or strongly</li>
+            <li><strong>81. remarkable</strong> – unusually large or notable</li>
+            <li><strong>82. sheer</strong> – nothing but; very great</li>
+            <li><strong>83. sizeable</strong> – fairly large</li>
+            <li><strong>84. staggering</strong> – so large it shocks</li>
+            <li><strong>85. strapping</strong> – tall and strongly built</li>
+            <li><strong>86. stupendous</strong> – extremely large or impressive</li>
+            <li><strong>87. substantial</strong> – large in amount or size</li>
+            <li><strong>88. supersized</strong> – made much larger than usual</li>
+            <li><strong>89. sweeping</strong> – wide-ranging in scope</li>
+            <li><strong>90. tall</strong> – having great height</li>
+            <li><strong>91. teeming</strong> – full of; very abundant</li>
+            <li><strong>92. thickset</strong> – broad and solidly built</li>
+            <li><strong>93. titanic</strong> – of enormous size or power</li>
+            <li><strong>94. towering</strong> – very tall or large</li>
+            <li><strong>95. tremendous</strong> – very large or great</li>
+            <li><strong>96. unlimited</strong> – without any limit</li>
+            <li><strong>97. vast</strong> – very great in size or extent</li>
+            <li><strong>98. vastness</strong> – great size or extent</li>
+            <li><strong>99. weighty</strong> – important; serious; substantial</li>
+            <li><strong>100. whopping</strong> – very large or impressive</li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <section id="smells">
+        <h2>48. 100 Words to Describe Smells in Writing</h2>
+        <p class="note">Scent and odor descriptors for prose, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. Acrid</strong> – sharp, biting, irritating smell</li>
+            <li><strong>2. Airy</strong> – light, open, barely-there scent</li>
+            <li><strong>3. Alcoholic</strong> – smelling of spirits or ethanol</li>
+            <li><strong>4. Almondy</strong> – sweet, nutlike, marzipan scent</li>
+            <li><strong>5. Ammoniacal</strong> – pungent, urine-like ammonia odor</li>
+            <li><strong>6. Animalic</strong> – musky, bodily, fur-like odor</li>
+            <li><strong>7. Aniseed</strong> – sweet, licorice-like spice smell</li>
+            <li><strong>8. Antiseptic</strong> – clean, medicinal, disinfectant odor</li>
+            <li><strong>9. Aromatic</strong> – pleasantly fragrant, spice-tinged</li>
+            <li><strong>10. Ashen</strong> – dry, sooty, fireplace-like smell</li>
+            <li><strong>11. Balsamic</strong> – resinous, sweet, wood-and-amber scent</li>
+            <li><strong>12. Barnyard</strong> – earthy, manure-tinged farm smell</li>
+            <li><strong>13. Bitter</strong> – sharp, sour-leaning unpleasant odor</li>
+            <li><strong>14. Brackish</strong> – salty, stagnant, sea-tinged smell</li>
+            <li><strong>15. Burnt</strong> – charred, scorched, smoke-heavy odor</li>
+            <li><strong>16. Buttery</strong> – rich, creamy, melted-fat scent</li>
+            <li><strong>17. Camphorous</strong> – cool, medicinal, mothball-like aroma</li>
+            <li><strong>18. Candy-sweet</strong> – sugary, confection-like fragrance</li>
+            <li><strong>19. Carbolic</strong> – phenolic, disinfectant-like odor</li>
+            <li><strong>20. Cedarwood</strong> – dry, pencil-shaving wood scent</li>
+            <li><strong>21. Chlorinous</strong> – bleachy, pool-chemical smell</li>
+            <li><strong>22. Citrusy</strong> – bright, zesty, peel-like scent</li>
+            <li><strong>23. Cloying</strong> – overly sweet, suffocating fragrance</li>
+            <li><strong>24. Cocoa-rich</strong> – deep, chocolatey, roasted aroma</li>
+            <li><strong>25. Damp</strong> – wet, musty, moisture-heavy smell</li>
+            <li><strong>26. Decaying</strong> – rotting, breaking-down organic odor</li>
+            <li><strong>27. Diesel</strong> – oily, fuel-like exhaust smell</li>
+            <li><strong>28. Dirty</strong> – grimy, unwashed, stale odor</li>
+            <li><strong>29. Disinfectant</strong> – sterile, chemical-clean smell</li>
+            <li><strong>30. Doggy</strong> – wet-fur, kennel-like odor</li>
+            <li><strong>31. Dried-herbal</strong> – crushed leaves, haylike aroma</li>
+            <li><strong>32. Dusty</strong> – powdery, old-paper smell</li>
+            <li><strong>33. Earthy</strong> – soil-like, grounded, loamy scent</li>
+            <li><strong>34. Eggy</strong> – sulfurous, boiled-egg smell</li>
+            <li><strong>35. Elderflower</strong> – lightly floral, green-sweet scent</li>
+            <li><strong>36. Exhausty</strong> – fume-heavy, traffic-like odor</li>
+            <li><strong>37. Faint</strong> – barely noticeable, subdued smell</li>
+            <li><strong>38. Feculent</strong> – filthy, sewage-like stench</li>
+            <li><strong>39. Fermented</strong> – yeasty, souring, brewing odor</li>
+            <li><strong>40. Fetid</strong> – intensely foul, putrid smell</li>
+            <li><strong>41. Fishy</strong> – briny, marine, stale-seafood odor</li>
+            <li><strong>42. Floral</strong> – flowerlike, perfumed scent</li>
+            <li><strong>43. Fragrant</strong> – pleasing, noticeable aroma</li>
+            <li><strong>44. Gamy</strong> – wild-meat, musky, bloody odor</li>
+            <li><strong>45. Garlicky</strong> – pungent, savory, allium smell</li>
+            <li><strong>46. Gaseous</strong> – chemical, fume-like odor</li>
+            <li><strong>47. Gingered</strong> – warm, spicy, sharp scent</li>
+            <li><strong>48. Greasy</strong> – oily, fried-fat smell</li>
+            <li><strong>49. Green</strong> – fresh-cut plant, leafy scent</li>
+            <li><strong>50. Grimy</strong> – soiled, sweat-tinged odor</li>
+            <li><strong>51. Harsh</strong> – rough, stinging, abrasive smell</li>
+            <li><strong>52. Headachey</strong> – overpowering, sickly strong scent</li>
+            <li><strong>53. Heady</strong> – intoxicatingly strong, lush aroma</li>
+            <li><strong>54. Herbal</strong> – leafy, medicinal-plant scent</li>
+            <li><strong>55. Honeyed</strong> – sweet, nectar-like fragrance</li>
+            <li><strong>56. Hot-metal</strong> – heated iron, workshop-like odor</li>
+            <li><strong>57. Incensey</strong> – smoky, resinous, temple-like scent</li>
+            <li><strong>58. Inky</strong> – sharp, chemical, pen-ink smell</li>
+            <li><strong>59. Iodine</strong> – briny, antiseptic, sea-medicinal</li>
+            <li><strong>60. Jammy</strong> – cooked fruit, thick-sweet smell</li>
+            <li><strong>61. Jasmine</strong> – rich, white-floral, narcotic scent</li>
+            <li><strong>62. Jerky-like</strong> – smoky, cured-meat aroma</li>
+            <li><strong>63. Juniper</strong> – piney, gin-like, resinous scent</li>
+            <li><strong>64. Kerosene</strong> – sharp, oily lamp-fuel smell</li>
+            <li><strong>65. Kitchen-stale</strong> – old cooking odors lingering</li>
+            <li><strong>66. Lavender</strong> – clean, calming, floral-herbal scent</li>
+            <li><strong>67. Leathery</strong> – tanned hide, warm, dry odor</li>
+            <li><strong>68. Lemony</strong> – bright, tart citrus smell</li>
+            <li><strong>69. Malodorous</strong> – noticeably unpleasant smell</li>
+            <li><strong>70. Manurey</strong> – strong dung, farmyard odor</li>
+            <li><strong>71. Medicinal</strong> – drugstore-like, antiseptic scent</li>
+            <li><strong>72. Mildewy</strong> – musty, damp-mold smell</li>
+            <li><strong>73. Minty</strong> – cool, sharp, refreshing scent</li>
+            <li><strong>74. Mossy</strong> – green, damp-forest smell</li>
+            <li><strong>75. Musk</strong> – warm, animal-skin fragrance</li>
+            <li><strong>76. Nauseating</strong> – sickeningly foul or cloying</li>
+            <li><strong>77. Nutty</strong> – toasted, seedlike aroma</li>
+            <li><strong>78. Oaky</strong> – dry barrel-wood scent</li>
+            <li><strong>79. Oily</strong> – slick, fatty, petroleum-tinged</li>
+            <li><strong>80. Oniony</strong> – sharp, sulfurous allium smell</li>
+            <li><strong>81. Ozone</strong> – sharp, clean, after-storm scent</li>
+            <li><strong>82. Peppery</strong> – spicy, prickling, sharp aroma</li>
+            <li><strong>83. Perfumed</strong> – artificially fragrant, cosmetic smell</li>
+            <li><strong>84. Petrichor</strong> – earthy scent after rain</li>
+            <li><strong>85. Piney</strong> – resinous evergreen smell</li>
+            <li><strong>86. Pungent</strong> – strong, sharp, penetrating odor</li>
+            <li><strong>87. Putrid</strong> – rotten, rancid, vile smell</li>
+            <li><strong>88. Rancid</strong> – spoiled fat, sour-oily odor</li>
+            <li><strong>89. Resinous</strong> – saplike, sticky, balsam scent</li>
+            <li><strong>90. Ripe</strong> – fully developed, sweet-strong odor</li>
+            <li><strong>91. Rotten</strong> – decomposed, foul organic smell</li>
+            <li><strong>92. Salty</strong> – sea-air, mineral tang scent</li>
+            <li><strong>93. Savory</strong> – meaty, brothlike, appetizing smell</li>
+            <li><strong>94. Sewerish</strong> – drain, waste, sewage odor</li>
+            <li><strong>95. Skunky</strong> – sharp, sulfurous spray smell</li>
+            <li><strong>96. Smoky</strong> – woodsmoke, ash, burnt scent</li>
+            <li><strong>97. Soapy</strong> – clean, detergent-like smell</li>
+            <li><strong>98. Spicy</strong> – warm, peppered, aromatic scent</li>
+            <li><strong>99. Stale</strong> – old, flat, airless smell</li>
+            <li><strong>100. Stinking</strong> – strongly unpleasant odor</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="drama">
+        <h2>49. 100 Words to Describe Drama</h2>
+        <p class="note">Intensity, conflict, and emotional stakes, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. acrimonious</strong> – angry and bitter</li>
+            <li><strong>2. agitated</strong> – nervous, upset, or excited</li>
+            <li><strong>3. agonizing</strong> – causing intense emotional pain</li>
+            <li><strong>4. anguished</strong> – showing severe mental pain</li>
+            <li><strong>5. anxious</strong> – worried and tense</li>
+            <li><strong>6. bitter</strong> – full of resentment or pain</li>
+            <li><strong>7. boiling</strong> – full of anger or excitement</li>
+            <li><strong>8. breathless</strong> – excitingly fast or intense</li>
+            <li><strong>9. brooding</strong> – deeply troubled and moody</li>
+            <li><strong>10. captivating</strong> – very attractive and engaging</li>
+            <li><strong>11. chaotic</strong> – completely disordered and confused</li>
+            <li><strong>12. charged</strong> – full of strong emotion</li>
+            <li><strong>13. combative</strong> – ready to fight or argue</li>
+            <li><strong>14. compelling</strong> – powerfully interesting or convincing</li>
+            <li><strong>15. confrontational</strong> – inclined toward conflict</li>
+            <li><strong>16. contentious</strong> – likely to cause argument</li>
+            <li><strong>17. critical</strong> – at a dangerous turning point</li>
+            <li><strong>18. dark</strong> – serious, grim, or threatening</li>
+            <li><strong>19. devastating</strong> – causing severe shock or grief</li>
+            <li><strong>20. dire</strong> – extremely serious or urgent</li>
+            <li><strong>21. disquieting</strong> – causing unease or anxiety</li>
+            <li><strong>22. disturbing</strong> – causing worry or discomfort</li>
+            <li><strong>23. do-or-die</strong> – allowing no failure</li>
+            <li><strong>24. dramatic</strong> – full of excitement or emotion</li>
+            <li><strong>25. edge-of-your-seat</strong> – extremely suspenseful and exciting</li>
+            <li><strong>26. electrifying</strong> – thrillingly exciting and intense</li>
+            <li><strong>27. emotional</strong> – showing strong feelings</li>
+            <li><strong>28. epic</strong> – grand and dramatic in scale</li>
+            <li><strong>29. exaggerated</strong> – made larger than reality</li>
+            <li><strong>30. explosive</strong> – likely to erupt suddenly</li>
+            <li><strong>31. fierce</strong> – intensely aggressive or strong</li>
+            <li><strong>32. fiery</strong> – full of strong emotion</li>
+            <li><strong>33. foreboding</strong> – feeling of coming trouble</li>
+            <li><strong>34. frantic</strong> – wild with fear or urgency</li>
+            <li><strong>35. fraught</strong> – full of tension or anxiety</li>
+            <li><strong>36. frenzied</strong> – wildly excited or uncontrolled</li>
+            <li><strong>37. grandiose</strong> – overly grand or ambitious</li>
+            <li><strong>38. grave</strong> – very serious or solemn</li>
+            <li><strong>39. grim</strong> – serious and depressing</li>
+            <li><strong>40. gripping</strong> – holding attention intensely</li>
+            <li><strong>41. gut-wrenching</strong> – causing deep emotional pain</li>
+            <li><strong>42. harrowing</strong> – deeply distressing or disturbing</li>
+            <li><strong>43. heartbreaking</strong> – causing great sadness</li>
+            <li><strong>44. heartfelt</strong> – deeply sincere and emotional</li>
+            <li><strong>45. heated</strong> – full of anger or excitement</li>
+            <li><strong>46. high-stakes</strong> – involving serious consequences</li>
+            <li><strong>47. histrionic</strong> – excessively dramatic or emotional</li>
+            <li><strong>48. hostile</strong> – showing anger or opposition</li>
+            <li><strong>49. hysterical</strong> – wildly emotional or frantic</li>
+            <li><strong>50. incendiary</strong> – likely to provoke conflict</li>
+            <li><strong>51. inflamed</strong> – aroused to anger or passion</li>
+            <li><strong>52. intense</strong> – very strong or extreme</li>
+            <li><strong>53. jaw-dropping</strong> – astonishingly impressive or shocking</li>
+            <li><strong>54. larger-than-life</strong> – strikingly vivid or exaggerated</li>
+            <li><strong>55. life-or-death</strong> – involving survival itself</li>
+            <li><strong>56. loaded</strong> – charged with hidden meaning</li>
+            <li><strong>57. manic</strong> – wildly energetic or emotional</li>
+            <li><strong>58. melodramatic</strong> – overly emotional and sensational</li>
+            <li><strong>59. momentous</strong> – very important and serious</li>
+            <li><strong>60. moving</strong> – causing strong emotion</li>
+            <li><strong>61. nerve-racking</strong> – causing great stress</li>
+            <li><strong>62. ominous</strong> – suggesting something bad ahead</li>
+            <li><strong>63. oppressive</strong> – heavy, harsh, and controlling</li>
+            <li><strong>64. overblown</strong> – exaggerated beyond reason</li>
+            <li><strong>65. overwhelming</strong> – too powerful to handle</li>
+            <li><strong>66. overwrought</strong> – too emotional or agitated</li>
+            <li><strong>67. passionate</strong> – showing powerful feeling</li>
+            <li><strong>68. poignant</strong> – deeply affecting and sad</li>
+            <li><strong>69. powerful</strong> – having strong emotional impact</li>
+            <li><strong>70. pregnant</strong> – full of meaning or tension</li>
+            <li><strong>71. provocative</strong> – causing strong reactions</li>
+            <li><strong>72. pulse-pounding</strong> – causing intense excitement</li>
+            <li><strong>73. raucous</strong> – loud and disorderly</li>
+            <li><strong>74. raw</strong> – unfiltered and deeply emotional</li>
+            <li><strong>75. red-hot</strong> – extremely intense or exciting</li>
+            <li><strong>76. riveting</strong> – extremely engaging and exciting</li>
+            <li><strong>77. savage</strong> – fierce and brutal</li>
+            <li><strong>78. searing</strong> – intensely painful or emotional</li>
+            <li><strong>79. shattering</strong> – deeply upsetting or shocking</li>
+            <li><strong>80. soul-stirring</strong> – deeply emotionally affecting</li>
+            <li><strong>81. spellbinding</strong> – holding complete attention</li>
+            <li><strong>82. stormy</strong> – marked by conflict or turmoil</li>
+            <li><strong>83. suspenseful</strong> – creating anxious uncertainty</li>
+            <li><strong>84. sweeping</strong> – broad and dramatic in scope</li>
+            <li><strong>85. tempestuous</strong> – full of strong emotions</li>
+            <li><strong>86. tense</strong> – filled with strain or suspense</li>
+            <li><strong>87. theatrical</strong> – overly showy or exaggerated</li>
+            <li><strong>88. thrilling</strong> – causing excitement and pleasure</li>
+            <li><strong>89. tormented</strong> – suffering intense mental pain</li>
+            <li><strong>90. tragic</strong> – involving terrible sadness or loss</li>
+            <li><strong>91. troubling</strong> – causing concern or distress</li>
+            <li><strong>92. turbulent</strong> – full of disorder and conflict</li>
+            <li><strong>93. unnerving</strong> – making someone uneasy</li>
+            <li><strong>94. uproarious</strong> – noisy and wildly excited</li>
+            <li><strong>95. upsetting</strong> – causing emotional distress</li>
+            <li><strong>96. venomous</strong> – full of malice or spite</li>
+            <li><strong>97. volatile</strong> – likely to change explosively</li>
+            <li><strong>98. white-hot</strong> – at peak intensity</li>
+            <li><strong>99. wild</strong> – uncontrolled and intense</li>
+            <li><strong>100. wrenching</strong> – causing deep emotional pain</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="useless">
+        <h2>50. 100 Words to Use Instead of &ldquo;Useless&rdquo;</h2>
+        <p class="note">Worthless, ineffective, and pointless descriptors, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. a burden</strong> – something that hinders or weighs down</li>
+            <li><strong>2. a drag</strong> – something that holds you back</li>
+            <li><strong>3. a lemon</strong> – a defective, disappointing item</li>
+            <li><strong>4. a lost cause</strong> – impossible to improve or fix</li>
+            <li><strong>5. a waste</strong> – not worth the time or effort</li>
+            <li><strong>6. a write-off</strong> – not worth saving or using</li>
+            <li><strong>7. abortive</strong> – failing to produce the intended result</li>
+            <li><strong>8. absurd</strong> – wildly unreasonable; pointless</li>
+            <li><strong>9. baggage</strong> – a burden; not helpful</li>
+            <li><strong>10. ballast</strong> – unneeded weight; no benefit</li>
+            <li><strong>11. banal</strong> – so dull as to be useless</li>
+            <li><strong>12. broken</strong> – not working properly</li>
+            <li><strong>13. cheap</strong> – low quality; not effective</li>
+            <li><strong>14. counterproductive</strong> – having the opposite of intended effect</li>
+            <li><strong>15. crummy</strong> – poor in quality</li>
+            <li><strong>16. dead</strong> – no longer working or active</li>
+            <li><strong>17. deadwood</strong> – useless people or things</li>
+            <li><strong>18. defective</strong> – having a fault; not working</li>
+            <li><strong>19. doomed</strong> – certain to fail</li>
+            <li><strong>20. dud</strong> – something that fails to work</li>
+            <li><strong>21. dumb</strong> – foolish; not useful</li>
+            <li><strong>22. empty</strong> – lacking meaning or value</li>
+            <li><strong>23. extraneous</strong> – irrelevant; not needed</li>
+            <li><strong>24. faulty</strong> – not working correctly</li>
+            <li><strong>25. feckless</strong> – ineffective and irresponsible</li>
+            <li><strong>26. flimsy</strong> – weak and not useful</li>
+            <li><strong>27. for naught</strong> – without result or benefit</li>
+            <li><strong>28. fruitless</strong> – producing no results</li>
+            <li><strong>29. futile</strong> – incapable of producing results</li>
+            <li><strong>30. good-for-nothing</strong> – of no use or value</li>
+            <li><strong>31. gratuitous</strong> – unnecessary and uncalled for</li>
+            <li><strong>32. hackneyed</strong> – overused; lacking impact</li>
+            <li><strong>33. helpless</strong> – unable to do anything useful</li>
+            <li><strong>34. hollow</strong> – lacking real value or meaning</li>
+            <li><strong>35. hopeless</strong> – unlikely to succeed or improve</li>
+            <li><strong>36. idiotic</strong> – extremely foolish or pointless</li>
+            <li><strong>37. impractical</strong> – not workable in practice</li>
+            <li><strong>38. ineffective</strong> – not producing the desired result</li>
+            <li><strong>39. ineffectual</strong> – not effective; lacking impact</li>
+            <li><strong>40. inefficacious</strong> – not producing the desired effect</li>
+            <li><strong>41. inferior</strong> – lower in quality or value</li>
+            <li><strong>42. inoperable</strong> – not functioning or working</li>
+            <li><strong>43. inoperative</strong> – not in working order</li>
+            <li><strong>44. laughable</strong> – so bad it's funny</li>
+            <li><strong>45. lousy</strong> – very bad or poor</li>
+            <li><strong>46. low-grade</strong> – of poor quality</li>
+            <li><strong>47. malfunctioning</strong> – not operating as intended</li>
+            <li><strong>48. marginal</strong> – small and of little value</li>
+            <li><strong>49. meager</strong> – too small to be useful</li>
+            <li><strong>50. meaningless</strong> – without meaning or purpose</li>
+            <li><strong>51. measly</strong> – contemptibly small or inadequate</li>
+            <li><strong>52. minor</strong> – not important; of little use</li>
+            <li><strong>53. miserable</strong> – very poor in quality</li>
+            <li><strong>54. misguided</strong> – based on bad judgment; unhelpful</li>
+            <li><strong>55. needless</strong> – not needed; pointless</li>
+            <li><strong>56. negligible</strong> – so small as to be unimportant</li>
+            <li><strong>57. nominal</strong> – in name only; not real</li>
+            <li><strong>58. nonfunctional</strong> – not working or operating</li>
+            <li><strong>59. nonsensical</strong> – not making sense; pointless</li>
+            <li><strong>60. obsolete</strong> – out of date; no longer useful</li>
+            <li><strong>61. outdated</strong> – no longer current or useful</li>
+            <li><strong>62. outmoded</strong> – old-fashioned; no longer useful</li>
+            <li><strong>63. paltry</strong> – small or inadequate in value</li>
+            <li><strong>64. pathetic</strong> – pitifully inadequate or weak</li>
+            <li><strong>65. pitiful</strong> – very poor; deserving pity</li>
+            <li><strong>66. played out</strong> – no longer effective or relevant</li>
+            <li><strong>67. pointless</strong> – having no purpose or meaning</li>
+            <li><strong>68. powerless</strong> – unable to produce an effect</li>
+            <li><strong>69. puny</strong> – small and ineffective</li>
+            <li><strong>70. redundant</strong> – no longer needed or useful</li>
+            <li><strong>71. ridiculous</strong> – deserving mockery; pointless</li>
+            <li><strong>72. scant</strong> – not enough to be useful</li>
+            <li><strong>73. second-rate</strong> – not of the best quality</li>
+            <li><strong>74. senseless</strong> – lacking sense or purpose</li>
+            <li><strong>75. shoddy</strong> – badly made or done</li>
+            <li><strong>76. skimpy</strong> – insufficient; not adequate</li>
+            <li><strong>77. slipshod</strong> – careless and of poor quality</li>
+            <li><strong>78. sorry</strong> – poor in quality or value</li>
+            <li><strong>79. substandard</strong> – below an acceptable standard</li>
+            <li><strong>80. thin</strong> – lacking substance or strength</li>
+            <li><strong>81. third-rate</strong> – very poor in quality</li>
+            <li><strong>82. tired</strong> – overused; no longer effective</li>
+            <li><strong>83. to no avail</strong> – without success or effect</li>
+            <li><strong>84. token</strong> – having little practical value</li>
+            <li><strong>85. trite</strong> – overused; lacking value</li>
+            <li><strong>86. trivial</strong> – too small to matter</li>
+            <li><strong>87. unavailing</strong> – not achieving the intended result</li>
+            <li><strong>88. unfit</strong> – not suitable for a purpose</li>
+            <li><strong>89. unhelpful</strong> – not providing help or benefit</li>
+            <li><strong>90. unnecessary</strong> – not needed; serving no purpose</li>
+            <li><strong>91. unproductive</strong> – not yielding results or output</li>
+            <li><strong>92. unsuitable</strong> – not appropriate for the use</li>
+            <li><strong>93. unusable</strong> – not able to be used</li>
+            <li><strong>94. unworkable</strong> – not able to function</li>
+            <li><strong>95. vacuous</strong> – empty of thought or meaning</li>
+            <li><strong>96. vain</strong> – producing no useful result</li>
+            <li><strong>97. weak</strong> – lacking strength or effectiveness</li>
+            <li><strong>98. worn-out</strong> – used up; no longer useful</li>
+            <li><strong>99. worthless</strong> – having no value or use</li>
+            <li><strong>100. wretched</strong> – very poor or miserable</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="or">
+        <h2>51. 100 Other Words for &ldquo;Or&rdquo;</h2>
+        <p class="note">Alternatives and choice phrasing, numbered 1–100.</p>
+        <div class="entry filterable">
+          <ul class="def-list">
+            <li><strong>1. A choice of</strong> – an option between two or more</li>
+            <li><strong>2. A choice between</strong> – selecting from two things</li>
+            <li><strong>3. Alternative</strong> – another possibility</li>
+            <li><strong>4. Alternatively</strong> – in a different way</li>
+            <li><strong>5. An alternative</strong> – one of two or more possibilities</li>
+            <li><strong>6. Another option</strong> – a different choice</li>
+            <li><strong>7. As a substitute</strong> – instead of something else</li>
+            <li><strong>8. As a choice</strong> – representing a possibility</li>
+            <li><strong>9. As an alternative</strong> – serving as a different option</li>
+            <li><strong>10. At your discretion</strong> – based on your choice</li>
+            <li><strong>11. Better yet</strong> – a preferred alternative</li>
+            <li><strong>12. But</strong> – used to introduce a contrast</li>
+            <li><strong>13. By comparison</strong> – when compared with</li>
+            <li><strong>14. By contrast</strong> – in an opposite way</li>
+            <li><strong>15. Choice</strong> – the act of choosing</li>
+            <li><strong>16. Conversely</strong> – in an opposite way</li>
+            <li><strong>17. Differently</strong> – in another manner</li>
+            <li><strong>18. Either</strong> – used to refer to one of two</li>
+            <li><strong>19. Either-or</strong> – a choice between two</li>
+            <li><strong>20. Even if</strong> – despite the possibility</li>
+            <li><strong>21. Except</strong> – not including</li>
+            <li><strong>22. Failing that</strong> – if that does not happen</li>
+            <li><strong>23. Howbeit</strong> – nevertheless; however</li>
+            <li><strong>24. However</strong> – in whatever way</li>
+            <li><strong>25. If</strong> – on condition that</li>
+            <li><strong>26. If not</strong> – providing the opposite case</li>
+            <li><strong>27. In lieu of</strong> – instead of</li>
+            <li><strong>28. In other words</strong> – expressed differently</li>
+            <li><strong>29. In place of</strong> – substituting for</li>
+            <li><strong>30. Instead</strong> – as an alternative</li>
+            <li><strong>31. Instead of</strong> – in place of</li>
+            <li><strong>32. Lest</strong> – to avoid the risk of</li>
+            <li><strong>33. Moreover</strong> – as a further matter</li>
+            <li><strong>34. Neither</strong> – not one nor the other</li>
+            <li><strong>35. Nevertheless</strong> – in spite of that</li>
+            <li><strong>36. Nor</strong> – and not</li>
+            <li><strong>37. On the contrary</strong> – in opposition to</li>
+            <li><strong>38. On the flip side</strong> – looking at the opposite</li>
+            <li><strong>39. On the other hand</strong> – from another perspective</li>
+            <li><strong>40. Option</strong> – a thing that is or may be chosen</li>
+            <li><strong>41. Optionally</strong> – by choice</li>
+            <li><strong>42. Or else</strong> – otherwise</li>
+            <li><strong>43. Or rather</strong> – more accurately</li>
+            <li><strong>44. Otherwise</strong> – in different circumstances</li>
+            <li><strong>45. Preferred</strong> – liked better</li>
+            <li><strong>46. Rather</strong> – more precisely</li>
+            <li><strong>47. Rather than</strong> – instead of</li>
+            <li><strong>48. Replacement</strong> – a thing that takes the place of</li>
+            <li><strong>49. Substitute</strong> – a person or thing acting in place of</li>
+            <li><strong>50. Unless</strong> – except if</li>
+            <li><strong>51. Variant</strong> – a version of something</li>
+            <li><strong>52. Whereas</strong> – in contrast or comparison</li>
+            <li><strong>53. Whether</strong> – expressing a doubt or choice</li>
+            <li><strong>54. Withal</strong> – nevertheless; in addition</li>
+            <li><strong>55. Yet</strong> – but at the same time</li>
+            <li><strong>56. Along with</strong> – in addition to</li>
+            <li><strong>57. And/or</strong> – either or both</li>
+            <li><strong>58. Another way</strong> – a different method</li>
+            <li><strong>59. Apart from</strong> – except for</li>
+            <li><strong>60. As well as</strong> – in addition to</li>
+            <li><strong>61. Aside from</strong> – besides</li>
+            <li><strong>62. Besides</strong> – in addition to</li>
+            <li><strong>63. But also</strong> – used with "not only"</li>
+            <li><strong>64. Contrariwise</strong> – in the opposite way</li>
+            <li><strong>65. Contrarily</strong> – in a contrary manner</li>
+            <li><strong>66. Differing</strong> – being unlike</li>
+            <li><strong>67. Diversely</strong> – in various ways</li>
+            <li><strong>68. Else</strong> – in addition; otherwise</li>
+            <li><strong>69. Even</strong> – used for emphasis</li>
+            <li><strong>70. Excluding</strong> – not including</li>
+            <li><strong>71. Generally</strong> – in most cases</li>
+            <li><strong>72. Instead</strong> – in place of</li>
+            <li><strong>73. Like</strong> – similar to</li>
+            <li><strong>74. More</strong> – a greater amount</li>
+            <li><strong>75. Much</strong> – a large amount</li>
+            <li><strong>76. Neither</strong> – not either</li>
+            <li><strong>77. Next</strong> – immediately following</li>
+            <li><strong>78. Non</strong> – prefix meaning not</li>
+            <li><strong>79. Not</strong> – used to express negation</li>
+            <li><strong>80. Opposite</strong> – completely different</li>
+            <li><strong>81. Other</strong> – different from the one mentioned</li>
+            <li><strong>82. Otherwise</strong> – in another way</li>
+            <li><strong>83. Out</strong> – away from</li>
+            <li><strong>84. Outside</strong> – not within</li>
+            <li><strong>85. Plus</strong> – in addition to</li>
+            <li><strong>86. Rather</strong> – to a certain degree</li>
+            <li><strong>87. Side</strong> – a position or aspect</li>
+            <li><strong>88. So</strong> – to such a great extent</li>
+            <li><strong>89. Still</strong> – nevertheless</li>
+            <li><strong>90. Than</strong> – used in comparisons</li>
+            <li><strong>91. Then</strong> – at that time</li>
+            <li><strong>92. Though</strong> – despite the fact</li>
+            <li><strong>93. Through</strong> – by means of</li>
+            <li><strong>94. Unless</strong> – if not</li>
+            <li><strong>95. Unlike</strong> – not like</li>
+            <li><strong>96. Until</strong> – up to the time</li>
+            <li><strong>97. Versus</strong> – against</li>
+            <li><strong>98. Via</strong> – by way of</li>
+            <li><strong>99. What</strong> – which thing</li>
+            <li><strong>100. Whether</strong> – indicating choice between alternatives</li>
+          </ul>
+        </div>
+      </section>
+
+
+
       <footer>
-        <p>Volume 2 word banks — built from your reference images. Sections 1–35. Open in a browser; use Print → Save as PDF. Send more pages to keep growing this file.</p>
+        <p>Volume 2 word banks — built from your reference images. Sections 1–51. Open in a browser; use Print → Save as PDF. Send more pages to keep growing this file.</p>
     </main>
   </div>
 
@@ -3809,6 +5610,24 @@
         });
       });
     })();
+  </script>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById("theme-toggle");
+      var stored = localStorage.getItem("theme");
+      var dark = stored ? stored === "dark" : true;
+      function apply(isDark) {
+        root.setAttribute("data-theme", isDark ? "dark" : "light");
+        if (btn) btn.textContent = isDark ? "Light mode" : "Dark mode";
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      }
+      apply(dark);
+      if (btn) btn.addEventListener("click", function () {
+        apply(root.getAttribute("data-theme") !== "dark");
+      });
+    })();
+
   </script>
 </body>
 </html>
