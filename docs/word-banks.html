@@ -255,6 +255,12 @@
       font-family: "Segoe UI", system-ui, sans-serif;
     }
     .hidden-by-filter { display: none !important; }
+    .filter-status {
+      margin: 0.45rem 0 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    nav a.nav-muted { opacity: 0.38; }
     @media (max-width: 900px) {
       .layout { grid-template-columns: 1fr; }
       nav { position: relative; height: auto; max-height: 38vh; border-right: 0; border-bottom: 1px solid var(--line); }
@@ -343,6 +349,7 @@
       <a href="#appearance">Appearance</a>
       <a href="#faceeyes">Eyes &amp; brows (~200)</a>
       <a href="#bodylang">Body language (~340)</a>
+      <a href="#emotioncues">Emotion cues</a>
       <a href="#fighting">Fighting words</a>
       <a href="#damage">Damage (100)</a>
       <div class="group">Descriptor banks</div>
@@ -390,12 +397,13 @@
       </header>
 
       <div class="tip" id="use">
-        <strong>How to use:</strong> Each bold word is the simple verb you might replace (e.g. <em>said</em> angrily → <em>raged</em>). Synonyms under it are sorted alphabetically. Use search to find a word fast. Plain <em>said</em> is still fine — these are options, not rules.
+        <strong>How to use:</strong> Each bold word is the simple verb you might replace (e.g. <em>said</em> angrily → <em>raged</em>). Synonyms under it are sorted alphabetically. Plain <em>said</em> is still fine — these are options, not rules. Search matches a word, an action, or its meaning, and hides every line that doesn’t fit.
       </div>
 
       <div class="search-box">
-        <label for="filter"><strong>Filter</strong> (hides entries that don’t match):</label><br /><br />
-        <input id="filter" type="search" placeholder="e.g. whispered, slashed, promised…" autocomplete="off" />
+        <label for="filter"><strong>Search</strong> (words, actions, or meanings):</label><br /><br />
+        <input id="filter" type="search" placeholder="e.g. clenched jaw, whispered, grief…" autocomplete="off" />
+        <p id="filter-status" class="filter-status" hidden></p>
       </div>
 
       <!-- ===================== SAID SYNONYMS ===================== -->
@@ -8808,39 +8816,224 @@
 
 
 
+      <section id="emotioncues">
+        <h2>81. Emotion cues — body &amp; touch</h2>
+        <p class="note">Physical tells for frustration, anger, disgust, guilt, and sass, plus touch phrases to use instead of “touched.”</p>
+        <div class="entry filterable">
+          <h3>Frustration</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Furrowed brows</li>
+            <li>Tightened jaw or clenched teeth</li>
+            <li>Frowning or scowling</li>
+            <li>Pacing back and forth</li>
+            <li>Tapping fingers or fidgeting</li>
+            <li>Crossing and uncrossing arms</li>
+            <li>Squirming in their seat</li>
+            <li>Quick and jerky movements</li>
+            <li>Pointing or jabbing fingers</li>
+            <li>Hands thrown up in the air</li>
+            <li>Clenching fists tightly</li>
+            <li>Heavy sighs and exasperated breaths</li>
+            <li>Stiff or rigid posture; tense shoulders</li>
+            <li>Slamming fists on a table or surface</li>
+            <li>Speaking quickly or in an elevated tone</li>
+            <li>Interrupting or talking over others</li>
+            <li>Rolling eyes or sighing dramatically</li>
+            <li>Rubbing temples or massaging forehead</li>
+            <li>Shaking the head in frustration</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Anger</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Pronounced veins on the forehead or neck, bulging or throbbing</li>
+            <li>Stiff and rigid body posture</li>
+            <li>Puffed-up chest and an upright stance</li>
+            <li>Jabbing, pointing fingers or clenched fist</li>
+            <li>Pacing back and forth</li>
+            <li>Raised voice, harsh and forceful</li>
+            <li>Intense, unblinking glare</li>
+            <li>Heavy breaths, perhaps irregular, with a visible rise and fall of the chest</li>
+            <li>Invading people&rsquo;s personal space</li>
+            <li>Standing taller, straightening up</li>
+            <li>Squared-off stance</li>
+            <li>Upper lip curls into a sneer</li>
+            <li>Widening their stance (standing wider)</li>
+            <li>Knuckles turn white from the strength of their clenched fists</li>
+            <li>Sudden, explosive movements</li>
+            <li>Facial twitches or spasms</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Disgust</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Nose wrinkling</li>
+            <li>Upper lip curling or raising, revealing teeth</li>
+            <li>Lowered eyebrows or a furrowed brow</li>
+            <li>Squinted or narrowed eyes</li>
+            <li>Pulling away or leaning back</li>
+            <li>Crossing arms tightly across the chest</li>
+            <li>Turning or tilting the head away</li>
+            <li>Averting gaze or looking down</li>
+            <li>Covering the nose or mouth with a hand</li>
+            <li>Pushing away with the hand or making a swatting motion</li>
+            <li>Cringing or shuddering</li>
+            <li>Tensing muscles or stiffening the body</li>
+            <li>Gagging or retching</li>
+            <li>Taking a step back or creating physical distance</li>
+            <li>Turning the body away or creating a barrier with an object</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Guilt</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Glancing away or looking down</li>
+            <li>Eyes shifting, avoiding direct gaze</li>
+            <li>Shoulders drawn forward</li>
+            <li>Head bowed or lowered</li>
+            <li>Fidgeting with hands or objects</li>
+            <li>Twisting or wringing hands</li>
+            <li>Tapping fingers anxiously</li>
+            <li>Touching the face, especially around the mouth or nose</li>
+            <li>Rubbing the back of the neck</li>
+            <li>Scratching the head or behind the ear</li>
+            <li>Creating physical distance from the accuser</li>
+            <li>Turning body away</li>
+            <li>Crossing arms defensively</li>
+            <li>Using fewer words or providing vague responses</li>
+            <li>Looking to others for validation or reassurance</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Sassy</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Tilting your head slightly while raising an eyebrow</li>
+            <li>Giving a smirk instead of a full smile</li>
+            <li>Speaking in a calm, confident tone</li>
+            <li>Using short, clever comebacks</li>
+            <li>Making eye contact a little longer than usual</li>
+            <li>Flicking your hair or adjusting it slowly</li>
+            <li>Crossing your arms with confidence</li>
+            <li>Leaning back like you own the space</li>
+            <li>Walking with a slow, confident strut</li>
+            <li>Turning away without looking back</li>
+            <li>Rolling your eyes playfully</li>
+            <li>Pursing your lips slightly</li>
+            <li>Giving a &ldquo;whatever&rdquo; hand gesture</li>
+            <li>Laughing softly at your own joke</li>
+            <li>Standing tall with your chin slightly lifted</li>
+            <li>Showing you don&rsquo;t need approval</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Instead of &ldquo;touched&rdquo;</h3>
+          <ul class="single" style="columns:2;column-gap:1.4rem;list-style:disc;padding-left:1.1rem;margin:0.35rem 0;">
+            <li>Brushed · grazed · skimmed</li>
+            <li>Cupped · cradled · held</li>
+            <li>Pressed · pushed · pinned</li>
+            <li>Traced · mapped · memorized</li>
+            <li>Gripped · clutched · seized</li>
+            <li>Stroked · smoothed · soothed</li>
+            <li>Pulled · yanked · dragged close</li>
+            <li>Tucked · folded · wrapped</li>
+            <li>Reached for · sought · found</li>
+            <li>Ghosted over · barely there</li>
+            <li>Knuckles against her cheek · soft</li>
+            <li>Thumb across her jaw · slow</li>
+            <li>Fingers threading through hair</li>
+            <li>Hand over his heart · felt it beat</li>
+            <li>Touch so light she almost missed it</li>
+            <li>Clasped · interlaced · tangled</li>
+            <li>Squeezed · tightened · held firm</li>
+            <li>Ran a hand · let fingers linger</li>
+            <li>Placed a hand · steady · grounding</li>
+            <li>Skin against skin · finally</li>
+            <li>Didn&rsquo;t let go · couldn&rsquo;t</li>
+            <li>First time · last time · only time</li>
+            <li>Touch that asked a question</li>
+            <li>Touch that said everything unsaid</li>
+            <li>Pulled away before she felt it</li>
+            <li>Wanted to · didn&rsquo;t · stepped back</li>
+            <li>Electric · charged · impossible</li>
+            <li>Gentle in a way that undid her</li>
+            <li>Like he was afraid she&rsquo;d break</li>
+            <li>Like she was something worth keeping</li>
+          </ul>
+        </div>
+      </section>
+
       <footer>
-        <p>Volume 2 word banks — built from your reference images. Sections 1–80. Open in a browser; use Print → Save as PDF. Send more pages to keep growing this file.</p>
+        <p>Volume 2 word banks — built from your reference images. Sections 1–81. Open in a browser; use Print → Save as PDF. Send more pages to keep growing this file.</p>
     </main>
   </div>
 
   <script>
     (function () {
       var input = document.getElementById("filter");
+      var status = document.getElementById("filter-status");
       if (!input) return;
-      input.addEventListener("input", function () {
-        var q = input.value.trim().toLowerCase();
-        var entries = document.querySelectorAll(".filterable");
-        entries.forEach(function (el) {
-          var text = el.textContent.toLowerCase();
-          if (!q || text.indexOf(q) !== -1) {
-            el.classList.remove("hidden-by-filter");
-          } else {
-            el.classList.add("hidden-by-filter");
-          }
-        });
-        document.querySelectorAll("section > .letter-bar").forEach(function (bar) {
-          var next = bar.nextElementSibling;
-          var anyVisible = false;
-          while (next && !next.classList.contains("letter-bar") && next.tagName !== "SECTION") {
-            if (next.classList.contains("filterable") && !next.classList.contains("hidden-by-filter")) {
-              anyVisible = true;
-              break;
+      function norm(s) {
+        return (s || "").toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, " ").trim();
+      }
+      function hasAll(text, terms) {
+        for (var i = 0; i < terms.length; i++) {
+          if (text.indexOf(terms[i]) === -1) return false;
+        }
+        return true;
+      }
+      function apply() {
+        var q = norm(input.value);
+        var terms = q ? q.split(" ") : [];
+        var lineHits = 0;
+        var sectionHits = 0;
+        document.querySelectorAll("main section").forEach(function (sec) {
+          var entries = sec.querySelectorAll(".filterable");
+          var h2 = sec.querySelector("h2");
+          var sectionTitle = norm(h2 ? h2.textContent : "");
+          var visibleLines = 0;
+          entries.forEach(function (entry) {
+            var h3 = entry.querySelector("h3");
+            var heading = sectionTitle + " " + norm(h3 ? h3.textContent : "");
+            var headingMatch = terms.length && heading.indexOf(q) !== -1;
+            var lis = entry.querySelectorAll("li");
+            if (!lis.length) {
+              var showBlock = !terms.length || headingMatch || hasAll(norm(entry.textContent), terms);
+              entry.classList.toggle("hidden-by-filter", terms.length && !showBlock);
+              if (showBlock && terms.length) visibleLines++;
+              return;
             }
-            next = next.nextElementSibling;
-          }
-          bar.classList.toggle("hidden-by-filter", q && !anyVisible);
+            var shown = 0;
+            lis.forEach(function (li) {
+              var show = !terms.length || headingMatch || hasAll(norm(li.textContent), terms);
+              li.classList.toggle("hidden-by-filter", terms.length && !show);
+              if (show) shown++;
+            });
+            entry.classList.toggle("hidden-by-filter", terms.length && shown === 0);
+            if (terms.length) visibleLines += shown;
+          });
+          var hideSection = terms.length && entries.length && visibleLines === 0;
+          sec.classList.toggle("hidden-by-filter", hideSection);
+          if (terms.length && !hideSection) sectionHits++;
+          lineHits += visibleLines;
         });
-      });
+        document.querySelectorAll("nav a[href^='#']").forEach(function (a) {
+          var id = a.getAttribute("href").slice(1);
+          var sec = document.getElementById(id);
+          var dim = terms.length && sec && sec.tagName === "SECTION" && sec.classList.contains("hidden-by-filter");
+          a.classList.toggle("nav-muted", dim);
+        });
+        if (!status) return;
+        if (!terms.length) {
+          status.hidden = true;
+          status.textContent = "";
+          return;
+        }
+        status.hidden = false;
+        status.textContent = lineHits
+          ? lineHits + (lineHits === 1 ? " line" : " lines") + " in " + sectionHits + (sectionHits === 1 ? " section" : " sections")
+          : "No matches";
+      }
+      input.addEventListener("input", apply);
     })();
   </script>
   <script>
