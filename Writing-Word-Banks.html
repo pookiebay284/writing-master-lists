@@ -261,13 +261,35 @@
       font-size: 0.82rem;
     }
     nav a.nav-muted { opacity: 0.38; }
+    #favorites-block { margin: 0.15rem 0 0.45rem; }
+    .fav-hint {
+      margin: 0.1rem 0.3rem 0.3rem;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 0.72rem;
+      line-height: 1.35;
+      color: var(--muted);
+    }
+    .nav-row { display: flex; align-items: center; }
+    .nav-row > a { flex: 1; min-width: 0; }
+    button.star {
+      flex: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 0.95rem;
+      line-height: 1;
+      padding: 0.12rem 0.15rem;
+    }
+    button.star.on { color: #e2b340; }
+    h2 { display: flex; align-items: baseline; justify-content: space-between; gap: 0.45rem; }
     @media (max-width: 900px) {
       .layout { grid-template-columns: 1fr; }
       nav { position: relative; height: auto; max-height: 38vh; border-right: 0; border-bottom: 1px solid var(--line); }
       main { padding: 1rem; }
     }
     @media print {
-      nav, .print-btn, .search-box, .alpha-jump { display: none !important; }
+      nav, .print-btn, .search-box, .alpha-jump, button.star { display: none !important; }
       .layout { display: block; }
       section { break-inside: avoid; border: 0; padding: 0; }
       body { background: var(--input-bg); }
@@ -279,6 +301,11 @@
     <nav>
       <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">Dark mode</button>
       <h1>Word Banks</h1>
+      <div id="favorites-block">
+        <div class="group">Favorites</div>
+        <p class="fav-hint" id="fav-hint">Tap the star beside a category to pin it here.</p>
+        <div id="favorites-list"></div>
+      </div>
       <a href="#use">How to use</a>
       <div class="group">Volume 2 (building)</div>
       <a href="#said">“Said” synonyms</a>
@@ -371,6 +398,7 @@
       <a href="#transitions">Transitions (100)</a>
       <a href="#causeeffect">Cause &amp; effect (100)</a>
       <a href="#saidalts">Said alternatives (200)</a>
+      <a href="#saidly">How they said it (500)</a>
       <a href="#replied">Replied (100)</a>
       <a href="#strong">Strong (100)</a>
       <a href="#try">Try (100)</a>
@@ -398,7 +426,6 @@
       <a href="#scarier">Scarier (100)</a>
       <a href="#relief">Relief (100)</a>
       <a href="#ibelieve">I believe (100)</a>
-      <a href="#saidly">Said … -ly (500)</a>
     </nav>
 
     <main>
@@ -410,7 +437,7 @@
       </header>
 
       <div class="tip" id="use">
-        <strong>How to use:</strong> Each bold word is the simple verb you might replace (e.g. <em>said</em> angrily → <em>raged</em>). Synonyms under it are sorted alphabetically. Plain <em>said</em> is still fine — these are options, not rules. Search matches a word, an action, or its meaning, and hides every line that doesn’t fit.
+        <strong>How to use:</strong> Each bold word is the simple verb you might replace (e.g. <em>said</em> angrily → <em>raged</em>). Synonyms under it are sorted alphabetically. Plain <em>said</em> is still fine — these are options, not rules. Search matches a word, an action, or its meaning, and hides every line that doesn’t fit. Star a category in the sidebar, or the star on a heading, and it stays under Favorites at the top.
       </div>
 
       <div class="search-box">
@@ -10486,7 +10513,7 @@
 
 
       <section id="saidly">
-        <h2>94. 500 Words after &ldquo;Said&rdquo; (-ly)</h2>
+        <h2>94. How they said it — solemnly, smugly, thoughtfully</h2>
         <p class="note">Manner adverbs for the beat after a line of dialogue: &ldquo;What if we lose?&rdquo; Clara said <em>solemnly</em>. The adverb is how the line was spoken, not a replacement for <em>said</em>. Grouped by tone. A few also appear in the empathy list (&sect;38); here they are filed as dialogue delivery.</p>
         <div class="entry filterable">
           <h3>Grave, sad, and grieving</h3>
@@ -11154,6 +11181,74 @@
           : "No matches";
       }
       input.addEventListener("input", apply);
+    })();
+  </script>
+  <script>
+    (function () {
+      var KEY = "wordbank-favorites";
+      var list = document.getElementById("favorites-list");
+      var hint = document.getElementById("fav-hint");
+      if (!list) return;
+      var favs = [];
+      try { favs = JSON.parse(localStorage.getItem(KEY) || "[]"); } catch (e) { favs = []; }
+      if (!Array.isArray(favs)) favs = [];
+
+      function isOn(id) { return favs.indexOf(id) !== -1; }
+      function save() { localStorage.setItem(KEY, JSON.stringify(favs)); }
+      function toggle(id) {
+        var i = favs.indexOf(id);
+        if (i === -1) favs.push(id);
+        else favs.splice(i, 1);
+        save();
+        paint();
+      }
+      function starButton(id, label) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "star";
+        btn.setAttribute("data-id", id);
+        btn.setAttribute("aria-label", "Favorite " + label);
+        btn.addEventListener("click", function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggle(id);
+        });
+        return btn;
+      }
+      Array.prototype.forEach.call(document.querySelectorAll("nav > a[href^='#']"), function (a) {
+        var id = a.getAttribute("href").slice(1);
+        var sec = document.getElementById(id);
+        if (!sec || sec.tagName !== "SECTION") return;
+        var row = document.createElement("div");
+        row.className = "nav-row";
+        a.parentNode.insertBefore(row, a);
+        row.appendChild(a);
+        row.appendChild(starButton(id, a.textContent));
+      });
+      Array.prototype.forEach.call(document.querySelectorAll("main > section[id] > h2"), function (h2) {
+        var sec = h2.parentNode;
+        h2.appendChild(starButton(sec.id, h2.textContent));
+      });
+      function paint() {
+        list.innerHTML = "";
+        hint.hidden = favs.length > 0;
+        favs.forEach(function (id) {
+          var src = document.querySelector("nav > .nav-row > a[href='#" + id + "']");
+          var sec = document.getElementById(id);
+          if (!src || !sec) return;
+          var a = document.createElement("a");
+          a.href = "#" + id;
+          a.textContent = src.textContent;
+          list.appendChild(a);
+        });
+        Array.prototype.forEach.call(document.querySelectorAll("button.star"), function (btn) {
+          var on = isOn(btn.getAttribute("data-id"));
+          btn.classList.toggle("on", on);
+          btn.textContent = on ? "\u2605" : "\u2606";
+          btn.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+      }
+      paint();
     })();
   </script>
   <script>
