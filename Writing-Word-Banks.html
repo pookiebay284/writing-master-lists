@@ -200,6 +200,17 @@
       font-size: 0.9rem;
     }
     ul.def-list li strong { color: var(--ink); }
+    span.swatch {
+      display: inline-block;
+      width: 0.85rem;
+      height: 0.85rem;
+      margin-right: 0.38rem;
+      border-radius: 2px;
+      vertical-align: -0.12em;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,.35), 0 0 0 1px rgba(255,255,255,.28);
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
     ul.tag-list {
       margin: 0.25rem 0 0.5rem;
       padding: 0;
@@ -368,7 +379,7 @@
       <div class="group">World &amp; senses</div>
       <a href="#materials">Materials (100)</a>
       <a href="#textures">Textures</a>
-      <a href="#colors">Colors (100)</a>
+      <a href="#colors">Colors (900)</a>
       <a href="#sounds">Sounds (100)</a>
       <a href="#smells">Smells (100)</a>
       <a href="#sunrise">Sunrise / sunset</a>
@@ -3858,111 +3869,972 @@
         </div>
       </section>
 
-      <section id="colors">
-        <h2>34. 100 Words to Describe Colors</h2>
-        <p class="note">Color names and hues, numbered 1–100.</p>
+                                          <section id="colors">
+        <h2>34. 900 Words to Describe Colors</h2>
+        <p class="note">The first 100 are the original color bank. Eight hundred more follow, grouped by hue. The box beside each name is that color’s standard hex: Wikipedia’s list of colors when the name is listed there, otherwise the CSS color or the traditional pigment value. A few of the original meanings were tightened so they match the swatch.</p>
         <div class="entry filterable">
+          <h3>Core colors</h3>
           <ul class="def-list">
-            <li><strong>1. amber</strong> – a warm golden yellow</li>
-            <li><strong>2. amethyst</strong> – a violet-purple gemstone color</li>
-            <li><strong>3. apricot</strong> – a pale yellow-orange color</li>
-            <li><strong>4. aqua</strong> – a light blue-green color</li>
-            <li><strong>5. aquamarine</strong> – a pale sea-blue green</li>
-            <li><strong>6. ash</strong> – a pale gray color</li>
-            <li><strong>7. azure</strong> – a bright blue color</li>
-            <li><strong>8. baby blue</strong> – a very light blue</li>
-            <li><strong>9. beige</strong> – a pale sandy brown</li>
-            <li><strong>10. black</strong> – the darkest color</li>
-            <li><strong>11. blue</strong> – the color of clear sky</li>
-            <li><strong>12. blush</strong> – a very soft pink</li>
-            <li><strong>13. brick</strong> – a muted reddish brown</li>
-            <li><strong>14. brown</strong> – a dark earthy color</li>
-            <li><strong>15. burgundy</strong> – a dark wine red</li>
-            <li><strong>16. cerulean</strong> – a clear sky-blue color</li>
-            <li><strong>17. chestnut</strong> – a rich reddish brown</li>
-            <li><strong>18. chocolate</strong> – a rich dark brown</li>
-            <li><strong>19. cobalt</strong> – a strong deep blue</li>
-            <li><strong>20. coral</strong> – a pink-orange color</li>
-            <li><strong>21. cream</strong> – a pale yellowish white</li>
-            <li><strong>22. crimson</strong> – a deep vivid red</li>
-            <li><strong>23. cyan</strong> – a greenish blue color</li>
-            <li><strong>24. denim</strong> – a medium muted blue</li>
-            <li><strong>25. dove gray</strong> – a soft light gray</li>
-            <li><strong>26. ebony</strong> – a rich black color</li>
-            <li><strong>27. ecru</strong> – a light grayish beige</li>
-            <li><strong>28. eggplant</strong> – a very dark purple</li>
-            <li><strong>29. eggshell</strong> – a warm pale off-white</li>
-            <li><strong>30. emerald</strong> – a vivid jewel green</li>
-            <li><strong>31. espresso</strong> – a very dark brown</li>
-            <li><strong>32. fawn</strong> – a light yellowish brown</li>
-            <li><strong>33. flaxen</strong> – a pale yellow color</li>
-            <li><strong>34. garnet</strong> – a dark wine-red color</li>
-            <li><strong>35. gray</strong> – a color between black and white</li>
-            <li><strong>36. green</strong> – the color of grass</li>
-            <li><strong>37. greige</strong> – a mix of gray and beige</li>
-            <li><strong>38. gunmetal</strong> – a dark metallic gray</li>
-            <li><strong>39. hazel</strong> – a greenish brown color</li>
-            <li><strong>40. heliotrope</strong> – a pinkish purple color</li>
-            <li><strong>41. honey</strong> – a warm golden color</li>
-            <li><strong>42. ice blue</strong> – a very pale blue</li>
-            <li><strong>43. indigo</strong> – a deep blue-purple color</li>
-            <li><strong>44. ivory</strong> – an off-white color</li>
-            <li><strong>45. jade</strong> – a medium bluish green</li>
-            <li><strong>46. jet</strong> – a deep glossy black</li>
-            <li><strong>47. khaki</strong> – a dusty yellow-brown color</li>
-            <li><strong>48. lavender</strong> – a pale purple color</li>
-            <li><strong>49. lemon</strong> – a bright yellow color</li>
-            <li><strong>50. lilac</strong> – a light pinkish purple</li>
-            <li><strong>51. lime</strong> – a bright yellow-green color</li>
-            <li><strong>52. linen</strong> – a pale beige-white color</li>
-            <li><strong>53. magenta</strong> – a vivid purplish pink</li>
-            <li><strong>54. mahogany</strong> – a deep reddish brown</li>
-            <li><strong>55. maroon</strong> – a dark brownish red</li>
-            <li><strong>56. mauve</strong> – a pale grayish purple</li>
-            <li><strong>57. mint</strong> – a pale cool green</li>
-            <li><strong>58. moss</strong> – a soft earthy green</li>
-            <li><strong>59. mustard</strong> – a dull yellow color</li>
-            <li><strong>60. navy</strong> – a very dark blue</li>
-            <li><strong>61. obsidian</strong> – a dark glassy black</li>
-            <li><strong>62. ochre</strong> – an earthy yellow-brown color</li>
-            <li><strong>63. off-white</strong> – not quite pure white</li>
-            <li><strong>64. olive</strong> – a muted yellow-green color</li>
-            <li><strong>65. onyx</strong> – a deep black color</li>
-            <li><strong>66. orange</strong> – the color of oranges</li>
-            <li><strong>67. peach</strong> – a soft pinkish orange</li>
-            <li><strong>68. pearl</strong> – a soft lustrous white</li>
-            <li><strong>69. periwinkle</strong> – a pale blue-purple color</li>
-            <li><strong>70. pink</strong> – a pale red color</li>
-            <li><strong>71. plum</strong> – a dark reddish purple</li>
-            <li><strong>72. purple</strong> – a rich red-blue color</li>
-            <li><strong>73. raspberry</strong> – a deep pinkish red</li>
-            <li><strong>74. red</strong> – the color of blood</li>
-            <li><strong>75. robin's-egg blue</strong> – a pale greenish blue</li>
-            <li><strong>76. rose</strong> – a soft pinkish red</li>
-            <li><strong>77. royal blue</strong> – a vivid deep blue</li>
-            <li><strong>78. rust</strong> – a reddish orange-brown</li>
-            <li><strong>79. sage</strong> – a muted gray-green color</li>
-            <li><strong>80. salmon</strong> – a pale pink-orange color</li>
-            <li><strong>81. scarlet</strong> – a bright red color</li>
-            <li><strong>82. sepia</strong> – a reddish-brown color</li>
-            <li><strong>83. sienna</strong> – a reddish brown color</li>
-            <li><strong>84. silver</strong> – a shiny light gray</li>
-            <li><strong>85. sky blue</strong> – a pale clear blue</li>
-            <li><strong>86. slate</strong> – a cool medium gray</li>
-            <li><strong>87. tan</strong> – a light brown color</li>
-            <li><strong>88. taupe</strong> – a grayish brown color</li>
-            <li><strong>89. teal</strong> – a blue-green color</li>
-            <li><strong>90. turquoise</strong> – a bright blue-green color</li>
-            <li><strong>91. ultramarine</strong> – a vivid deep blue</li>
-            <li><strong>92. umber</strong> – a dark brown color</li>
-            <li><strong>93. vermilion</strong> – a brilliant orange-red color</li>
-            <li><strong>94. violet</strong> – a bluish-purple color</li>
-            <li><strong>95. viridian</strong> – a deep bluish green</li>
-            <li><strong>96. walnut</strong> – a deep brown color</li>
-            <li><strong>97. white</strong> – the lightest color</li>
-            <li><strong>98. wine</strong> – a dark purplish red</li>
-            <li><strong>99. wisteria</strong> – a soft pale purple</li>
-            <li><strong>100. yellow</strong> – the color of lemons</li>
+            <li><span class="swatch" style="background:#FFBF00" title="#FFBF00" aria-hidden="true"></span><strong>1. amber</strong> – a warm golden yellow</li>
+            <li><span class="swatch" style="background:#9966CC" title="#9966CC" aria-hidden="true"></span><strong>2. amethyst</strong> – a violet-purple gemstone color</li>
+            <li><span class="swatch" style="background:#FBCEB1" title="#FBCEB1" aria-hidden="true"></span><strong>3. apricot</strong> – a pale yellow-orange color</li>
+            <li><span class="swatch" style="background:#00FFFF" title="#00FFFF" aria-hidden="true"></span><strong>4. aqua</strong> – a bright greenish blue</li>
+            <li><span class="swatch" style="background:#7FFFD4" title="#7FFFD4" aria-hidden="true"></span><strong>5. aquamarine</strong> – a pale sea-blue green</li>
+            <li><span class="swatch" style="background:#B2BEB5" title="#B2BEB5" aria-hidden="true"></span><strong>6. ash</strong> – a pale gray color</li>
+            <li><span class="swatch" style="background:#007FFF" title="#007FFF" aria-hidden="true"></span><strong>7. azure</strong> – a bright blue color</li>
+            <li><span class="swatch" style="background:#89CFF0" title="#89CFF0" aria-hidden="true"></span><strong>8. baby blue</strong> – a very light blue</li>
+            <li><span class="swatch" style="background:#F5F5DC" title="#F5F5DC" aria-hidden="true"></span><strong>9. beige</strong> – a pale sandy brown</li>
+            <li><span class="swatch" style="background:#000000" title="#000000" aria-hidden="true"></span><strong>10. black</strong> – the darkest color</li>
+            <li><span class="swatch" style="background:#0000FF" title="#0000FF" aria-hidden="true"></span><strong>11. blue</strong> – the color of clear sky</li>
+            <li><span class="swatch" style="background:#DE5D83" title="#DE5D83" aria-hidden="true"></span><strong>12. blush</strong> – a medium rose pink</li>
+            <li><span class="swatch" style="background:#A03623" title="#A03623" aria-hidden="true"></span><strong>13. brick</strong> – a muted reddish brown</li>
+            <li><span class="swatch" style="background:#964B00" title="#964B00" aria-hidden="true"></span><strong>14. brown</strong> – a dark earthy color</li>
+            <li><span class="swatch" style="background:#800020" title="#800020" aria-hidden="true"></span><strong>15. burgundy</strong> – a dark wine red</li>
+            <li><span class="swatch" style="background:#007BA7" title="#007BA7" aria-hidden="true"></span><strong>16. cerulean</strong> – a clear sky-blue color</li>
+            <li><span class="swatch" style="background:#954535" title="#954535" aria-hidden="true"></span><strong>17. chestnut</strong> – a rich reddish brown</li>
+            <li><span class="swatch" style="background:#7B3F00" title="#7B3F00" aria-hidden="true"></span><strong>18. chocolate</strong> – a rich dark brown</li>
+            <li><span class="swatch" style="background:#0047AB" title="#0047AB" aria-hidden="true"></span><strong>19. cobalt</strong> – a strong deep blue</li>
+            <li><span class="swatch" style="background:#FF7F50" title="#FF7F50" aria-hidden="true"></span><strong>20. coral</strong> – a pink-orange color</li>
+            <li><span class="swatch" style="background:#FFFDD0" title="#FFFDD0" aria-hidden="true"></span><strong>21. cream</strong> – a pale yellowish white</li>
+            <li><span class="swatch" style="background:#DC143C" title="#DC143C" aria-hidden="true"></span><strong>22. crimson</strong> – a deep vivid red</li>
+            <li><span class="swatch" style="background:#00FFFF" title="#00FFFF" aria-hidden="true"></span><strong>23. cyan</strong> – a greenish blue color</li>
+            <li><span class="swatch" style="background:#1560BD" title="#1560BD" aria-hidden="true"></span><strong>24. denim</strong> – a medium muted blue</li>
+            <li><span class="swatch" style="background:#6D6C6C" title="#6D6C6C" aria-hidden="true"></span><strong>25. dove gray</strong> – a soft medium gray</li>
+            <li><span class="swatch" style="background:#313337" title="#313337" aria-hidden="true"></span><strong>26. ebony</strong> – a deep black-gray</li>
+            <li><span class="swatch" style="background:#C2B280" title="#C2B280" aria-hidden="true"></span><strong>27. ecru</strong> – a light grayish beige</li>
+            <li><span class="swatch" style="background:#614051" title="#614051" aria-hidden="true"></span><strong>28. eggplant</strong> – a very dark purple</li>
+            <li><span class="swatch" style="background:#F0EAD6" title="#F0EAD6" aria-hidden="true"></span><strong>29. eggshell</strong> – a warm pale off-white</li>
+            <li><span class="swatch" style="background:#50C878" title="#50C878" aria-hidden="true"></span><strong>30. emerald</strong> – a vivid jewel green</li>
+            <li><span class="swatch" style="background:#4E312D" title="#4E312D" aria-hidden="true"></span><strong>31. espresso</strong> – a very dark brown</li>
+            <li><span class="swatch" style="background:#E5AA70" title="#E5AA70" aria-hidden="true"></span><strong>32. fawn</strong> – a light yellowish brown</li>
+            <li><span class="swatch" style="background:#FBECC9" title="#FBECC9" aria-hidden="true"></span><strong>33. flaxen</strong> – a pale yellow color</li>
+            <li><span class="swatch" style="background:#733635" title="#733635" aria-hidden="true"></span><strong>34. garnet</strong> – a dark wine-red color</li>
+            <li><span class="swatch" style="background:#BEBEBE" title="#BEBEBE" aria-hidden="true"></span><strong>35. gray</strong> – a color between black and white</li>
+            <li><span class="swatch" style="background:#00FF00" title="#00FF00" aria-hidden="true"></span><strong>36. green</strong> – a pure bright green</li>
+            <li><span class="swatch" style="background:#B0A999" title="#B0A999" aria-hidden="true"></span><strong>37. greige</strong> – a mix of gray and beige</li>
+            <li><span class="swatch" style="background:#2A3439" title="#2A3439" aria-hidden="true"></span><strong>38. gunmetal</strong> – a dark metallic gray</li>
+            <li><span class="swatch" style="background:#8E7618" title="#8E7618" aria-hidden="true"></span><strong>39. hazel</strong> – a greenish brown color</li>
+            <li><span class="swatch" style="background:#DF73FF" title="#DF73FF" aria-hidden="true"></span><strong>40. heliotrope</strong> – a pinkish purple color</li>
+            <li><span class="swatch" style="background:#AE8934" title="#AE8934" aria-hidden="true"></span><strong>41. honey</strong> – a warm golden color</li>
+            <li><span class="swatch" style="background:#739BD0" title="#739BD0" aria-hidden="true"></span><strong>42. ice blue</strong> – a medium gray-blue</li>
+            <li><span class="swatch" style="background:#4B0082" title="#4B0082" aria-hidden="true"></span><strong>43. indigo</strong> – a deep blue-purple color</li>
+            <li><span class="swatch" style="background:#FFFFF0" title="#FFFFF0" aria-hidden="true"></span><strong>44. ivory</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#00A86B" title="#00A86B" aria-hidden="true"></span><strong>45. jade</strong> – a medium jewel green</li>
+            <li><span class="swatch" style="background:#343434" title="#343434" aria-hidden="true"></span><strong>46. jet</strong> – a deep glossy black</li>
+            <li><span class="swatch" style="background:#C3B091" title="#C3B091" aria-hidden="true"></span><strong>47. khaki</strong> – a dusty yellow-brown color</li>
+            <li><span class="swatch" style="background:#B57EDC" title="#B57EDC" aria-hidden="true"></span><strong>48. lavender</strong> – a pale purple color</li>
+            <li><span class="swatch" style="background:#FFF700" title="#FFF700" aria-hidden="true"></span><strong>49. lemon</strong> – a bright yellow color</li>
+            <li><span class="swatch" style="background:#C8A2C8" title="#C8A2C8" aria-hidden="true"></span><strong>50. lilac</strong> – a light pinkish purple</li>
+            <li><span class="swatch" style="background:#BFFF00" title="#BFFF00" aria-hidden="true"></span><strong>51. lime</strong> – a bright yellow-green color</li>
+            <li><span class="swatch" style="background:#FAF0E6" title="#FAF0E6" aria-hidden="true"></span><strong>52. linen</strong> – a pale beige-white color</li>
+            <li><span class="swatch" style="background:#FF00FF" title="#FF00FF" aria-hidden="true"></span><strong>53. magenta</strong> – a vivid purplish pink</li>
+            <li><span class="swatch" style="background:#C04000" title="#C04000" aria-hidden="true"></span><strong>54. mahogany</strong> – a deep reddish brown</li>
+            <li><span class="swatch" style="background:#800000" title="#800000" aria-hidden="true"></span><strong>55. maroon</strong> – a dark brownish red</li>
+            <li><span class="swatch" style="background:#E0B0FF" title="#E0B0FF" aria-hidden="true"></span><strong>56. mauve</strong> – a pale grayish purple</li>
+            <li><span class="swatch" style="background:#98FF98" title="#98FF98" aria-hidden="true"></span><strong>57. mint</strong> – a pale cool green</li>
+            <li><span class="swatch" style="background:#8A9A5B" title="#8A9A5B" aria-hidden="true"></span><strong>58. moss</strong> – a soft earthy green</li>
+            <li><span class="swatch" style="background:#FFDB58" title="#FFDB58" aria-hidden="true"></span><strong>59. mustard</strong> – a dull yellow color</li>
+            <li><span class="swatch" style="background:#000080" title="#000080" aria-hidden="true"></span><strong>60. navy</strong> – a very dark blue</li>
+            <li><span class="swatch" style="background:#445055" title="#445055" aria-hidden="true"></span><strong>61. obsidian</strong> – a dark blue-gray</li>
+            <li><span class="swatch" style="background:#CC7722" title="#CC7722" aria-hidden="true"></span><strong>62. ochre</strong> – an earthy yellow-brown color</li>
+            <li><span class="swatch" style="background:#FFFFE4" title="#FFFFE4" aria-hidden="true"></span><strong>63. off-white</strong> – not quite pure white</li>
+            <li><span class="swatch" style="background:#808000" title="#808000" aria-hidden="true"></span><strong>64. olive</strong> – a muted yellow-green color</li>
+            <li><span class="swatch" style="background:#353839" title="#353839" aria-hidden="true"></span><strong>65. onyx</strong> – a deep black color</li>
+            <li><span class="swatch" style="background:#FFA500" title="#FFA500" aria-hidden="true"></span><strong>66. orange</strong> – the color of oranges</li>
+            <li><span class="swatch" style="background:#FFE5B4" title="#FFE5B4" aria-hidden="true"></span><strong>67. peach</strong> – a soft pinkish orange</li>
+            <li><span class="swatch" style="background:#EAE0C8" title="#EAE0C8" aria-hidden="true"></span><strong>68. pearl</strong> – a soft lustrous white</li>
+            <li><span class="swatch" style="background:#CCCCFF" title="#CCCCFF" aria-hidden="true"></span><strong>69. periwinkle</strong> – a pale blue-purple color</li>
+            <li><span class="swatch" style="background:#FFC0CB" title="#FFC0CB" aria-hidden="true"></span><strong>70. pink</strong> – a pale red color</li>
+            <li><span class="swatch" style="background:#8E4585" title="#8E4585" aria-hidden="true"></span><strong>71. plum</strong> – a dark reddish purple</li>
+            <li><span class="swatch" style="background:#800080" title="#800080" aria-hidden="true"></span><strong>72. purple</strong> – a rich red-blue color</li>
+            <li><span class="swatch" style="background:#E30B5D" title="#E30B5D" aria-hidden="true"></span><strong>73. raspberry</strong> – a deep pinkish red</li>
+            <li><span class="swatch" style="background:#FF0000" title="#FF0000" aria-hidden="true"></span><strong>74. red</strong> – the color of blood</li>
+            <li><span class="swatch" style="background:#96DED1" title="#96DED1" aria-hidden="true"></span><strong>75. robin&#x27;s-egg blue</strong> – a pale greenish blue</li>
+            <li><span class="swatch" style="background:#FF007F" title="#FF007F" aria-hidden="true"></span><strong>76. rose</strong> – a vivid pink-red</li>
+            <li><span class="swatch" style="background:#4169E1" title="#4169E1" aria-hidden="true"></span><strong>77. royal blue</strong> – a vivid deep blue</li>
+            <li><span class="swatch" style="background:#B7410E" title="#B7410E" aria-hidden="true"></span><strong>78. rust</strong> – a reddish orange-brown</li>
+            <li><span class="swatch" style="background:#BCB88A" title="#BCB88A" aria-hidden="true"></span><strong>79. sage</strong> – a muted gray-green color</li>
+            <li><span class="swatch" style="background:#FA8072" title="#FA8072" aria-hidden="true"></span><strong>80. salmon</strong> – a pale pink-orange color</li>
+            <li><span class="swatch" style="background:#FF2400" title="#FF2400" aria-hidden="true"></span><strong>81. scarlet</strong> – a bright red color</li>
+            <li><span class="swatch" style="background:#704214" title="#704214" aria-hidden="true"></span><strong>82. sepia</strong> – a reddish-brown color</li>
+            <li><span class="swatch" style="background:#882D17" title="#882D17" aria-hidden="true"></span><strong>83. sienna</strong> – a reddish brown color</li>
+            <li><span class="swatch" style="background:#C0C0C0" title="#C0C0C0" aria-hidden="true"></span><strong>84. silver</strong> – a shiny light gray</li>
+            <li><span class="swatch" style="background:#87CEEB" title="#87CEEB" aria-hidden="true"></span><strong>85. sky blue</strong> – a pale clear blue</li>
+            <li><span class="swatch" style="background:#708090" title="#708090" aria-hidden="true"></span><strong>86. slate</strong> – a cool medium gray</li>
+            <li><span class="swatch" style="background:#D2B48C" title="#D2B48C" aria-hidden="true"></span><strong>87. tan</strong> – a light brown color</li>
+            <li><span class="swatch" style="background:#483C32" title="#483C32" aria-hidden="true"></span><strong>88. taupe</strong> – a dark grayish brown</li>
+            <li><span class="swatch" style="background:#008080" title="#008080" aria-hidden="true"></span><strong>89. teal</strong> – a blue-green color</li>
+            <li><span class="swatch" style="background:#40E0D0" title="#40E0D0" aria-hidden="true"></span><strong>90. turquoise</strong> – a bright blue-green color</li>
+            <li><span class="swatch" style="background:#3F00FF" title="#3F00FF" aria-hidden="true"></span><strong>91. ultramarine</strong> – a vivid violet-blue</li>
+            <li><span class="swatch" style="background:#635147" title="#635147" aria-hidden="true"></span><strong>92. umber</strong> – a dark brown color</li>
+            <li><span class="swatch" style="background:#E34234" title="#E34234" aria-hidden="true"></span><strong>93. vermilion</strong> – a brilliant orange-red color</li>
+            <li><span class="swatch" style="background:#8000FF" title="#8000FF" aria-hidden="true"></span><strong>94. violet</strong> – a bluish-purple color</li>
+            <li><span class="swatch" style="background:#40826D" title="#40826D" aria-hidden="true"></span><strong>95. viridian</strong> – a deep bluish green</li>
+            <li><span class="swatch" style="background:#773F1A" title="#773F1A" aria-hidden="true"></span><strong>96. walnut</strong> – a deep brown color</li>
+            <li><span class="swatch" style="background:#FFFFFF" title="#FFFFFF" aria-hidden="true"></span><strong>97. white</strong> – the lightest color</li>
+            <li><span class="swatch" style="background:#722F37" title="#722F37" aria-hidden="true"></span><strong>98. wine</strong> – a dark purplish red</li>
+            <li><span class="swatch" style="background:#C9A0DC" title="#C9A0DC" aria-hidden="true"></span><strong>99. wisteria</strong> – a soft pale purple</li>
+            <li><span class="swatch" style="background:#FFFF00" title="#FFFF00" aria-hidden="true"></span><strong>100. yellow</strong> – the color of lemons</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Reds</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#DB2D43" title="#DB2D43" aria-hidden="true"></span><strong>101. Alizarin</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#FF9988" title="#FF9988" aria-hidden="true"></span><strong>102. Amber Sun</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#8E5E5E" title="#8E5E5E" aria-hidden="true"></span><strong>103. Antique Garnet</strong> – a medium grayish red</li>
+            <li><span class="swatch" style="background:#C27A74" title="#C27A74" aria-hidden="true"></span><strong>104. Antique Pink</strong> – a light soft red</li>
+            <li><span class="swatch" style="background:#7D4F51" title="#7D4F51" aria-hidden="true"></span><strong>105. Antique Red</strong> – a deep grayish red</li>
+            <li><span class="swatch" style="background:#841B2D" title="#841B2D" aria-hidden="true"></span><strong>106. Antique Ruby</strong> – a dark pink</li>
+            <li><span class="swatch" style="background:#FEAEA5" title="#FEAEA5" aria-hidden="true"></span><strong>107. Apricot Blush</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#E8917D" title="#E8917D" aria-hidden="true"></span><strong>108. Apricot Red</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#F4C2C2" title="#F4C2C2" aria-hidden="true"></span><strong>109. Baby Pink</strong> – a very pale pink</li>
+            <li><span class="swatch" style="background:#7C0A02" title="#7C0A02" aria-hidden="true"></span><strong>110. Barn Red</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#3D0C02" title="#3D0C02" aria-hidden="true"></span><strong>111. Black Bean</strong> – a very dark red</li>
+            <li><span class="swatch" style="background:#660000" title="#660000" aria-hidden="true"></span><strong>112. Blood Red</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#CB4154" title="#CB4154" aria-hidden="true"></span><strong>113. Brick Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#E97451" title="#E97451" aria-hidden="true"></span><strong>114. Burnt Sienna</strong> – a light bright red-orange</li>
+            <li><span class="swatch" style="background:#8A3324" title="#8A3324" aria-hidden="true"></span><strong>115. Burnt Umber</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#E4717A" title="#E4717A" aria-hidden="true"></span><strong>116. Candy Pink</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#C41E3A" title="#C41E3A" aria-hidden="true"></span><strong>117. Cardinal</strong> – a deep pink</li>
+            <li><span class="swatch" style="background:#960018" title="#960018" aria-hidden="true"></span><strong>118. Carmine</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#B31B1B" title="#B31B1B" aria-hidden="true"></span><strong>119. Carnelian</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#C95A49" title="#C95A49" aria-hidden="true"></span><strong>120. Cedar Chest</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#FFB7C5" title="#FFB7C5" aria-hidden="true"></span><strong>121. Cherry Blossom Pink</strong> – a very pale pink</li>
+            <li><span class="swatch" style="background:#E23D28" title="#E23D28" aria-hidden="true"></span><strong>122. Chili Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#AA381E" title="#AA381E" aria-hidden="true"></span><strong>123. Chinese Red</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#E34234" title="#E34234" aria-hidden="true"></span><strong>124. Cinnabar</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#F88379" title="#F88379" aria-hidden="true"></span><strong>125. Congo Pink</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#AD6F69" title="#AD6F69" aria-hidden="true"></span><strong>126. Copper Penny</strong> – a medium muted red</li>
+            <li><span class="swatch" style="background:#CB6D51" title="#CB6D51" aria-hidden="true"></span><strong>127. Copper Red</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#996666" title="#996666" aria-hidden="true"></span><strong>128. Copper Rose</strong> – a medium grayish red</li>
+            <li><span class="swatch" style="background:#FF3800" title="#FF3800" aria-hidden="true"></span><strong>129. Coquelicot</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#F88379" title="#F88379" aria-hidden="true"></span><strong>130. Coral Pink</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#893F45" title="#893F45" aria-hidden="true"></span><strong>131. Cordovan</strong> – a deep soft red</li>
+            <li><span class="swatch" style="background:#8B0000" title="#8B0000" aria-hidden="true"></span><strong>132. Dark Red</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#3C1414" title="#3C1414" aria-hidden="true"></span><strong>133. Dark Sienna</strong> – a very dark red</li>
+            <li><span class="swatch" style="background:#B94E48" title="#B94E48" aria-hidden="true"></span><strong>134. Deep Chestnut</strong> – a medium soft red</li>
+            <li><span class="swatch" style="background:#7E5E60" title="#7E5E60" aria-hidden="true"></span><strong>135. Deep Taupe</strong> – a deep grayish red</li>
+            <li><span class="swatch" style="background:#AB4B52" title="#AB4B52" aria-hidden="true"></span><strong>136. English Red</strong> – a medium soft red</li>
+            <li><span class="swatch" style="background:#CC474B" title="#CC474B" aria-hidden="true"></span><strong>137. English Vermillion</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#801818" title="#801818" aria-hidden="true"></span><strong>138. Falu Red</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#FF5470" title="#FF5470" aria-hidden="true"></span><strong>139. Fiery Rose</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#CE2029" title="#CE2029" aria-hidden="true"></span><strong>140. Fire Engine Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#B22222" title="#B22222" aria-hidden="true"></span><strong>141. Firebrick</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#C72C48" title="#C72C48" aria-hidden="true"></span><strong>142. French Raspberry</strong> – a medium pink</li>
+            <li><span class="swatch" style="background:#ED2939" title="#ED2939" aria-hidden="true"></span><strong>143. Imperial Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#CD5C5C" title="#CD5C5C" aria-hidden="true"></span><strong>144. Indian Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#C0362C" title="#C0362C" aria-hidden="true"></span><strong>145. International Orange</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#9D2933" title="#9D2933" aria-hidden="true"></span><strong>146. Japanese Carmine</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#882D17" title="#882D17" aria-hidden="true"></span><strong>147. Kobe</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#CF1020" title="#CF1020" aria-hidden="true"></span><strong>148. Lava</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#F08080" title="#F08080" aria-hidden="true"></span><strong>149. Light Coral</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#FFB6C1" title="#FFB6C1" aria-hidden="true"></span><strong>150. Light Pink</strong> – a very pale red</li>
+            <li><span class="swatch" style="background:#CC3336" title="#CC3336" aria-hidden="true"></span><strong>151. Madder Lake</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#D92121" title="#D92121" aria-hidden="true"></span><strong>152. Maximum Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#E2062C" title="#E2062C" aria-hidden="true"></span><strong>153. Medium Candy Apple Red</strong> – a deep rich pink</li>
+            <li><span class="swatch" style="background:#AF4035" title="#AF4035" aria-hidden="true"></span><strong>154. Medium Carmine</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#FEBAAD" title="#FEBAAD" aria-hidden="true"></span><strong>155. Melon</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#E58E73" title="#E58E73" aria-hidden="true"></span><strong>156. Middle Red</strong> – a light red-orange</li>
+            <li><span class="swatch" style="background:#A55353" title="#A55353" aria-hidden="true"></span><strong>157. Middle Red Purple</strong> – a medium muted red</li>
+            <li><span class="swatch" style="background:#FFE4E1" title="#FFE4E1" aria-hidden="true"></span><strong>158. Misty Rose</strong> – a near-white red</li>
+            <li><span class="swatch" style="background:#FF948E" title="#FF948E" aria-hidden="true"></span><strong>159. Mona Lisa</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#FE4164" title="#FE4164" aria-hidden="true"></span><strong>160. Neon Fuchsia</strong> – a light vivid pink</li>
+            <li><span class="swatch" style="background:#D7837F" title="#D7837F" aria-hidden="true"></span><strong>161. New York Pink</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#43302E" title="#43302E" aria-hidden="true"></span><strong>162. Old Burgundy</strong> – a dark grayish red</li>
+            <li><span class="swatch" style="background:#C08081" title="#C08081" aria-hidden="true"></span><strong>163. Old Rose</strong> – a light muted pink</li>
+            <li><span class="swatch" style="background:#FA5B3D" title="#FA5B3D" aria-hidden="true"></span><strong>164. Orange Soda</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#FF6E4A" title="#FF6E4A" aria-hidden="true"></span><strong>165. Outrageous Orange</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#4A0000" title="#4A0000" aria-hidden="true"></span><strong>166. Oxblood</strong> – a very dark red</li>
+            <li><span class="swatch" style="background:#FADADD" title="#FADADD" aria-hidden="true"></span><strong>167. Pale Pink</strong> – a very pale red</li>
+            <li><span class="swatch" style="background:#DEA5A4" title="#DEA5A4" aria-hidden="true"></span><strong>168. Pastel Pink</strong> – a pale soft pink</li>
+            <li><span class="swatch" style="background:#E12C2C" title="#E12C2C" aria-hidden="true"></span><strong>169. Permanent Geranium Lake</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#701C1C" title="#701C1C" aria-hidden="true"></span><strong>170. Persian Plum</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#CC3333" title="#CC3333" aria-hidden="true"></span><strong>171. Persian Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#BE4F62" title="#BE4F62" aria-hidden="true"></span><strong>172. Popstar</strong> – a medium soft pink</li>
+            <li><span class="swatch" style="background:#FF5A36" title="#FF5A36" aria-hidden="true"></span><strong>173. Portland Orange</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#701C1C" title="#701C1C" aria-hidden="true"></span><strong>174. Prune</strong> – a dark red</li>
+            <li><span class="swatch" style="background:#913831" title="#913831" aria-hidden="true"></span><strong>175. Red Ocher</strong> – a deep soft red</li>
+            <li><span class="swatch" style="background:#FD3A4A" title="#FD3A4A" aria-hidden="true"></span><strong>176. Red Salsa</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#FF5349" title="#FF5349" aria-hidden="true"></span><strong>177. Red-Orange</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#A45A52" title="#A45A52" aria-hidden="true"></span><strong>178. Redwood</strong> – a medium muted red</li>
+            <li><span class="swatch" style="background:#A91101" title="#A91101" aria-hidden="true"></span><strong>179. Rojo Spanish Red</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#674846" title="#674846" aria-hidden="true"></span><strong>180. Rose Ebony</strong> – a deep grayish red</li>
+            <li><span class="swatch" style="background:#E32636" title="#E32636" aria-hidden="true"></span><strong>181. Rose Madder</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#905D5D" title="#905D5D" aria-hidden="true"></span><strong>182. Rose Taupe</strong> – a medium grayish red</li>
+            <li><span class="swatch" style="background:#AB4E52" title="#AB4E52" aria-hidden="true"></span><strong>183. Rose Vale</strong> – a medium soft red</li>
+            <li><span class="swatch" style="background:#65000B" title="#65000B" aria-hidden="true"></span><strong>184. Rosewood</strong> – a very dark red</li>
+            <li><span class="swatch" style="background:#D40000" title="#D40000" aria-hidden="true"></span><strong>185. Rosso Corsa</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#BC8F8F" title="#BC8F8F" aria-hidden="true"></span><strong>186. Rosy Brown</strong> – a light muted pink</li>
+            <li><span class="swatch" style="background:#9B111E" title="#9B111E" aria-hidden="true"></span><strong>187. Ruby Red</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#A81C07" title="#A81C07" aria-hidden="true"></span><strong>188. Rufous</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#DA2C43" title="#DA2C43" aria-hidden="true"></span><strong>189. Rusty Red</strong> – a medium red</li>
+            <li><span class="swatch" style="background:#FF91A4" title="#FF91A4" aria-hidden="true"></span><strong>190. Salmon Pink</strong> – a pale bright pink</li>
+            <li><span class="swatch" style="background:#D98695" title="#D98695" aria-hidden="true"></span><strong>191. Shimmering Blush</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#C4AEAD" title="#C4AEAD" aria-hidden="true"></span><strong>192. Silver Pink</strong> – a pale grayish pink</li>
+            <li><span class="swatch" style="background:#FF3855" title="#FF3855" aria-hidden="true"></span><strong>193. Sizzling Red</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#893843" title="#893843" aria-hidden="true"></span><strong>194. Solid Pink</strong> – a deep soft red</li>
+            <li><span class="swatch" style="background:#F7BFBE" title="#F7BFBE" aria-hidden="true"></span><strong>195. Spanish Pink</strong> – a very pale red</li>
+            <li><span class="swatch" style="background:#E60026" title="#E60026" aria-hidden="true"></span><strong>196. Spanish Red</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#FA5053" title="#FA5053" aria-hidden="true"></span><strong>197. Strawberry</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#A83731" title="#A83731" aria-hidden="true"></span><strong>198. Sweet Brown</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#E4717A" title="#E4717A" aria-hidden="true"></span><strong>199. Tango Pink</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#FB4D46" title="#FB4D46" aria-hidden="true"></span><strong>200. Tart Orange</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#F4C2C2" title="#F4C2C2" aria-hidden="true"></span><strong>201. Tea Rose</strong> – a very pale pink</li>
+            <li><span class="swatch" style="background:#E2725B" title="#E2725B" aria-hidden="true"></span><strong>202. Terra Cotta</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#FF6347" title="#FF6347" aria-hidden="true"></span><strong>203. Tomato</strong> – a light vivid red</li>
+            <li><span class="swatch" style="background:#7C4848" title="#7C4848" aria-hidden="true"></span><strong>204. Tuscan Red</strong> – a deep muted red</li>
+            <li><span class="swatch" style="background:#C09999" title="#C09999" aria-hidden="true"></span><strong>205. Tuscany</strong> – a light grayish pink</li>
+            <li><span class="swatch" style="background:#FC6C85" title="#FC6C85" aria-hidden="true"></span><strong>206. Ultra Red</strong> – a light vivid pink</li>
+            <li><span class="swatch" style="background:#A50021" title="#A50021" aria-hidden="true"></span><strong>207. University of Pennsylvania Red</strong> – a dark pink</li>
+            <li><span class="swatch" style="background:#AE2029" title="#AE2029" aria-hidden="true"></span><strong>208. Upsdell Red</strong> – a deep red</li>
+            <li><span class="swatch" style="background:#C80815" title="#C80815" aria-hidden="true"></span><strong>209. Venetian Red</strong> – a deep rich red</li>
+            <li><span class="swatch" style="background:#9F1D35" title="#9F1D35" aria-hidden="true"></span><strong>210. Vivid Burgundy</strong> – a deep pink</li>
+            <li><span class="swatch" style="background:#FFA089" title="#FFA089" aria-hidden="true"></span><strong>211. Vivid Tangerine</strong> – a pale bright red</li>
+            <li><span class="swatch" style="background:#FC6C85" title="#FC6C85" aria-hidden="true"></span><strong>212. Wild Watermelon</strong> – a light vivid pink</li>
+            <li><span class="swatch" style="background:#B11226" title="#B11226" aria-hidden="true"></span><strong>213. Wine Red</strong> – a deep rich red</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Oranges</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#C46210" title="#C46210" aria-hidden="true"></span><strong>214. Alloy Orange</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#EED9C4" title="#EED9C4" aria-hidden="true"></span><strong>215. Almond</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#D0A592" title="#D0A592" aria-hidden="true"></span><strong>216. Amber Grey</strong> – a light soft tan</li>
+            <li><span class="swatch" style="background:#EED1A5" title="#EED1A5" aria-hidden="true"></span><strong>217. Amber Moon</strong> – a pale orange</li>
+            <li><span class="swatch" style="background:#C0863F" title="#C0863F" aria-hidden="true"></span><strong>218. Amber Sienna</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#FAB75A" title="#FAB75A" aria-hidden="true"></span><strong>219. Amber Yellow</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#FFC7B0" title="#FFC7B0" aria-hidden="true"></span><strong>220. Antique Coral</strong> – a very pale red-orange</li>
+            <li><span class="swatch" style="background:#F9ECD3" title="#F9ECD3" aria-hidden="true"></span><strong>221. Antique Ivory</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#FAEEDB" title="#FAEEDB" aria-hidden="true"></span><strong>222. Antique Linen</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#EBD7CB" title="#EBD7CB" aria-hidden="true"></span><strong>223. Antique Pearl</strong> – a very pale soft red-orange</li>
+            <li><span class="swatch" style="background:#FAEBD7" title="#FAEBD7" aria-hidden="true"></span><strong>224. Antique White</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#CC7E5B" title="#CC7E5B" aria-hidden="true"></span><strong>225. Apricot Brown</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#F1BD89" title="#F1BD89" aria-hidden="true"></span><strong>226. Apricot Cream</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#FFF6E9" title="#FFF6E9" aria-hidden="true"></span><strong>227. Apricot Ice</strong> – a near-white orange</li>
+            <li><span class="swatch" style="background:#C86B3C" title="#C86B3C" aria-hidden="true"></span><strong>228. Apricot Orange</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#F1B393" title="#F1B393" aria-hidden="true"></span><strong>229. Apricot Spring</strong> – a pale bright red-orange</li>
+            <li><span class="swatch" style="background:#DA8C53" title="#DA8C53" aria-hidden="true"></span><strong>230. Apricot Tan</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#F7BD81" title="#F7BD81" aria-hidden="true"></span><strong>231. Apricot Yellow</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#E8D3C7" title="#E8D3C7" aria-hidden="true"></span><strong>232. Ash Plum</strong> – a very pale soft red-orange</li>
+            <li><span class="swatch" style="background:#FF9966" title="#FF9966" aria-hidden="true"></span><strong>233. Atomic Tangerine</strong> – a light vivid red-orange</li>
+            <li><span class="swatch" style="background:#FFE4C4" title="#FFE4C4" aria-hidden="true"></span><strong>234. Bisque</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#FFEBCD" title="#FFEBCD" aria-hidden="true"></span><strong>235. Blanched Almond</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#E3DAC9" title="#E3DAC9" aria-hidden="true"></span><strong>236. Bone</strong> – a pale muted orange</li>
+            <li><span class="swatch" style="background:#FFAA1D" title="#FFAA1D" aria-hidden="true"></span><strong>237. Bright Yellow</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#CD7F32" title="#CD7F32" aria-hidden="true"></span><strong>238. Bronze</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#FFC680" title="#FFC680" aria-hidden="true"></span><strong>239. Buff</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#DEB887" title="#DEB887" aria-hidden="true"></span><strong>240. Burlywood</strong> – a light orange</li>
+            <li><span class="swatch" style="background:#CC5500" title="#CC5500" aria-hidden="true"></span><strong>241. Burnt Orange</strong> – a deep rich red-orange</li>
+            <li><span class="swatch" style="background:#ED872D" title="#ED872D" aria-hidden="true"></span><strong>242. Cadmium Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#AF6F09" title="#AF6F09" aria-hidden="true"></span><strong>243. Caramel</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#ED9121" title="#ED9121" aria-hidden="true"></span><strong>244. Carrot Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#F7E7CE" title="#F7E7CE" aria-hidden="true"></span><strong>245. Champagne</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#F1DDCF" title="#F1DDCF" aria-hidden="true"></span><strong>246. Champagne Pink</strong> – a very pale red-orange</li>
+            <li><span class="swatch" style="background:#FFB200" title="#FFB200" aria-hidden="true"></span><strong>247. Chinese Yellow</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#B87333" title="#B87333" aria-hidden="true"></span><strong>248. Copper</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#654321" title="#654321" aria-hidden="true"></span><strong>249. Dark Brown</strong> – a dark orange</li>
+            <li><span class="swatch" style="background:#FF8C00" title="#FF8C00" aria-hidden="true"></span><strong>250. Dark Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#E9967A" title="#E9967A" aria-hidden="true"></span><strong>251. Dark Salmon</strong> – a light red-orange</li>
+            <li><span class="swatch" style="background:#FAD6A5" title="#FAD6A5" aria-hidden="true"></span><strong>252. Deep Champagne</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#FF9933" title="#FF9933" aria-hidden="true"></span><strong>253. Deep Saffron</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#EDC9AF" title="#EDC9AF" aria-hidden="true"></span><strong>254. Desert Sand</strong> – a pale orange</li>
+            <li><span class="swatch" style="background:#EFDFBB" title="#EFDFBB" aria-hidden="true"></span><strong>255. Dutch White</strong> – a pale orange</li>
+            <li><span class="swatch" style="background:#6C541E" title="#6C541E" aria-hidden="true"></span><strong>256. Field Drab</strong> – a dark orange</li>
+            <li><span class="swatch" style="background:#E25822" title="#E25822" aria-hidden="true"></span><strong>257. Flame</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#E48400" title="#E48400" aria-hidden="true"></span><strong>258. Fulvous</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#87421F" title="#87421F" aria-hidden="true"></span><strong>259. Fuzzy Wuzzy</strong> – a dark red-orange</li>
+            <li><span class="swatch" style="background:#E49B0F" title="#E49B0F" aria-hidden="true"></span><strong>260. Gamboge</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#E6BE8A" title="#E6BE8A" aria-hidden="true"></span><strong>261. Gold</strong> – a pale orange</li>
+            <li><span class="swatch" style="background:#996515" title="#996515" aria-hidden="true"></span><strong>262. Golden Brown</strong> – a deep orange</li>
+            <li><span class="swatch" style="background:#DA9100" title="#DA9100" aria-hidden="true"></span><strong>263. Harvest Gold</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#FF7A00" title="#FF7A00" aria-hidden="true"></span><strong>264. Heat Wave</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#E3A857" title="#E3A857" aria-hidden="true"></span><strong>265. Indian Yellow</strong> – a light orange</li>
+            <li><span class="swatch" style="background:#6B4423" title="#6B4423" aria-hidden="true"></span><strong>266. Kobicha</strong> – a dark orange</li>
+            <li><span class="swatch" style="background:#C8AD7F" title="#C8AD7F" aria-hidden="true"></span><strong>267. Light French Beige</strong> – a light soft tan</li>
+            <li><span class="swatch" style="background:#FED8B1" title="#FED8B1" aria-hidden="true"></span><strong>268. Light Orange</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#FFA07A" title="#FFA07A" aria-hidden="true"></span><strong>269. Light Salmon</strong> – a pale bright red-orange</li>
+            <li><span class="swatch" style="background:#FFBD88" title="#FFBD88" aria-hidden="true"></span><strong>270. Macaroni and Cheese</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#F2E8D7" title="#F2E8D7" aria-hidden="true"></span><strong>271. Magnolia</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#F37A48" title="#F37A48" aria-hidden="true"></span><strong>272. Mandarin</strong> – a light vivid red-orange</li>
+            <li><span class="swatch" style="background:#FF8243" title="#FF8243" aria-hidden="true"></span><strong>273. Mango Tango</strong> – a light vivid red-orange</li>
+            <li><span class="swatch" style="background:#EAA221" title="#EAA221" aria-hidden="true"></span><strong>274. Marigold</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#F2BA49" title="#F2BA49" aria-hidden="true"></span><strong>275. Maximum Yellow Red</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#F8B878" title="#F8B878" aria-hidden="true"></span><strong>276. Mellow Apricot</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#ECB176" title="#ECB176" aria-hidden="true"></span><strong>277. Middle Yellow Red</strong> – a light bright orange</li>
+            <li><span class="swatch" style="background:#FFE4B5" title="#FFE4B5" aria-hidden="true"></span><strong>278. Moccasin</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#FFDEAD" title="#FFDEAD" aria-hidden="true"></span><strong>279. Navajo White</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#CC7722" title="#CC7722" aria-hidden="true"></span><strong>280. Ocher</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#FDF5E6" title="#FDF5E6" aria-hidden="true"></span><strong>281. Old Lace</strong> – a near-white orange</li>
+            <li><span class="swatch" style="background:#FF9F00" title="#FF9F00" aria-hidden="true"></span><strong>282. Orange Peel</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#FF681F" title="#FF681F" aria-hidden="true"></span><strong>283. Orange-Red</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#FFEFD5" title="#FFEFD5" aria-hidden="true"></span><strong>284. Papaya Whip</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#FFDAB9" title="#FFDAB9" aria-hidden="true"></span><strong>285. Peach Puff</strong> – a very pale orange</li>
+            <li><span class="swatch" style="background:#D99058" title="#D99058" aria-hidden="true"></span><strong>286. Persian Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#EC5800" title="#EC5800" aria-hidden="true"></span><strong>287. Persimmon</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#F58025" title="#F58025" aria-hidden="true"></span><strong>288. Princeton Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#644117" title="#644117" aria-hidden="true"></span><strong>289. Pullman Brown</strong> – a dark orange</li>
+            <li><span class="swatch" style="background:#FF7518" title="#FF7518" aria-hidden="true"></span><strong>290. Pumpkin</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#FBAB60" title="#FBAB60" aria-hidden="true"></span><strong>291. Rajah</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#D68A59" title="#D68A59" aria-hidden="true"></span><strong>292. Raw Sienna</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#80461B" title="#80461B" aria-hidden="true"></span><strong>293. Russet</strong> – a dark orange</li>
+            <li><span class="swatch" style="background:#8B4513" title="#8B4513" aria-hidden="true"></span><strong>294. Saddle Brown</strong> – a dark red-orange</li>
+            <li><span class="swatch" style="background:#FF7800" title="#FF7800" aria-hidden="true"></span><strong>295. Safety Orange</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#F4A460" title="#F4A460" aria-hidden="true"></span><strong>296. Sandy Brown</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#59260B" title="#59260B" aria-hidden="true"></span><strong>297. Seal Brown</strong> – a very dark red-orange</li>
+            <li><span class="swatch" style="background:#FFF5EE" title="#FFF5EE" aria-hidden="true"></span><strong>298. Seashell</strong> – a near-white red-orange</li>
+            <li><span class="swatch" style="background:#CB410B" title="#CB410B" aria-hidden="true"></span><strong>299. Sinopia</strong> – a deep rich red-orange</li>
+            <li><span class="swatch" style="background:#FFDEAD" title="#FFDEAD" aria-hidden="true"></span><strong>300. Skin Color</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#E86100" title="#E86100" aria-hidden="true"></span><strong>301. Spanish Orange</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#FF9361" title="#FF9361" aria-hidden="true"></span><strong>302. Strawberry Blonde</strong> – a light vivid red-orange</li>
+            <li><span class="swatch" style="background:#E3AB57" title="#E3AB57" aria-hidden="true"></span><strong>303. Sunray</strong> – a light orange</li>
+            <li><span class="swatch" style="background:#FAD6A5" title="#FAD6A5" aria-hidden="true"></span><strong>304. Sunset</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#D44500" title="#D44500" aria-hidden="true"></span><strong>305. Syracuse Orange</strong> – a deep rich red-orange</li>
+            <li><span class="swatch" style="background:#F28500" title="#F28500" aria-hidden="true"></span><strong>306. Tangerine</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#DEAA88" title="#DEAA88" aria-hidden="true"></span><strong>307. Tumbleweed</strong> – a light red-orange</li>
+            <li><span class="swatch" style="background:#FAD6A5" title="#FAD6A5" aria-hidden="true"></span><strong>308. Tuscan</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#FFDDCA" title="#FFDDCA" aria-hidden="true"></span><strong>309. Unbleached Silk</strong> – a very pale red-orange</li>
+            <li><span class="swatch" style="background:#F5DEB3" title="#F5DEB3" aria-hidden="true"></span><strong>310. Wheat</strong> – a pale bright orange</li>
+            <li><span class="swatch" style="background:#FD5800" title="#FD5800" aria-hidden="true"></span><strong>311. Willpower Orange</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#A75502" title="#A75502" aria-hidden="true"></span><strong>312. Windsor Tan</strong> – a deep rich orange</li>
+            <li><span class="swatch" style="background:#F1B42F" title="#F1B42F" aria-hidden="true"></span><strong>313. Xanthous</strong> – a medium orange</li>
+            <li><span class="swatch" style="background:#FFAE42" title="#FFAE42" aria-hidden="true"></span><strong>314. Yellow Orange</strong> – a light vivid orange</li>
+            <li><span class="swatch" style="background:#FF4500" title="#FF4500" aria-hidden="true"></span><strong>315. Zarqa</strong> – a medium red-orange</li>
+            <li><span class="swatch" style="background:#2C1608" title="#2C1608" aria-hidden="true"></span><strong>316. Zinnwaldite Brown</strong> – a very dark red-orange</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Yellows</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#B0BF1A" title="#B0BF1A" aria-hidden="true"></span><strong>317. Acid Green</strong> – a deep yellow</li>
+            <li><span class="swatch" style="background:#F9D975" title="#F9D975" aria-hidden="true"></span><strong>318. Amber Pearl</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#665D1E" title="#665D1E" aria-hidden="true"></span><strong>319. Antique Bronze</strong> – a dark amber</li>
+            <li><span class="swatch" style="background:#F7F0DB" title="#F7F0DB" aria-hidden="true"></span><strong>320. Apricot White</strong> – a very pale amber</li>
+            <li><span class="swatch" style="background:#E9D66B" title="#E9D66B" aria-hidden="true"></span><strong>321. Arylide Yellow</strong> – a light bright amber</li>
+            <li><span class="swatch" style="background:#FDEE00" title="#FDEE00" aria-hidden="true"></span><strong>322. Aureolin</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FAE7B5" title="#FAE7B5" aria-hidden="true"></span><strong>323. Banana Mania</strong> – a very pale amber</li>
+            <li><span class="swatch" style="background:#967117" title="#967117" aria-hidden="true"></span><strong>324. Bistre Brown</strong> – a deep amber</li>
+            <li><span class="swatch" style="background:#CAE00D" title="#CAE00D" aria-hidden="true"></span><strong>325. Bitter Lemon</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FFFF99" title="#FFFF99" aria-hidden="true"></span><strong>326. Canary</strong> – a pale bright yellow</li>
+            <li><span class="swatch" style="background:#FFEF00" title="#FFEF00" aria-hidden="true"></span><strong>327. Canary Yellow</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#E4D00A" title="#E4D00A" aria-hidden="true"></span><strong>328. Citrine</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#9FA91F" title="#9FA91F" aria-hidden="true"></span><strong>329. Citron</strong> – a deep yellow</li>
+            <li><span class="swatch" style="background:#FBEC5D" title="#FBEC5D" aria-hidden="true"></span><strong>330. Corn</strong> – a light vivid yellow</li>
+            <li><span class="swatch" style="background:#FFF8DC" title="#FFF8DC" aria-hidden="true"></span><strong>331. Cornsilk</strong> – a near-white amber</li>
+            <li><span class="swatch" style="background:#FFF8E7" title="#FFF8E7" aria-hidden="true"></span><strong>332. Cosmic Latte</strong> – a near-white amber</li>
+            <li><span class="swatch" style="background:#FFD300" title="#FFD300" aria-hidden="true"></span><strong>333. Cyber Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FED85D" title="#FED85D" aria-hidden="true"></span><strong>334. Dandelion</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#B8860B" title="#B8860B" aria-hidden="true"></span><strong>335. Dark Goldenrod</strong> – a deep rich amber</li>
+            <li><span class="swatch" style="background:#BDB76B" title="#BDB76B" aria-hidden="true"></span><strong>336. Dark Khaki</strong> – a medium soft yellow</li>
+            <li><span class="swatch" style="background:#EEDC82" title="#EEDC82" aria-hidden="true"></span><strong>337. Flax</strong> – a pale bright amber</li>
+            <li><span class="swatch" style="background:#F5BF03" title="#F5BF03" aria-hidden="true"></span><strong>338. Golden</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FCC200" title="#FCC200" aria-hidden="true"></span><strong>339. Golden Poppy</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FFDF00" title="#FFDF00" aria-hidden="true"></span><strong>340. Golden Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#DAA520" title="#DAA520" aria-hidden="true"></span><strong>341. Goldenrod</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#E9D66B" title="#E9D66B" aria-hidden="true"></span><strong>342. Hansa Yellow</strong> – a light bright amber</li>
+            <li><span class="swatch" style="background:#F8DE7E" title="#F8DE7E" aria-hidden="true"></span><strong>343. Jasmine</strong> – a pale bright amber</li>
+            <li><span class="swatch" style="background:#F4CA16" title="#F4CA16" aria-hidden="true"></span><strong>344. Jonquil</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#E8F48C" title="#E8F48C" aria-hidden="true"></span><strong>345. Key Lime</strong> – a pale bright yellow</li>
+            <li><span class="swatch" style="background:#FFFF66" title="#FFFF66" aria-hidden="true"></span><strong>346. Laser Lemon</strong> – a light vivid yellow</li>
+            <li><span class="swatch" style="background:#FFFACD" title="#FFFACD" aria-hidden="true"></span><strong>347. Lemon Chiffon</strong> – a very pale amber</li>
+            <li><span class="swatch" style="background:#CCA01D" title="#CCA01D" aria-hidden="true"></span><strong>348. Lemon Curry</strong> – a deep amber</li>
+            <li><span class="swatch" style="background:#FDFF00" title="#FDFF00" aria-hidden="true"></span><strong>349. Lemon Glacier</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#F6EABE" title="#F6EABE" aria-hidden="true"></span><strong>350. Lemon Meringue</strong> – a very pale amber</li>
+            <li><span class="swatch" style="background:#FFF44F" title="#FFF44F" aria-hidden="true"></span><strong>351. Lemon Yellow</strong> – a light vivid yellow</li>
+            <li><span class="swatch" style="background:#FAFAD2" title="#FAFAD2" aria-hidden="true"></span><strong>352. Light Goldenrod Yellow</strong> – a very pale yellow</li>
+            <li><span class="swatch" style="background:#FFFFE0" title="#FFFFE0" aria-hidden="true"></span><strong>353. Light Yellow</strong> – a near-white yellow</li>
+            <li><span class="swatch" style="background:#DECC9C" title="#DECC9C" aria-hidden="true"></span><strong>354. Lion</strong> – a pale amber</li>
+            <li><span class="swatch" style="background:#FBEC5D" title="#FBEC5D" aria-hidden="true"></span><strong>355. Maize</strong> – a light vivid yellow</li>
+            <li><span class="swatch" style="background:#FDBE02" title="#FDBE02" aria-hidden="true"></span><strong>356. Mango</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#D9E650" title="#D9E650" aria-hidden="true"></span><strong>357. Maximum Green Yellow</strong> – a light bright yellow</li>
+            <li><span class="swatch" style="background:#FAFA37" title="#FAFA37" aria-hidden="true"></span><strong>358. Maximum Yellow</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#F3E5AB" title="#F3E5AB" aria-hidden="true"></span><strong>359. Medium Champagne</strong> – a pale bright amber</li>
+            <li><span class="swatch" style="background:#F8DE7E" title="#F8DE7E" aria-hidden="true"></span><strong>360. Mellow Yellow</strong> – a pale bright amber</li>
+            <li><span class="swatch" style="background:#D3AF37" title="#D3AF37" aria-hidden="true"></span><strong>361. Metallic Gold</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FFEB00" title="#FFEB00" aria-hidden="true"></span><strong>362. Middle Yellow</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FFC40C" title="#FFC40C" aria-hidden="true"></span><strong>363. Mikado Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#F5E050" title="#F5E050" aria-hidden="true"></span><strong>364. Minion Yellow</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#967117" title="#967117" aria-hidden="true"></span><strong>365. Mode Beige</strong> – a deep amber</li>
+            <li><span class="swatch" style="background:#FADA5E" title="#FADA5E" aria-hidden="true"></span><strong>366. Naples Yellow</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#CFB53B" title="#CFB53B" aria-hidden="true"></span><strong>367. Old Gold</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#B5B35C" title="#B5B35C" aria-hidden="true"></span><strong>368. Olive Green</strong> – a medium soft yellow</li>
+            <li><span class="swatch" style="background:#F5BD1F" title="#F5BD1F" aria-hidden="true"></span><strong>369. Orange-Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#ECEBBD" title="#ECEBBD" aria-hidden="true"></span><strong>370. Pale Spring Bud</strong> – a pale yellow</li>
+            <li><span class="swatch" style="background:#F1E9D2" title="#F1E9D2" aria-hidden="true"></span><strong>371. Parchment</strong> – a very pale amber</li>
+            <li><span class="swatch" style="background:#D1E231" title="#D1E231" aria-hidden="true"></span><strong>372. Pear</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#E1CA7A" title="#E1CA7A" aria-hidden="true"></span><strong>373. Prairie Gold</strong> – a light amber</li>
+            <li><span class="swatch" style="background:#FADA5E" title="#FADA5E" aria-hidden="true"></span><strong>374. Royal Yellow</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#EED202" title="#EED202" aria-hidden="true"></span><strong>375. Safety Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#F4C430" title="#F4C430" aria-hidden="true"></span><strong>376. Saffron</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#C2B280" title="#C2B280" aria-hidden="true"></span><strong>377. Sand</strong> – a light soft tan</li>
+            <li><span class="swatch" style="background:#967117" title="#967117" aria-hidden="true"></span><strong>378. Sand Dune</strong> – a deep amber</li>
+            <li><span class="swatch" style="background:#CBA135" title="#CBA135" aria-hidden="true"></span><strong>379. Satin Sheen Gold</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FFD800" title="#FFD800" aria-hidden="true"></span><strong>380. School Bus Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FFBA00" title="#FFBA00" aria-hidden="true"></span><strong>381. Selective Yellow</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FFDB00" title="#FFDB00" aria-hidden="true"></span><strong>382. Sizzling Sunrise</strong> – a medium amber</li>
+            <li><span class="swatch" style="background:#FADA5E" title="#FADA5E" aria-hidden="true"></span><strong>383. Stil De Grain Yellow</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#E4D96F" title="#E4D96F" aria-hidden="true"></span><strong>384. Straw</strong> – a light yellow</li>
+            <li><span class="swatch" style="background:#FFCC33" title="#FFCC33" aria-hidden="true"></span><strong>385. Sunglow</strong> – a light vivid amber</li>
+            <li><span class="swatch" style="background:#EEE600" title="#EEE600" aria-hidden="true"></span><strong>386. Titanium Yellow</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FFFF66" title="#FFFF66" aria-hidden="true"></span><strong>387. Unmellow Yellow</strong> – a light vivid yellow</li>
+            <li><span class="swatch" style="background:#F3E5AB" title="#F3E5AB" aria-hidden="true"></span><strong>388. Vanilla</strong> – a pale bright amber</li>
+            <li><span class="swatch" style="background:#EEED09" title="#EEED09" aria-hidden="true"></span><strong>389. Xanthic</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FFF000" title="#FFF000" aria-hidden="true"></span><strong>390. Yellow Rose</strong> – a medium yellow</li>
+            <li><span class="swatch" style="background:#FFF700" title="#FFF700" aria-hidden="true"></span><strong>391. Yellow Sunshine</strong> – a medium yellow</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Greens</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#3B7A57" title="#3B7A57" aria-hidden="true"></span><strong>392. Amazon</strong> – a deep soft green</li>
+            <li><span class="swatch" style="background:#3DDC84" title="#3DDC84" aria-hidden="true"></span><strong>393. Android Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#7A973B" title="#7A973B" aria-hidden="true"></span><strong>394. Antique Moss</strong> – a deep soft yellow-green</li>
+            <li><span class="swatch" style="background:#5FA777" title="#5FA777" aria-hidden="true"></span><strong>395. Aqua Forest</strong> – a medium muted green</li>
+            <li><span class="swatch" style="background:#12E193" title="#12E193" aria-hidden="true"></span><strong>396. Aqua Green</strong> – a medium blue-green</li>
+            <li><span class="swatch" style="background:#D0FF14" title="#D0FF14" aria-hidden="true"></span><strong>397. Arctic Lime</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#4B6F44" title="#4B6F44" aria-hidden="true"></span><strong>398. Artichoke Green</strong> – a deep muted green</li>
+            <li><span class="swatch" style="background:#004225" title="#004225" aria-hidden="true"></span><strong>399. British Racing Green</strong> – a very dark green</li>
+            <li><span class="swatch" style="background:#7BB661" title="#7BB661" aria-hidden="true"></span><strong>400. Bud Green</strong> – a medium soft green</li>
+            <li><span class="swatch" style="background:#006B3C" title="#006B3C" aria-hidden="true"></span><strong>401. Cadmium Green</strong> – a dark green</li>
+            <li><span class="swatch" style="background:#A3C1AD" title="#A3C1AD" aria-hidden="true"></span><strong>402. Cambridge Blue</strong> – a light grayish green</li>
+            <li><span class="swatch" style="background:#ACE1AF" title="#ACE1AF" aria-hidden="true"></span><strong>403. Celadon</strong> – a pale soft green</li>
+            <li><span class="swatch" style="background:#80FF00" title="#80FF00" aria-hidden="true"></span><strong>404. Chartreuse</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#006400" title="#006400" aria-hidden="true"></span><strong>405. Dark Green</strong> – a very dark green</li>
+            <li><span class="swatch" style="background:#556B2F" title="#556B2F" aria-hidden="true"></span><strong>406. Dark Olive Green</strong> – a dark soft yellow-green</li>
+            <li><span class="swatch" style="background:#8FBC8F" title="#8FBC8F" aria-hidden="true"></span><strong>407. Dark Sea Green</strong> – a light muted green</li>
+            <li><span class="swatch" style="background:#177245" title="#177245" aria-hidden="true"></span><strong>408. Dark Spring Green</strong> – a dark green</li>
+            <li><span class="swatch" style="background:#CCFF00" title="#CCFF00" aria-hidden="true"></span><strong>409. Electric Lime</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#00FF40" title="#00FF40" aria-hidden="true"></span><strong>410. Erin</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#96C8A2" title="#96C8A2" aria-hidden="true"></span><strong>411. Eton Blue</strong> – a light muted green</li>
+            <li><span class="swatch" style="background:#548D44" title="#548D44" aria-hidden="true"></span><strong>412. Fern</strong> – a deep soft green</li>
+            <li><span class="swatch" style="background:#4F7942" title="#4F7942" aria-hidden="true"></span><strong>413. Fern Green</strong> – a deep muted green</li>
+            <li><span class="swatch" style="background:#0B5509" title="#0B5509" aria-hidden="true"></span><strong>414. Forest</strong> – a very dark green</li>
+            <li><span class="swatch" style="background:#228B22" title="#228B22" aria-hidden="true"></span><strong>415. Forest Green</strong> – a deep green</li>
+            <li><span class="swatch" style="background:#9EFD38" title="#9EFD38" aria-hidden="true"></span><strong>416. French Lime</strong> – a light vivid yellow-green</li>
+            <li><span class="swatch" style="background:#00573F" title="#00573F" aria-hidden="true"></span><strong>417. Gotham Green</strong> – a very dark blue-green</li>
+            <li><span class="swatch" style="background:#A8E4A0" title="#A8E4A0" aria-hidden="true"></span><strong>418. Granny Smith Apple</strong> – a pale green</li>
+            <li><span class="swatch" style="background:#5CAC2D" title="#5CAC2D" aria-hidden="true"></span><strong>419. Grass</strong> – a deep green</li>
+            <li><span class="swatch" style="background:#A7F432" title="#A7F432" aria-hidden="true"></span><strong>420. Green Lizard</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#3FFF00" title="#3FFF00" aria-hidden="true"></span><strong>421. Harlequin</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#49796B" title="#49796B" aria-hidden="true"></span><strong>422. Hooker&#x27;s Green</strong> – a deep muted blue-green</li>
+            <li><span class="swatch" style="background:#355E3B" title="#355E3B" aria-hidden="true"></span><strong>423. Hunter Green</strong> – a dark muted green</li>
+            <li><span class="swatch" style="background:#319177" title="#319177" aria-hidden="true"></span><strong>424. Illuminating Emerald</strong> – a deep soft blue-green</li>
+            <li><span class="swatch" style="background:#B2EC5D" title="#B2EC5D" aria-hidden="true"></span><strong>425. Inchworm</strong> – a light bright yellow-green</li>
+            <li><span class="swatch" style="background:#138808" title="#138808" aria-hidden="true"></span><strong>426. India Green</strong> – a dark green</li>
+            <li><span class="swatch" style="background:#BDDA57" title="#BDDA57" aria-hidden="true"></span><strong>427. June Bud</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#29AB87" title="#29AB87" aria-hidden="true"></span><strong>428. Jungle Green</strong> – a deep blue-green</li>
+            <li><span class="swatch" style="background:#4CBB17" title="#4CBB17" aria-hidden="true"></span><strong>429. Kelly Green</strong> – a deep green</li>
+            <li><span class="swatch" style="background:#A9BA9D" title="#A9BA9D" aria-hidden="true"></span><strong>430. Laurel Green</strong> – a light grayish green</li>
+            <li><span class="swatch" style="background:#7CFC00" title="#7CFC00" aria-hidden="true"></span><strong>431. Lawn Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#71AA34" title="#71AA34" aria-hidden="true"></span><strong>432. Leaf</strong> – a deep yellow-green</li>
+            <li><span class="swatch" style="background:#90EE90" title="#90EE90" aria-hidden="true"></span><strong>433. Light Green</strong> – a pale bright green</li>
+            <li><span class="swatch" style="background:#32CD32" title="#32CD32" aria-hidden="true"></span><strong>434. Lime Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#195905" title="#195905" aria-hidden="true"></span><strong>435. Lincoln Green</strong> – a very dark green</li>
+            <li><span class="swatch" style="background:#AAF0D1" title="#AAF0D1" aria-hidden="true"></span><strong>436. Magic Mint</strong> – a pale green</li>
+            <li><span class="swatch" style="background:#0BDA51" title="#0BDA51" aria-hidden="true"></span><strong>437. Malachite</strong> – a deep rich green</li>
+            <li><span class="swatch" style="background:#74C365" title="#74C365" aria-hidden="true"></span><strong>438. Mantis</strong> – a medium soft green</li>
+            <li><span class="swatch" style="background:#5E8C31" title="#5E8C31" aria-hidden="true"></span><strong>439. Maximum Green</strong> – a deep soft green</li>
+            <li><span class="swatch" style="background:#4C9141" title="#4C9141" aria-hidden="true"></span><strong>440. May Green</strong> – a deep soft green</li>
+            <li><span class="swatch" style="background:#66DDAA" title="#66DDAA" aria-hidden="true"></span><strong>441. Medium Aquamarine</strong> – a light green</li>
+            <li><span class="swatch" style="background:#3CB371" title="#3CB371" aria-hidden="true"></span><strong>442. Medium Sea Green</strong> – a medium soft green</li>
+            <li><span class="swatch" style="background:#00FA9A" title="#00FA9A" aria-hidden="true"></span><strong>443. Medium Spring Green</strong> – a medium blue-green</li>
+            <li><span class="swatch" style="background:#4D8C57" title="#4D8C57" aria-hidden="true"></span><strong>444. Middle Green</strong> – a deep muted green</li>
+            <li><span class="swatch" style="background:#ACBF60" title="#ACBF60" aria-hidden="true"></span><strong>445. Middle Green Yellow</strong> – a medium soft yellow-green</li>
+            <li><span class="swatch" style="background:#E3F988" title="#E3F988" aria-hidden="true"></span><strong>446. Mindaro</strong> – a pale bright yellow-green</li>
+            <li><span class="swatch" style="background:#98FF98" title="#98FF98" aria-hidden="true"></span><strong>447. Mint Green</strong> – a pale bright green</li>
+            <li><span class="swatch" style="background:#8A9A5B" title="#8A9A5B" aria-hidden="true"></span><strong>448. Moss Green</strong> – a medium muted yellow-green</li>
+            <li><span class="swatch" style="background:#30BA8F" title="#30BA8F" aria-hidden="true"></span><strong>449. Mountain Meadow</strong> – a deep blue-green</li>
+            <li><span class="swatch" style="background:#39FF14" title="#39FF14" aria-hidden="true"></span><strong>450. Neon Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#E9FFDB" title="#E9FFDB" aria-hidden="true"></span><strong>451. Nyanza</strong> – a very pale green</li>
+            <li><span class="swatch" style="background:#6B8E23" title="#6B8E23" aria-hidden="true"></span><strong>452. Olive Drab</strong> – a deep yellow-green</li>
+            <li><span class="swatch" style="background:#9AB973" title="#9AB973" aria-hidden="true"></span><strong>453. Olivine</strong> – a medium muted yellow-green</li>
+            <li><span class="swatch" style="background:#A8C3BC" title="#A8C3BC" aria-hidden="true"></span><strong>454. Opal</strong> – a light grayish blue-green</li>
+            <li><span class="swatch" style="background:#006600" title="#006600" aria-hidden="true"></span><strong>455. Pakistan Green</strong> – a dark green</li>
+            <li><span class="swatch" style="background:#50C878" title="#50C878" aria-hidden="true"></span><strong>456. Paris Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#123524" title="#123524" aria-hidden="true"></span><strong>457. Phthalo Green</strong> – a very dark soft green</li>
+            <li><span class="swatch" style="background:#2B5D34" title="#2B5D34" aria-hidden="true"></span><strong>458. Pine</strong> – a dark soft green</li>
+            <li><span class="swatch" style="background:#93C572" title="#93C572" aria-hidden="true"></span><strong>459. Pistachio</strong> – a light soft green</li>
+            <li><span class="swatch" style="background:#444C38" title="#444C38" aria-hidden="true"></span><strong>460. Rifle Green</strong> – a dark grayish yellow-green</li>
+            <li><span class="swatch" style="background:#679267" title="#679267" aria-hidden="true"></span><strong>461. Russian Green</strong> – a medium grayish green</li>
+            <li><span class="swatch" style="background:#043927" title="#043927" aria-hidden="true"></span><strong>462. Sacramento State Green</strong> – a very dark blue-green</li>
+            <li><span class="swatch" style="background:#507D2A" title="#507D2A" aria-hidden="true"></span><strong>463. Sap Green</strong> – a dark soft green</li>
+            <li><span class="swatch" style="background:#66FF66" title="#66FF66" aria-hidden="true"></span><strong>464. Screamin&#x27; Green</strong> – a light vivid green</li>
+            <li><span class="swatch" style="background:#2E8B57" title="#2E8B57" aria-hidden="true"></span><strong>465. Sea Green</strong> – a deep green</li>
+            <li><span class="swatch" style="background:#009E60" title="#009E60" aria-hidden="true"></span><strong>466. Shamrock Green</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#8FD400" title="#8FD400" aria-hidden="true"></span><strong>467. Sheen Green</strong> – a deep rich yellow-green</li>
+            <li><span class="swatch" style="background:#5FA778" title="#5FA778" aria-hidden="true"></span><strong>468. Shiny Shamrock</strong> – a medium muted green</li>
+            <li><span class="swatch" style="background:#299617" title="#299617" aria-hidden="true"></span><strong>469. Slimy Green</strong> – a deep green</li>
+            <li><span class="swatch" style="background:#009150" title="#009150" aria-hidden="true"></span><strong>470. Spanish Green</strong> – a dark green</li>
+            <li><span class="swatch" style="background:#007F5C" title="#007F5C" aria-hidden="true"></span><strong>471. Spanish Viridian</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#A7FC00" title="#A7FC00" aria-hidden="true"></span><strong>472. Spring Bud</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#87FF2A" title="#87FF2A" aria-hidden="true"></span><strong>473. Spring Frost</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#00FF80" title="#00FF80" aria-hidden="true"></span><strong>474. Spring Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#33CC33" title="#33CC33" aria-hidden="true"></span><strong>475. Strong Lime Green</strong> – a medium green</li>
+            <li><span class="swatch" style="background:#D0F0C0" title="#D0F0C0" aria-hidden="true"></span><strong>476. Tea Green</strong> – a very pale green</li>
+            <li><span class="swatch" style="background:#00FFBF" title="#00FFBF" aria-hidden="true"></span><strong>477. Technobotanica</strong> – a medium blue-green</li>
+            <li><span class="swatch" style="background:#A0D6B4" title="#A0D6B4" aria-hidden="true"></span><strong>478. Turquoise Green</strong> – a pale soft green</li>
+            <li><span class="swatch" style="background:#8A9A5B" title="#8A9A5B" aria-hidden="true"></span><strong>479. Turtle Green</strong> – a medium muted yellow-green</li>
+            <li><span class="swatch" style="background:#CEFF00" title="#CEFF00" aria-hidden="true"></span><strong>480. Volt</strong> – a medium yellow-green</li>
+            <li><span class="swatch" style="background:#9ACD32" title="#9ACD32" aria-hidden="true"></span><strong>481. Yellow-Green</strong> – a medium yellow-green</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Teals and blue-greens</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#2C6E62" title="#2C6E62" aria-hidden="true"></span><strong>482. Antique Green</strong> – a dark soft blue-green</li>
+            <li><span class="swatch" style="background:#004E4E" title="#004E4E" aria-hidden="true"></span><strong>483. Antique Turquoise</strong> – a very dark cyan</li>
+            <li><span class="swatch" style="background:#79B6BC" title="#79B6BC" aria-hidden="true"></span><strong>484. Aqua Blue</strong> – a light muted cyan</li>
+            <li><span class="swatch" style="background:#014B43" title="#014B43" aria-hidden="true"></span><strong>485. Aqua Deep</strong> – a very dark blue-green</li>
+            <li><span class="swatch" style="background:#889FA5" title="#889FA5" aria-hidden="true"></span><strong>486. Aqua Grey</strong> – a medium grayish cyan</li>
+            <li><span class="swatch" style="background:#A0C9CB" title="#A0C9CB" aria-hidden="true"></span><strong>487. Aqua Mist</strong> – a light muted cyan</li>
+            <li><span class="swatch" style="background:#61A1A9" title="#61A1A9" aria-hidden="true"></span><strong>488. Aqua Sea</strong> – a medium muted cyan</li>
+            <li><span class="swatch" style="background:#70BBBF" title="#70BBBF" aria-hidden="true"></span><strong>489. Aqua Sky</strong> – a medium soft cyan</li>
+            <li><span class="swatch" style="background:#95D6DC" title="#95D6DC" aria-hidden="true"></span><strong>490. Arctic Blue</strong> – a pale cyan</li>
+            <li><span class="swatch" style="background:#45BCB3" title="#45BCB3" aria-hidden="true"></span><strong>491. Arctic Green</strong> – a medium soft cyan</li>
+            <li><span class="swatch" style="background:#66C3D0" title="#66C3D0" aria-hidden="true"></span><strong>492. Arctic Ocean</strong> – a light cyan</li>
+            <li><span class="swatch" style="background:#ACE5EE" title="#ACE5EE" aria-hidden="true"></span><strong>493. Blizzard Blue</strong> – a pale cyan</li>
+            <li><span class="swatch" style="background:#5F9EA0" title="#5F9EA0" aria-hidden="true"></span><strong>494. Cadet Blue</strong> – a medium muted cyan</li>
+            <li><span class="swatch" style="background:#00CC99" title="#00CC99" aria-hidden="true"></span><strong>495. Caribbean Green</strong> – a deep rich blue-green</li>
+            <li><span class="swatch" style="background:#B2FFFF" title="#B2FFFF" aria-hidden="true"></span><strong>496. Celeste</strong> – a very pale cyan</li>
+            <li><span class="swatch" style="background:#008B8B" title="#008B8B" aria-hidden="true"></span><strong>497. Dark Cyan</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#2F4F4F" title="#2F4F4F" aria-hidden="true"></span><strong>498. Dark Slate Gray</strong> – a dark muted cyan</li>
+            <li><span class="swatch" style="background:#00CED1" title="#00CED1" aria-hidden="true"></span><strong>499. Dark Turquoise</strong> – a deep rich cyan</li>
+            <li><span class="swatch" style="background:#004B49" title="#004B49" aria-hidden="true"></span><strong>500. Deep Jungle Green</strong> – a very dark cyan</li>
+            <li><span class="swatch" style="background:#4A646C" title="#4A646C" aria-hidden="true"></span><strong>501. Deep Space Sparkle</strong> – a deep grayish cyan</li>
+            <li><span class="swatch" style="background:#007F66" title="#007F66" aria-hidden="true"></span><strong>502. Generic Viridian</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#6EAEA1" title="#6EAEA1" aria-hidden="true"></span><strong>503. Green Sheen</strong> – a medium muted blue-green</li>
+            <li><span class="swatch" style="background:#D6FFFA" title="#D6FFFA" aria-hidden="true"></span><strong>504. Ice</strong> – a very pale blue-green</li>
+            <li><span class="swatch" style="background:#B2FFFF" title="#B2FFFF" aria-hidden="true"></span><strong>505. Italian Sky Blue</strong> – a very pale cyan</li>
+            <li><span class="swatch" style="background:#3AB09E" title="#3AB09E" aria-hidden="true"></span><strong>506. Keppel</strong> – a deep blue-green</li>
+            <li><span class="swatch" style="background:#ADD8E6" title="#ADD8E6" aria-hidden="true"></span><strong>507. Light Blue</strong> – a pale cyan</li>
+            <li><span class="swatch" style="background:#E0FFFF" title="#E0FFFF" aria-hidden="true"></span><strong>508. Light Cyan</strong> – a near-white cyan</li>
+            <li><span class="swatch" style="background:#20B2AA" title="#20B2AA" aria-hidden="true"></span><strong>509. Light Sea Green</strong> – a deep cyan</li>
+            <li><span class="swatch" style="background:#47ABCC" title="#47ABCC" aria-hidden="true"></span><strong>510. Maximum Blue</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#30BFBF" title="#30BFBF" aria-hidden="true"></span><strong>511. Maximum Blue Green</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#48D1CC" title="#48D1CC" aria-hidden="true"></span><strong>512. Medium Turquoise</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#0A7E8C" title="#0A7E8C" aria-hidden="true"></span><strong>513. Metallic Seaweed</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#7ED4E6" title="#7ED4E6" aria-hidden="true"></span><strong>514. Middle Blue</strong> – a light cyan</li>
+            <li><span class="swatch" style="background:#8DD9CC" title="#8DD9CC" aria-hidden="true"></span><strong>515. Middle Blue Green</strong> – a light blue-green</li>
+            <li><span class="swatch" style="background:#004953" title="#004953" aria-hidden="true"></span><strong>516. Midnight Green</strong> – a very dark cyan</li>
+            <li><span class="swatch" style="background:#36747D" title="#36747D" aria-hidden="true"></span><strong>517. Ming</strong> – a deep soft cyan</li>
+            <li><span class="swatch" style="background:#317873" title="#317873" aria-hidden="true"></span><strong>518. Myrtle Green</strong> – a deep soft cyan</li>
+            <li><span class="swatch" style="background:#A4DDED" title="#A4DDED" aria-hidden="true"></span><strong>519. Non-Photo Blue</strong> – a pale cyan</li>
+            <li><span class="swatch" style="background:#1CA9C9" title="#1CA9C9" aria-hidden="true"></span><strong>520. Pacific Blue</strong> – a deep cyan</li>
+            <li><span class="swatch" style="background:#009B7D" title="#009B7D" aria-hidden="true"></span><strong>521. Paolo Veronese Green</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#00A693" title="#00A693" aria-hidden="true"></span><strong>522. Persian Green</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#01796F" title="#01796F" aria-hidden="true"></span><strong>523. Pine Green</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#5DA493" title="#5DA493" aria-hidden="true"></span><strong>524. Polished Pine</strong> – a medium muted blue-green</li>
+            <li><span class="swatch" style="background:#B0E0E6" title="#B0E0E6" aria-hidden="true"></span><strong>525. Powder Blue</strong> – a pale cyan</li>
+            <li><span class="swatch" style="background:#00B9F2" title="#00B9F2" aria-hidden="true"></span><strong>526. Process Cyan</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#004040" title="#004040" aria-hidden="true"></span><strong>527. Rich Black</strong> – a very dark cyan</li>
+            <li><span class="swatch" style="background:#00CCCC" title="#00CCCC" aria-hidden="true"></span><strong>528. Robin Egg Blue</strong> – a deep rich cyan</li>
+            <li><span class="swatch" style="background:#3C9992" title="#3C9992" aria-hidden="true"></span><strong>529. Sea</strong> – a deep soft cyan</li>
+            <li><span class="swatch" style="background:#007474" title="#007474" aria-hidden="true"></span><strong>530. Skobeloff</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#00FFFE" title="#00FFFE" aria-hidden="true"></span><strong>531. Spanish Sky Blue</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#367588" title="#367588" aria-hidden="true"></span><strong>532. Teal Blue</strong> – a deep soft cyan</li>
+            <li><span class="swatch" style="background:#0ABAB5" title="#0ABAB5" aria-hidden="true"></span><strong>533. Tiffany Blue</strong> – a deep rich cyan</li>
+            <li><span class="swatch" style="background:#86A1A9" title="#86A1A9" aria-hidden="true"></span><strong>534. Tourmaline</strong> – a medium grayish cyan</li>
+            <li><span class="swatch" style="background:#00755E" title="#00755E" aria-hidden="true"></span><strong>535. Tropical Rainforest</strong> – a dark blue-green</li>
+            <li><span class="swatch" style="background:#00FFEF" title="#00FFEF" aria-hidden="true"></span><strong>536. Turquoise Blue</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#43B3AE" title="#43B3AE" aria-hidden="true"></span><strong>537. Verdigris</strong> – a medium soft cyan</li>
+            <li><span class="swatch" style="background:#009698" title="#009698" aria-hidden="true"></span><strong>538. Viridian Green</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#00CCFF" title="#00CCFF" aria-hidden="true"></span><strong>539. Vivid Sky Blue</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#004242" title="#004242" aria-hidden="true"></span><strong>540. Warm Black</strong> – a very dark cyan</li>
+            <li><span class="swatch" style="background:#56887D" title="#56887D" aria-hidden="true"></span><strong>541. Wintergreen Dream</strong> – a deep grayish blue-green</li>
+            <li><span class="swatch" style="background:#39A78E" title="#39A78E" aria-hidden="true"></span><strong>542. Zomp</strong> – a deep soft blue-green</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Blues</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#0048BA" title="#0048BA" aria-hidden="true"></span><strong>543. Absolute Zero</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#7CB9E8" title="#7CB9E8" aria-hidden="true"></span><strong>544. Aero</strong> – a light blue</li>
+            <li><span class="swatch" style="background:#72A0C1" title="#72A0C1" aria-hidden="true"></span><strong>545. Air Superiority Blue</strong> – a light soft blue</li>
+            <li><span class="swatch" style="background:#BBCCDD" title="#BBCCDD" aria-hidden="true"></span><strong>546. Arctic Grey</strong> – a pale muted blue</li>
+            <li><span class="swatch" style="background:#B6BDD0" title="#B6BDD0" aria-hidden="true"></span><strong>547. Arctic Ice</strong> – a pale grayish blue</li>
+            <li><span class="swatch" style="background:#2E5894" title="#2E5894" aria-hidden="true"></span><strong>548. B&#x27;dazzled Blue</strong> – a deep blue</li>
+            <li><span class="swatch" style="background:#A1CAF1" title="#A1CAF1" aria-hidden="true"></span><strong>549. Baby Blue Eyes</strong> – a pale bright blue</li>
+            <li><span class="swatch" style="background:#BCD4E6" title="#BCD4E6" aria-hidden="true"></span><strong>550. Beau Blue</strong> – a pale soft blue</li>
+            <li><span class="swatch" style="background:#54626F" title="#54626F" aria-hidden="true"></span><strong>551. Black Coral</strong> – a deep grayish blue</li>
+            <li><span class="swatch" style="background:#318CE7" title="#318CE7" aria-hidden="true"></span><strong>552. Bleu De France</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#A2A2D0" title="#A2A2D0" aria-hidden="true"></span><strong>553. Blue Bell</strong> – a pale muted indigo</li>
+            <li><span class="swatch" style="background:#5DADEC" title="#5DADEC" aria-hidden="true"></span><strong>554. Blue Jeans</strong> – a light bright blue</li>
+            <li><span class="swatch" style="background:#126180" title="#126180" aria-hidden="true"></span><strong>555. Blue Sapphire</strong> – a dark cyan</li>
+            <li><span class="swatch" style="background:#5072A7" title="#5072A7" aria-hidden="true"></span><strong>556. Blue Yonder</strong> – a medium soft blue</li>
+            <li><span class="swatch" style="background:#6699CC" title="#6699CC" aria-hidden="true"></span><strong>557. Blue-Gray</strong> – a light blue</li>
+            <li><span class="swatch" style="background:#3C69E7" title="#3C69E7" aria-hidden="true"></span><strong>558. Bluetiful</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#91A3B0" title="#91A3B0" aria-hidden="true"></span><strong>559. Cadet Grey</strong> – a light grayish blue</li>
+            <li><span class="swatch" style="background:#56A0D3" title="#56A0D3" aria-hidden="true"></span><strong>560. Carolina Blue</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#2A52BE" title="#2A52BE" aria-hidden="true"></span><strong>561. Cerulean Blue</strong> – a deep blue</li>
+            <li><span class="swatch" style="background:#6D9BC3" title="#6D9BC3" aria-hidden="true"></span><strong>562. Cerulean Frost</strong> – a medium soft blue</li>
+            <li><span class="swatch" style="background:#36454F" title="#36454F" aria-hidden="true"></span><strong>563. Charcoal</strong> – a dark grayish blue</li>
+            <li><span class="swatch" style="background:#B9D9EB" title="#B9D9EB" aria-hidden="true"></span><strong>564. Columbia Blue</strong> – a pale blue</li>
+            <li><span class="swatch" style="background:#8C92AC" title="#8C92AC" aria-hidden="true"></span><strong>565. Cool Grey</strong> – a light grayish indigo</li>
+            <li><span class="swatch" style="background:#6495ED" title="#6495ED" aria-hidden="true"></span><strong>566. Cornflower Blue</strong> – a light bright blue</li>
+            <li><span class="swatch" style="background:#2E2D88" title="#2E2D88" aria-hidden="true"></span><strong>567. Cosmic Cobalt</strong> – a deep indigo</li>
+            <li><span class="swatch" style="background:#536878" title="#536878" aria-hidden="true"></span><strong>568. Dark Electric Blue</strong> – a deep grayish blue</li>
+            <li><span class="swatch" style="background:#8CBED6" title="#8CBED6" aria-hidden="true"></span><strong>569. Dark Sky Blue</strong> – a light soft blue</li>
+            <li><span class="swatch" style="background:#483D8B" title="#483D8B" aria-hidden="true"></span><strong>570. Dark Slate Blue</strong> – a deep soft indigo</li>
+            <li><span class="swatch" style="background:#00BFFF" title="#00BFFF" aria-hidden="true"></span><strong>571. Deep Sky Blue</strong> – a medium cyan</li>
+            <li><span class="swatch" style="background:#2243B6" title="#2243B6" aria-hidden="true"></span><strong>572. Denim Blue</strong> – a deep indigo</li>
+            <li><span class="swatch" style="background:#1E90FF" title="#1E90FF" aria-hidden="true"></span><strong>573. Dodger Blue</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#00009C" title="#00009C" aria-hidden="true"></span><strong>574. Duke Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#0072BB" title="#0072BB" aria-hidden="true"></span><strong>575. French Blue</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#77B5FE" title="#77B5FE" aria-hidden="true"></span><strong>576. French Sky Blue</strong> – a pale bright blue</li>
+            <li><span class="swatch" style="background:#6082B6" title="#6082B6" aria-hidden="true"></span><strong>577. Glaucous</strong> – a medium soft blue</li>
+            <li><span class="swatch" style="background:#1164B4" title="#1164B4" aria-hidden="true"></span><strong>578. Green-Blue</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#006DB0" title="#006DB0" aria-hidden="true"></span><strong>579. Honolulu Blue</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#71A6D2" title="#71A6D2" aria-hidden="true"></span><strong>580. Iceberg</strong> – a light blue</li>
+            <li><span class="swatch" style="background:#4C516D" title="#4C516D" aria-hidden="true"></span><strong>581. Independence</strong> – a deep grayish indigo</li>
+            <li><span class="swatch" style="background:#00416A" title="#00416A" aria-hidden="true"></span><strong>582. Indigo Dye</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#130A8F" title="#130A8F" aria-hidden="true"></span><strong>583. International Klein Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#26619C" title="#26619C" aria-hidden="true"></span><strong>584. Lapis Lazuli</strong> – a deep blue</li>
+            <li><span class="swatch" style="background:#CCCCFF" title="#CCCCFF" aria-hidden="true"></span><strong>585. Lavender Blue</strong> – a very pale indigo</li>
+            <li><span class="swatch" style="background:#545AA7" title="#545AA7" aria-hidden="true"></span><strong>586. Liberty</strong> – a medium muted indigo</li>
+            <li><span class="swatch" style="background:#93CCEA" title="#93CCEA" aria-hidden="true"></span><strong>587. Light Cornflower Blue</strong> – a pale blue</li>
+            <li><span class="swatch" style="background:#C5CBE1" title="#C5CBE1" aria-hidden="true"></span><strong>588. Light Periwinkle</strong> – a pale muted indigo</li>
+            <li><span class="swatch" style="background:#87CEFA" title="#87CEFA" aria-hidden="true"></span><strong>589. Light Sky Blue</strong> – a pale bright blue</li>
+            <li><span class="swatch" style="background:#778899" title="#778899" aria-hidden="true"></span><strong>590. Light Slate Gray</strong> – a medium grayish blue</li>
+            <li><span class="swatch" style="background:#B0C4DE" title="#B0C4DE" aria-hidden="true"></span><strong>591. Light Steel Blue</strong> – a pale soft blue</li>
+            <li><span class="swatch" style="background:#6CA0DC" title="#6CA0DC" aria-hidden="true"></span><strong>592. Little Boy Blue</strong> – a light blue</li>
+            <li><span class="swatch" style="background:#6699CC" title="#6699CC" aria-hidden="true"></span><strong>593. Livid</strong> – a light blue</li>
+            <li><span class="swatch" style="background:#6050DC" title="#6050DC" aria-hidden="true"></span><strong>594. Majorelle Blue</strong> – a medium indigo</li>
+            <li><span class="swatch" style="background:#00488B" title="#00488B" aria-hidden="true"></span><strong>595. Marian Blue</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#042E60" title="#042E60" aria-hidden="true"></span><strong>596. Marine</strong> – a very dark blue</li>
+            <li><span class="swatch" style="background:#ACACE6" title="#ACACE6" aria-hidden="true"></span><strong>597. Maximum Blue Purple</strong> – a pale indigo</li>
+            <li><span class="swatch" style="background:#73C2FB" title="#73C2FB" aria-hidden="true"></span><strong>598. Maya Blue</strong> – a light vivid blue</li>
+            <li><span class="swatch" style="background:#0000CD" title="#0000CD" aria-hidden="true"></span><strong>599. Medium Blue</strong> – a deep rich indigo</li>
+            <li><span class="swatch" style="background:#7B68EE" title="#7B68EE" aria-hidden="true"></span><strong>600. Medium Slate Blue</strong> – a light bright indigo</li>
+            <li><span class="swatch" style="background:#191970" title="#191970" aria-hidden="true"></span><strong>601. Midnight Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#000080" title="#000080" aria-hidden="true"></span><strong>602. Navy Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#4666FF" title="#4666FF" aria-hidden="true"></span><strong>603. Neon Blue</strong> – a light vivid indigo</li>
+            <li><span class="swatch" style="background:#214FC6" title="#214FC6" aria-hidden="true"></span><strong>604. New Car</strong> – a deep blue</li>
+            <li><span class="swatch" style="background:#005493" title="#005493" aria-hidden="true"></span><strong>605. Ocean</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#002147" title="#002147" aria-hidden="true"></span><strong>606. Oxford Blue</strong> – a very dark blue</li>
+            <li><span class="swatch" style="background:#BED3E5" title="#BED3E5" aria-hidden="true"></span><strong>607. Pale Aqua</strong> – a pale soft blue</li>
+            <li><span class="swatch" style="background:#9BC4E2" title="#9BC4E2" aria-hidden="true"></span><strong>608. Pale Cerulean</strong> – a pale blue</li>
+            <li><span class="swatch" style="background:#536878" title="#536878" aria-hidden="true"></span><strong>609. Payne&#x27;s Grey</strong> – a deep grayish blue</li>
+            <li><span class="swatch" style="background:#1C39BB" title="#1C39BB" aria-hidden="true"></span><strong>610. Persian Blue</strong> – a deep indigo</li>
+            <li><span class="swatch" style="background:#8BA8B7" title="#8BA8B7" aria-hidden="true"></span><strong>611. Pewter Blue</strong> – a light grayish blue</li>
+            <li><span class="swatch" style="background:#000F89" title="#000F89" aria-hidden="true"></span><strong>612. Phthalo Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#2E2787" title="#2E2787" aria-hidden="true"></span><strong>613. Picotee Blue</strong> – a deep indigo</li>
+            <li><span class="swatch" style="background:#5946B2" title="#5946B2" aria-hidden="true"></span><strong>614. Plump Purple</strong> – a medium soft indigo</li>
+            <li><span class="swatch" style="background:#003153" title="#003153" aria-hidden="true"></span><strong>615. Prussian Blue</strong> – a very dark blue</li>
+            <li><span class="swatch" style="background:#4E5180" title="#4E5180" aria-hidden="true"></span><strong>616. Purple Navy</strong> – a deep muted indigo</li>
+            <li><span class="swatch" style="background:#436B95" title="#436B95" aria-hidden="true"></span><strong>617. Queen Blue</strong> – a deep soft blue</li>
+            <li><span class="swatch" style="background:#002387" title="#002387" aria-hidden="true"></span><strong>618. Resolution Blue</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#777696" title="#777696" aria-hidden="true"></span><strong>619. Rhythm</strong> – a medium grayish indigo</li>
+            <li><span class="swatch" style="background:#0F52BA" title="#0F52BA" aria-hidden="true"></span><strong>620. Sapphire</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#0067A5" title="#0067A5" aria-hidden="true"></span><strong>621. Sapphire Blue</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#778BA5" title="#778BA5" aria-hidden="true"></span><strong>622. Shadow Blue</strong> – a medium grayish blue</li>
+            <li><span class="swatch" style="background:#76D6FF" title="#76D6FF" aria-hidden="true"></span><strong>623. Sky</strong> – a pale bright cyan</li>
+            <li><span class="swatch" style="background:#6A5ACD" title="#6A5ACD" aria-hidden="true"></span><strong>624. Slate Blue</strong> – a medium indigo</li>
+            <li><span class="swatch" style="background:#708090" title="#708090" aria-hidden="true"></span><strong>625. Slate Gray</strong> – a medium grayish blue</li>
+            <li><span class="swatch" style="background:#1D2951" title="#1D2951" aria-hidden="true"></span><strong>626. Space Cadet</strong> – a dark soft indigo</li>
+            <li><span class="swatch" style="background:#0070B8" title="#0070B8" aria-hidden="true"></span><strong>627. Spanish Blue</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#23297A" title="#23297A" aria-hidden="true"></span><strong>628. St. Patrick&#x27;s Blue</strong> – a dark indigo</li>
+            <li><span class="swatch" style="background:#007BB8" title="#007BB8" aria-hidden="true"></span><strong>629. Star Command Blue</strong> – a deep rich blue</li>
+            <li><span class="swatch" style="background:#4682B4" title="#4682B4" aria-hidden="true"></span><strong>630. Steel Blue</strong> – a medium soft blue</li>
+            <li><span class="swatch" style="background:#2D68C4" title="#2D68C4" aria-hidden="true"></span><strong>631. True Blue</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#1C05B3" title="#1C05B3" aria-hidden="true"></span><strong>632. Trypan Blue</strong> – a deep rich indigo</li>
+            <li><span class="swatch" style="background:#3E8EDE" title="#3E8EDE" aria-hidden="true"></span><strong>633. Tufts Blue</strong> – a medium blue</li>
+            <li><span class="swatch" style="background:#4166F5" title="#4166F5" aria-hidden="true"></span><strong>634. Ultramarine Blue</strong> – a light vivid indigo</li>
+            <li><span class="swatch" style="background:#009EDB" title="#009EDB" aria-hidden="true"></span><strong>635. United Nations Blue</strong> – a deep rich cyan</li>
+            <li><span class="swatch" style="background:#AFDBF5" title="#AFDBF5" aria-hidden="true"></span><strong>636. Uranian Blue</strong> – a pale bright blue</li>
+            <li><span class="swatch" style="background:#5271FF" title="#5271FF" aria-hidden="true"></span><strong>637. Vantg Blue</strong> – a light vivid indigo</li>
+            <li><span class="swatch" style="background:#324AB2" title="#324AB2" aria-hidden="true"></span><strong>638. Violet-Blue</strong> – a deep indigo</li>
+            <li><span class="swatch" style="background:#189BCC" title="#189BCC" aria-hidden="true"></span><strong>639. Weezy Blue</strong> – a deep cyan</li>
+            <li><span class="swatch" style="background:#A2ADD0" title="#A2ADD0" aria-hidden="true"></span><strong>640. Wild Blue Yonder</strong> – a pale muted indigo</li>
+            <li><span class="swatch" style="background:#00356B" title="#00356B" aria-hidden="true"></span><strong>641. Yale Blue</strong> – a dark blue</li>
+            <li><span class="swatch" style="background:#2E5090" title="#2E5090" aria-hidden="true"></span><strong>642. YInMn Blue</strong> – a deep blue</li>
+            <li><span class="swatch" style="background:#0014A8" title="#0014A8" aria-hidden="true"></span><strong>643. Zaffer</strong> – a dark indigo</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Purples and violets</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#B284BE" title="#B284BE" aria-hidden="true"></span><strong>644. African Violet</strong> – a light muted purple</li>
+            <li><span class="swatch" style="background:#915C83" title="#915C83" aria-hidden="true"></span><strong>645. Antique Fuchsia</strong> – a medium grayish magenta</li>
+            <li><span class="swatch" style="background:#8A2BE2" title="#8A2BE2" aria-hidden="true"></span><strong>646. Blue-Violet</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#D891EF" title="#D891EF" aria-hidden="true"></span><strong>647. Bright Lilac</strong> – a pale bright purple</li>
+            <li><span class="swatch" style="background:#BD33A4" title="#BD33A4" aria-hidden="true"></span><strong>648. Byzantine</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#702963" title="#702963" aria-hidden="true"></span><strong>649. Byzantium</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#856088" title="#856088" aria-hidden="true"></span><strong>650. Chinese Violet</strong> – a deep grayish purple</li>
+            <li><span class="swatch" style="background:#301934" title="#301934" aria-hidden="true"></span><strong>651. Citation Needed</strong> – a very dark soft purple</li>
+            <li><span class="swatch" style="background:#58427C" title="#58427C" aria-hidden="true"></span><strong>652. Cyber Grape</strong> – a deep muted violet</li>
+            <li><span class="swatch" style="background:#5D3954" title="#5D3954" aria-hidden="true"></span><strong>653. Dark Byzantium</strong> – a dark grayish magenta</li>
+            <li><span class="swatch" style="background:#8B008B" title="#8B008B" aria-hidden="true"></span><strong>654. Dark Magenta</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#9932CC" title="#9932CC" aria-hidden="true"></span><strong>655. Dark Orchid</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#9400D3" title="#9400D3" aria-hidden="true"></span><strong>656. Dark Violet</strong> – a deep rich violet</li>
+            <li><span class="swatch" style="background:#BF00FF" title="#BF00FF" aria-hidden="true"></span><strong>657. Electric Purple</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#8F00FF" title="#8F00FF" aria-hidden="true"></span><strong>658. Electric Violet</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#6C3082" title="#6C3082" aria-hidden="true"></span><strong>659. Eminence</strong> – a deep soft violet</li>
+            <li><span class="swatch" style="background:#563C5C" title="#563C5C" aria-hidden="true"></span><strong>660. English Violet</strong> – a dark grayish purple</li>
+            <li><span class="swatch" style="background:#B53389" title="#B53389" aria-hidden="true"></span><strong>661. Fandango</strong> – a deep magenta</li>
+            <li><span class="swatch" style="background:#683068" title="#683068" aria-hidden="true"></span><strong>662. Finn</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#A2006D" title="#A2006D" aria-hidden="true"></span><strong>663. Flirt</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#86608E" title="#86608E" aria-hidden="true"></span><strong>664. French Lilac</strong> – a medium grayish purple</li>
+            <li><span class="swatch" style="background:#D473D4" title="#D473D4" aria-hidden="true"></span><strong>665. French Mauve</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#8806CE" title="#8806CE" aria-hidden="true"></span><strong>666. French Violet</strong> – a deep rich violet</li>
+            <li><span class="swatch" style="background:#E936A7" title="#E936A7" aria-hidden="true"></span><strong>667. Frostbite</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#FF00FF" title="#FF00FF" aria-hidden="true"></span><strong>668. Fuchsia</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#AB92B3" title="#AB92B3" aria-hidden="true"></span><strong>669. Glossy Grape</strong> – a light grayish purple</li>
+            <li><span class="swatch" style="background:#F400A1" title="#F400A1" aria-hidden="true"></span><strong>670. Hollywood Cerise</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#FF1DCE" title="#FF1DCE" aria-hidden="true"></span><strong>671. Hot Magenta</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#5B3256" title="#5B3256" aria-hidden="true"></span><strong>672. Japanese Violet</strong> – a dark muted magenta</li>
+            <li><span class="swatch" style="background:#D6CADD" title="#D6CADD" aria-hidden="true"></span><strong>673. Languid Lavender</strong> – a pale grayish violet</li>
+            <li><span class="swatch" style="background:#D8BFD8" title="#D8BFD8" aria-hidden="true"></span><strong>674. Light Purple</strong> – a pale muted pink</li>
+            <li><span class="swatch" style="background:#880085" title="#880085" aria-hidden="true"></span><strong>675. Mardi Gras</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#733380" title="#733380" aria-hidden="true"></span><strong>676. Maximum Purple</strong> – a deep soft purple</li>
+            <li><span class="swatch" style="background:#BA55D3" title="#BA55D3" aria-hidden="true"></span><strong>677. Medium Orchid</strong> – a medium purple</li>
+            <li><span class="swatch" style="background:#9370DB" title="#9370DB" aria-hidden="true"></span><strong>678. Medium Purple</strong> – a light violet</li>
+            <li><span class="swatch" style="background:#C71585" title="#C71585" aria-hidden="true"></span><strong>679. Medium Violet-Red</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#8B72BE" title="#8B72BE" aria-hidden="true"></span><strong>680. Middle Blue Purple</strong> – a medium soft violet</li>
+            <li><span class="swatch" style="background:#D982B5" title="#D982B5" aria-hidden="true"></span><strong>681. Middle Purple</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#702670" title="#702670" aria-hidden="true"></span><strong>682. Midnight</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#997A8D" title="#997A8D" aria-hidden="true"></span><strong>683. Mountbatten Pink</strong> – a medium grayish magenta</li>
+            <li><span class="swatch" style="background:#B784A7" title="#B784A7" aria-hidden="true"></span><strong>684. Opera Mauve</strong> – a light muted magenta</li>
+            <li><span class="swatch" style="background:#DA70D6" title="#DA70D6" aria-hidden="true"></span><strong>685. Orchid</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#682860" title="#682860" aria-hidden="true"></span><strong>686. Palatinate Purple</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#FAE6FA" title="#FAE6FA" aria-hidden="true"></span><strong>687. Pale Purple</strong> – a near-white pink</li>
+            <li><span class="swatch" style="background:#800080" title="#800080" aria-hidden="true"></span><strong>688. Patriarch</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#1F005E" title="#1F005E" aria-hidden="true"></span><strong>689. Paua</strong> – a very dark violet</li>
+            <li><span class="swatch" style="background:#B768A2" title="#B768A2" aria-hidden="true"></span><strong>690. Pearly Purple</strong> – a medium soft magenta</li>
+            <li><span class="swatch" style="background:#32127A" title="#32127A" aria-hidden="true"></span><strong>691. Persian Indigo</strong> – a dark violet</li>
+            <li><span class="swatch" style="background:#470659" title="#470659" aria-hidden="true"></span><strong>692. Petunia</strong> – a very dark purple</li>
+            <li><span class="swatch" style="background:#DF00FF" title="#DF00FF" aria-hidden="true"></span><strong>693. Phlox</strong> – a medium purple</li>
+            <li><span class="swatch" style="background:#FFDDF4" title="#FFDDF4" aria-hidden="true"></span><strong>694. Pink Lace</strong> – a near-white magenta</li>
+            <li><span class="swatch" style="background:#D8B2D1" title="#D8B2D1" aria-hidden="true"></span><strong>695. Pink Lavender</strong> – a pale muted pink</li>
+            <li><span class="swatch" style="background:#86608E" title="#86608E" aria-hidden="true"></span><strong>696. Pomp and Power</strong> – a medium grayish purple</li>
+            <li><span class="swatch" style="background:#DF00FF" title="#DF00FF" aria-hidden="true"></span><strong>697. Psychedelic Purple</strong> – a medium purple</li>
+            <li><span class="swatch" style="background:#9678B6" title="#9678B6" aria-hidden="true"></span><strong>698. Purple Mountain Majesty</strong> – a medium muted violet</li>
+            <li><span class="swatch" style="background:#FE4EDA" title="#FE4EDA" aria-hidden="true"></span><strong>699. Purple Pizzazz</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#9C51B6" title="#9C51B6" aria-hidden="true"></span><strong>700. Purple Plum</strong> – a medium soft violet</li>
+            <li><span class="swatch" style="background:#FF33CC" title="#FF33CC" aria-hidden="true"></span><strong>701. Razzle Dazzle Rose</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#8D4E85" title="#8D4E85" aria-hidden="true"></span><strong>702. Razzmic Berry</strong> – a deep muted magenta</li>
+            <li><span class="swatch" style="background:#663399" title="#663399" aria-hidden="true"></span><strong>703. Rebecca Purple</strong> – a deep soft violet</li>
+            <li><span class="swatch" style="background:#C71585" title="#C71585" aria-hidden="true"></span><strong>704. Red-Violet</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#FF66CC" title="#FF66CC" aria-hidden="true"></span><strong>705. Rose Pink</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#7851A9" title="#7851A9" aria-hidden="true"></span><strong>706. Royal Purple</strong> – a medium soft violet</li>
+            <li><span class="swatch" style="background:#32174D" title="#32174D" aria-hidden="true"></span><strong>707. Russian Violet</strong> – a very dark violet</li>
+            <li><span class="swatch" style="background:#612086" title="#612086" aria-hidden="true"></span><strong>708. Seance</strong> – a dark violet</li>
+            <li><span class="swatch" style="background:#764374" title="#764374" aria-hidden="true"></span><strong>709. Secret</strong> – a deep muted magenta</li>
+            <li><span class="swatch" style="background:#FC0FC0" title="#FC0FC0" aria-hidden="true"></span><strong>710. Shocking Pink</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#CF71AF" title="#CF71AF" aria-hidden="true"></span><strong>711. Sky Magenta</strong> – a light soft pink</li>
+            <li><span class="swatch" style="background:#4C2882" title="#4C2882" aria-hidden="true"></span><strong>712. Spanish Violet</strong> – a deep violet</li>
+            <li><span class="swatch" style="background:#CC33CC" title="#CC33CC" aria-hidden="true"></span><strong>713. Steel Pink</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#CF6BA9" title="#CF6BA9" aria-hidden="true"></span><strong>714. Super Pink</strong> – a light magenta</li>
+            <li><span class="swatch" style="background:#D8BFD8" title="#D8BFD8" aria-hidden="true"></span><strong>715. Thistle</strong> – a pale muted pink</li>
+            <li><span class="swatch" style="background:#FF6FFF" title="#FF6FFF" aria-hidden="true"></span><strong>716. Ultra Pink</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#A020F0" title="#A020F0" aria-hidden="true"></span><strong>717. Veronica</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#9F00FF" title="#9F00FF" aria-hidden="true"></span><strong>718. Vivid Violet</strong> – a medium violet</li>
+            <li><span class="swatch" style="background:#6C0277" title="#6C0277" aria-hidden="true"></span><strong>719. Zinzolin</strong> – a dark purple</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Pinks and magentas</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#9F2B68" title="#9F2B68" aria-hidden="true"></span><strong>720. Amaranth Deep Purple</strong> – a deep magenta</li>
+            <li><span class="swatch" style="background:#F19CBB" title="#F19CBB" aria-hidden="true"></span><strong>721. Amaranth Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#AB274F" title="#AB274F" aria-hidden="true"></span><strong>722. Amaranth Purple</strong> – a deep magenta</li>
+            <li><span class="swatch" style="background:#352126" title="#352126" aria-hidden="true"></span><strong>723. Antique Burgundy</strong> – a very dark grayish pink</li>
+            <li><span class="swatch" style="background:#FF91AF" title="#FF91AF" aria-hidden="true"></span><strong>724. Baker-Miller Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#DA1884" title="#DA1884" aria-hidden="true"></span><strong>725. Barbie Pink</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#EFBBCC" title="#EFBBCC" aria-hidden="true"></span><strong>726. Cameo Pink</strong> – a pale pink</li>
+            <li><span class="swatch" style="background:#FFA6C9" title="#FFA6C9" aria-hidden="true"></span><strong>727. Carnation Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#703642" title="#703642" aria-hidden="true"></span><strong>728. Catawba</strong> – a dark soft pink</li>
+            <li><span class="swatch" style="background:#DE3163" title="#DE3163" aria-hidden="true"></span><strong>729. Cerise</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#E68FAC" title="#E68FAC" aria-hidden="true"></span><strong>730. Charm Pink</strong> – a pale pink</li>
+            <li><span class="swatch" style="background:#CF0234" title="#CF0234" aria-hidden="true"></span><strong>731. Cherry</strong> – a deep rich pink</li>
+            <li><span class="swatch" style="background:#DE6FA1" title="#DE6FA1" aria-hidden="true"></span><strong>732. China Pink</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#CD607E" title="#CD607E" aria-hidden="true"></span><strong>733. Cinnamon Satin</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#7F1734" title="#7F1734" aria-hidden="true"></span><strong>734. Claret</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#FFBCD9" title="#FFBCD9" aria-hidden="true"></span><strong>735. Cotton Candy</strong> – a very pale magenta</li>
+            <li><span class="swatch" style="background:#F56FA1" title="#F56FA1" aria-hidden="true"></span><strong>736. Cyclamen</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#DA3287" title="#DA3287" aria-hidden="true"></span><strong>737. Deep Cerise</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#FF1493" title="#FF1493" aria-hidden="true"></span><strong>738. Deep Pink</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#B48395" title="#B48395" aria-hidden="true"></span><strong>739. English Lavender</strong> – a light muted magenta</li>
+            <li><span class="swatch" style="background:#DE5285" title="#DE5285" aria-hidden="true"></span><strong>740. Fandango Pink</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#FD3F92" title="#FD3F92" aria-hidden="true"></span><strong>741. French Fuchsia</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#FD6C9E" title="#FD6C9E" aria-hidden="true"></span><strong>742. French Pink</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#FF69B4" title="#FF69B4" aria-hidden="true"></span><strong>743. Hot Pink</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#B3446C" title="#B3446C" aria-hidden="true"></span><strong>744. Irresistible</strong> – a medium soft magenta</li>
+            <li><span class="swatch" style="background:#A50B5E" title="#A50B5E" aria-hidden="true"></span><strong>745. Jazzberry Jam</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#E79FC4" title="#E79FC4" aria-hidden="true"></span><strong>746. Kobi</strong> – a pale pink</li>
+            <li><span class="swatch" style="background:#DE6FA1" title="#DE6FA1" aria-hidden="true"></span><strong>747. Liseran Purple</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#9F4576" title="#9F4576" aria-hidden="true"></span><strong>748. Magenta Haze</strong> – a deep soft magenta</li>
+            <li><span class="swatch" style="background:#915F6D" title="#915F6D" aria-hidden="true"></span><strong>749. Mauve Taupe</strong> – a medium grayish magenta</li>
+            <li><span class="swatch" style="background:#EF98AA" title="#EF98AA" aria-hidden="true"></span><strong>750. Mauvelous</strong> – a pale bright pink</li>
+            <li><span class="swatch" style="background:#A63A79" title="#A63A79" aria-hidden="true"></span><strong>751. Maximum Red Purple</strong> – a deep soft magenta</li>
+            <li><span class="swatch" style="background:#E4007C" title="#E4007C" aria-hidden="true"></span><strong>752. Mexican Pink</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#FFDAE9" title="#FFDAE9" aria-hidden="true"></span><strong>753. Mimi Pink</strong> – a very pale magenta</li>
+            <li><span class="swatch" style="background:#C54B8C" title="#C54B8C" aria-hidden="true"></span><strong>754. Mulberry</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#D65282" title="#D65282" aria-hidden="true"></span><strong>755. Mystic</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#AD4379" title="#AD4379" aria-hidden="true"></span><strong>756. Mystic Maroon</strong> – a medium soft magenta</li>
+            <li><span class="swatch" style="background:#F6ADC6" title="#F6ADC6" aria-hidden="true"></span><strong>757. Nadeshiko Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#673147" title="#673147" aria-hidden="true"></span><strong>758. Old Mauve</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#F2BDCD" title="#F2BDCD" aria-hidden="true"></span><strong>759. Orchid Pink</strong> – a very pale pink</li>
+            <li><span class="swatch" style="background:#ED7A9B" title="#ED7A9B" aria-hidden="true"></span><strong>760. Pale Dogwood</strong> – a light bright magenta</li>
+            <li><span class="swatch" style="background:#78184A" title="#78184A" aria-hidden="true"></span><strong>761. Pansy Purple</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#E63E62" title="#E63E62" aria-hidden="true"></span><strong>762. Paradise Pink</strong> – a medium pink</li>
+            <li><span class="swatch" style="background:#F77FBE" title="#F77FBE" aria-hidden="true"></span><strong>763. Persian Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#FE28A2" title="#FE28A2" aria-hidden="true"></span><strong>764. Persian Rose</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#C30B4E" title="#C30B4E" aria-hidden="true"></span><strong>765. Pictorial Carmine</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#FDDDE6" title="#FDDDE6" aria-hidden="true"></span><strong>766. Piggy Pink</strong> – a very pale magenta</li>
+            <li><span class="swatch" style="background:#F78FA7" title="#F78FA7" aria-hidden="true"></span><strong>767. Pink Sherbet</strong> – a pale bright pink</li>
+            <li><span class="swatch" style="background:#CC8899" title="#CC8899" aria-hidden="true"></span><strong>768. Puce</strong> – a light soft pink</li>
+            <li><span class="swatch" style="background:#E8CCD7" title="#E8CCD7" aria-hidden="true"></span><strong>769. Queen Pink</strong> – a very pale soft pink</li>
+            <li><span class="swatch" style="background:#8E3A59" title="#8E3A59" aria-hidden="true"></span><strong>770. Quinacridone Magenta</strong> – a deep soft magenta</li>
+            <li><span class="swatch" style="background:#FF355E" title="#FF355E" aria-hidden="true"></span><strong>771. Radical Red</strong> – a light vivid pink</li>
+            <li><span class="swatch" style="background:#B3446C" title="#B3446C" aria-hidden="true"></span><strong>772. Raspberry Rose</strong> – a medium soft magenta</li>
+            <li><span class="swatch" style="background:#E3256B" title="#E3256B" aria-hidden="true"></span><strong>773. Razzmatazz</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#E40078" title="#E40078" aria-hidden="true"></span><strong>774. Red-Purple</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#F9429E" title="#F9429E" aria-hidden="true"></span><strong>775. Rose Bonbon</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#9E5E6F" title="#9E5E6F" aria-hidden="true"></span><strong>776. Rose Dust</strong> – a medium muted magenta</li>
+            <li><span class="swatch" style="background:#ED7A9B" title="#ED7A9B" aria-hidden="true"></span><strong>777. Rose Pompadour</strong> – a light bright magenta</li>
+            <li><span class="swatch" style="background:#C21E56" title="#C21E56" aria-hidden="true"></span><strong>778. Rose Red</strong> – a deep magenta</li>
+            <li><span class="swatch" style="background:#CE4676" title="#CE4676" aria-hidden="true"></span><strong>779. Ruber</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#D10056" title="#D10056" aria-hidden="true"></span><strong>780. Rubine Red</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#E0115F" title="#E0115F" aria-hidden="true"></span><strong>781. Ruby</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#FF91AF" title="#FF91AF" aria-hidden="true"></span><strong>782. Schauss Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#C84186" title="#C84186" aria-hidden="true"></span><strong>783. Smitten</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#D10047" title="#D10047" aria-hidden="true"></span><strong>784. Spanish Carmine</strong> – a deep rich magenta</li>
+            <li><span class="swatch" style="background:#914E75" title="#914E75" aria-hidden="true"></span><strong>785. Sugar Plum</strong> – a deep muted magenta</li>
+            <li><span class="swatch" style="background:#CF3476" title="#CF3476" aria-hidden="true"></span><strong>786. Telemagenta</strong> – a medium magenta</li>
+            <li><span class="swatch" style="background:#DE6FA1" title="#DE6FA1" aria-hidden="true"></span><strong>787. Thulian Pink</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#FC89AC" title="#FC89AC" aria-hidden="true"></span><strong>788. Tickle Me Pink</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#8A496B" title="#8A496B" aria-hidden="true"></span><strong>789. Twilight Lavender</strong> – a deep muted magenta</li>
+            <li><span class="swatch" style="background:#66023C" title="#66023C" aria-hidden="true"></span><strong>790. Tyrian Purple</strong> – a dark magenta</li>
+            <li><span class="swatch" style="background:#F38FA9" title="#F38FA9" aria-hidden="true"></span><strong>791. Vanilla Ice</strong> – a pale bright magenta</li>
+            <li><span class="swatch" style="background:#F75394" title="#F75394" aria-hidden="true"></span><strong>792. Violet-Red</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#D470A2" title="#D470A2" aria-hidden="true"></span><strong>793. Wild Orchid</strong> – a light pink</li>
+            <li><span class="swatch" style="background:#FF43A4" title="#FF43A4" aria-hidden="true"></span><strong>794. Wild Strawberry</strong> – a light vivid magenta</li>
+            <li><span class="swatch" style="background:#673147" title="#673147" aria-hidden="true"></span><strong>795. Wine Dregs</strong> – a dark soft magenta</li>
+            <li><span class="swatch" style="background:#FF007C" title="#FF007C" aria-hidden="true"></span><strong>796. Winter Sky</strong> – a medium magenta</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Browns</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#C69C6A" title="#C69C6A" aria-hidden="true"></span><strong>797. Amber Autumn</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#B46A4D" title="#B46A4D" aria-hidden="true"></span><strong>798. Amber Brown</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#C19552" title="#C19552" aria-hidden="true"></span><strong>799. Amber Gold</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#AC8A41" title="#AC8A41" aria-hidden="true"></span><strong>800. Amber Green</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#BA9971" title="#BA9971" aria-hidden="true"></span><strong>801. Amber Leaf</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#C88A65" title="#C88A65" aria-hidden="true"></span><strong>802. Antique Brass</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#553F2D" title="#553F2D" aria-hidden="true"></span><strong>803. Antique Brown</strong> – a dark muted brown</li>
+            <li><span class="swatch" style="background:#9E6649" title="#9E6649" aria-hidden="true"></span><strong>804. Antique Copper</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#B59E5F" title="#B59E5F" aria-hidden="true"></span><strong>805. Antique Gold</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#B39355" title="#B39355" aria-hidden="true"></span><strong>806. Antique Honey</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#997165" title="#997165" aria-hidden="true"></span><strong>807. Antique Rose</strong> – a medium grayish brown</li>
+            <li><span class="swatch" style="background:#4C381B" title="#4C381B" aria-hidden="true"></span><strong>808. Arctic Brown</strong> – a dark soft brown</li>
+            <li><span class="swatch" style="background:#98623C" title="#98623C" aria-hidden="true"></span><strong>809. Ash Brown</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#8C6F54" title="#8C6F54" aria-hidden="true"></span><strong>810. Ash Gold</strong> – a deep muted brown</li>
+            <li><span class="swatch" style="background:#9F8170" title="#9F8170" aria-hidden="true"></span><strong>811. Beaver</strong> – a medium grayish brown</li>
+            <li><span class="swatch" style="background:#3D2B1F" title="#3D2B1F" aria-hidden="true"></span><strong>812. Bistre</strong> – a very dark muted brown</li>
+            <li><span class="swatch" style="background:#A57164" title="#A57164" aria-hidden="true"></span><strong>813. Blast-Off Bronze</strong> – a medium muted brown</li>
+            <li><span class="swatch" style="background:#79443B" title="#79443B" aria-hidden="true"></span><strong>814. Bole</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#B5A642" title="#B5A642" aria-hidden="true"></span><strong>815. Brass</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#AF6E4D" title="#AF6E4D" aria-hidden="true"></span><strong>816. Brown Sugar</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#A17A74" title="#A17A74" aria-hidden="true"></span><strong>817. Burnished Brown</strong> – a medium grayish brown</li>
+            <li><span class="swatch" style="background:#C19A6B" title="#C19A6B" aria-hidden="true"></span><strong>818. Camel</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#98817B" title="#98817B" aria-hidden="true"></span><strong>819. Cinereous</strong> – a medium grayish brown</li>
+            <li><span class="swatch" style="background:#B66A50" title="#B66A50" aria-hidden="true"></span><strong>820. Clay</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#875F42" title="#875F42" aria-hidden="true"></span><strong>821. Cocoa</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#6F4E37" title="#6F4E37" aria-hidden="true"></span><strong>822. Coffee</strong> – a dark muted brown</li>
+            <li><span class="swatch" style="background:#81613C" title="#81613C" aria-hidden="true"></span><strong>823. Coyote Brown</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#483C32" title="#483C32" aria-hidden="true"></span><strong>824. Dark Lava</strong> – a dark grayish brown</li>
+            <li><span class="swatch" style="background:#543D37" title="#543D37" aria-hidden="true"></span><strong>825. Dark Liver</strong> – a dark grayish brown</li>
+            <li><span class="swatch" style="background:#C19A6B" title="#C19A6B" aria-hidden="true"></span><strong>826. Desert</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#4A412A" title="#4A412A" aria-hidden="true"></span><strong>827. Drab Dark Brown</strong> – a dark muted brown</li>
+            <li><span class="swatch" style="background:#C19A6B" title="#C19A6B" aria-hidden="true"></span><strong>828. Fallow</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#A67B5B" title="#A67B5B" aria-hidden="true"></span><strong>829. French Beige</strong> – a medium muted brown</li>
+            <li><span class="swatch" style="background:#856D4D" title="#856D4D" aria-hidden="true"></span><strong>830. French Bistre</strong> – a deep muted brown</li>
+            <li><span class="swatch" style="background:#85754E" title="#85754E" aria-hidden="true"></span><strong>831. Gold Fusion</strong> – a deep muted brown</li>
+            <li><span class="swatch" style="background:#674C47" title="#674C47" aria-hidden="true"></span><strong>832. Liver</strong> – a deep grayish brown</li>
+            <li><span class="swatch" style="background:#987456" title="#987456" aria-hidden="true"></span><strong>833. Liver Chestnut</strong> – a medium muted brown</li>
+            <li><span class="swatch" style="background:#9C7C38" title="#9C7C38" aria-hidden="true"></span><strong>834. Metallic Sunburst</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#BBB477" title="#BBB477" aria-hidden="true"></span><strong>835. Misty Moss</strong> – a light muted brown</li>
+            <li><span class="swatch" style="background:#826644" title="#826644" aria-hidden="true"></span><strong>836. Raw Umber</strong> – a deep muted brown</li>
+            <li><span class="swatch" style="background:#8A795D" title="#8A795D" aria-hidden="true"></span><strong>837. Shadow</strong> – a deep grayish brown</li>
+            <li><span class="swatch" style="background:#807532" title="#807532" aria-hidden="true"></span><strong>838. Spanish Bistre</strong> – a deep soft brown</li>
+            <li><span class="swatch" style="background:#6F4E37" title="#6F4E37" aria-hidden="true"></span><strong>839. Tuscan Brown</strong> – a dark muted brown</li>
+            <li><span class="swatch" style="background:#A67B5B" title="#A67B5B" aria-hidden="true"></span><strong>840. Tuscan Tan</strong> – a medium muted brown</li>
+            <li><span class="swatch" style="background:#664228" title="#664228" aria-hidden="true"></span><strong>841. Van Dyke Brown</strong> – a dark soft brown</li>
+            <li><span class="swatch" style="background:#C5B358" title="#C5B358" aria-hidden="true"></span><strong>842. Vegas Gold</strong> – a medium soft brown</li>
+            <li><span class="swatch" style="background:#C19A6B" title="#C19A6B" aria-hidden="true"></span><strong>843. Wood Brown</strong> – a medium soft brown</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Grays</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#69576D" title="#69576D" aria-hidden="true"></span><strong>844. Antique Grey</strong> – a deep grayish purple</li>
+            <li><span class="swatch" style="background:#BBB0B1" title="#BBB0B1" aria-hidden="true"></span><strong>845. Antique Mauve</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#918E8C" title="#918E8C" aria-hidden="true"></span><strong>846. Antique Silver</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#8C9FA0" title="#8C9FA0" aria-hidden="true"></span><strong>847. Aqua Smoke</strong> – a medium grayish gray</li>
+            <li><span class="swatch" style="background:#B7ABB0" title="#B7ABB0" aria-hidden="true"></span><strong>848. Arctic Rose</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#B2BEB5" title="#B2BEB5" aria-hidden="true"></span><strong>849. Ash Gray</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#737486" title="#737486" aria-hidden="true"></span><strong>850. Ash Mauve</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#998E91" title="#998E91" aria-hidden="true"></span><strong>851. Ash Pink</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#848482" title="#848482" aria-hidden="true"></span><strong>852. Battleship Grey</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#3B3C36" title="#3B3C36" aria-hidden="true"></span><strong>853. Black Olive</strong> – a dark gray</li>
+            <li><span class="swatch" style="background:#BFAFB2" title="#BFAFB2" aria-hidden="true"></span><strong>854. Black Shadows</strong> – a light grayish pink</li>
+            <li><span class="swatch" style="background:#555555" title="#555555" aria-hidden="true"></span><strong>855. Davy&#x27;s Grey</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#696969" title="#696969" aria-hidden="true"></span><strong>856. Dim Gray</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#D6D7D2" title="#D6D7D2" aria-hidden="true"></span><strong>857. Fog</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#DCDCDC" title="#DCDCDC" aria-hidden="true"></span><strong>858. Gainsboro</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#676767" title="#676767" aria-hidden="true"></span><strong>859. Granite Gray</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#AA98A9" title="#AA98A9" aria-hidden="true"></span><strong>860. Heliotrope Gray</strong> – a light grayish gray</li>
+            <li><span class="swatch" style="background:#C4C3D0" title="#C4C3D0" aria-hidden="true"></span><strong>861. Lavender Gray</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#D3D3D3" title="#D3D3D3" aria-hidden="true"></span><strong>862. Light Gray</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#AE98AA" title="#AE98AA" aria-hidden="true"></span><strong>863. Lilac Luster</strong> – a light grayish pink</li>
+            <li><span class="swatch" style="background:#979AAA" title="#979AAA" aria-hidden="true"></span><strong>864. Manatee</strong> – a light grayish indigo</li>
+            <li><span class="swatch" style="background:#8B8680" title="#8B8680" aria-hidden="true"></span><strong>865. Middle Grey</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#8DA399" title="#8DA399" aria-hidden="true"></span><strong>866. Morning Blue</strong> – a medium grayish green</li>
+            <li><span class="swatch" style="background:#727472" title="#727472" aria-hidden="true"></span><strong>867. Nickel</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#796878" title="#796878" aria-hidden="true"></span><strong>868. Old Lavender</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#848482" title="#848482" aria-hidden="true"></span><strong>869. Old Silver</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#2D383A" title="#2D383A" aria-hidden="true"></span><strong>870. Outer Space</strong> – a dark gray</li>
+            <li><span class="swatch" style="background:#A6A6A6" title="#A6A6A6" aria-hidden="true"></span><strong>871. Quick Silver</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#8A7F80" title="#8A7F80" aria-hidden="true"></span><strong>872. Rocket Metallic</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#838996" title="#838996" aria-hidden="true"></span><strong>873. Roman Silver</strong> – a medium grayish gray</li>
+            <li><span class="swatch" style="background:#ACACAC" title="#ACACAC" aria-hidden="true"></span><strong>874. Silver Chalice</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#BFC1C2" title="#BFC1C2" aria-hidden="true"></span><strong>875. Silver Sand</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#BFC8C3" title="#BFC8C3" aria-hidden="true"></span><strong>876. Smoke</strong> – a pale gray</li>
+            <li><span class="swatch" style="background:#757575" title="#757575" aria-hidden="true"></span><strong>877. Sonic Silver</strong> – a medium gray</li>
+            <li><span class="swatch" style="background:#989898" title="#989898" aria-hidden="true"></span><strong>878. Spanish Gray</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#8B8589" title="#8B8589" aria-hidden="true"></span><strong>879. Taupe Gray</strong> – a light gray</li>
+            <li><span class="swatch" style="background:#DBD7D2" title="#DBD7D2" aria-hidden="true"></span><strong>880. Timberwolf</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#738678" title="#738678" aria-hidden="true"></span><strong>881. Xanadu</strong> – a light gray</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Whites and off-whites</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#F0F8FF" title="#F0F8FF" aria-hidden="true"></span><strong>882. Alice Blue</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#E8F3E8" title="#E8F3E8" aria-hidden="true"></span><strong>883. Aqua Spring</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#E9EAE7" title="#E9EAE7" aria-hidden="true"></span><strong>884. Arctic White</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#FEFEFA" title="#FEFEFA" aria-hidden="true"></span><strong>885. Baby Powder</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#E4F0EF" title="#E4F0EF" aria-hidden="true"></span><strong>886. Cloud</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#F5F5F5" title="#F5F5F5" aria-hidden="true"></span><strong>887. Cultured Pearl</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#FFFAF0" title="#FFFAF0" aria-hidden="true"></span><strong>888. Floral White</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#F8F8FF" title="#F8F8FF" aria-hidden="true"></span><strong>889. Ghost White</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#F4F0EC" title="#F4F0EC" aria-hidden="true"></span><strong>890. Isabelline</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#FFF0F5" title="#FFF0F5" aria-hidden="true"></span><strong>891. Lavender Blush</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#F5FFFA" title="#F5FFFA" aria-hidden="true"></span><strong>892. Mint Cream</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#E5E4E2" title="#E5E4E2" aria-hidden="true"></span><strong>893. Platinum</strong> – an off-white color</li>
+            <li><span class="swatch" style="background:#FFFAFA" title="#FFFAFA" aria-hidden="true"></span><strong>894. Snow</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#F5F5F5" title="#F5F5F5" aria-hidden="true"></span><strong>895. Zebra White</strong> – a near-white color</li>
+            <li><span class="swatch" style="background:#FDF8FF" title="#FDF8FF" aria-hidden="true"></span><strong>896. Zinc White</strong> – a near-white color</li>
+          </ul>
+        </div>
+        <div class="entry filterable">
+          <h3>Blacks</h3>
+          <ul class="def-list">
+            <li><span class="swatch" style="background:#1A2421" title="#1A2421" aria-hidden="true"></span><strong>897. Dark Jungle Green</strong> – a very dark gray</li>
+            <li><span class="swatch" style="background:#1B1B1B" title="#1B1B1B" aria-hidden="true"></span><strong>898. Eerie Black</strong> – a very dark gray</li>
+            <li><span class="swatch" style="background:#242124" title="#242124" aria-hidden="true"></span><strong>899. Raisin Black</strong> – a very dark gray</li>
+            <li><span class="swatch" style="background:#100C08" title="#100C08" aria-hidden="true"></span><strong>900. Smoky Black</strong> – a near-black color</li>
           </ul>
         </div>
       </section>
